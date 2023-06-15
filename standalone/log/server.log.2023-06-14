@@ -1,0 +1,397 @@
+2023-06-14 18:51:35,206 INFO  [org.jboss.modules] (main) JBoss Modules version 1.11.0.Final-redhat-00001
+2023-06-14 18:51:36,023 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.12.Final-redhat-00001
+2023-06-14 18:51:36,036 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final-redhat-00001
+2023-06-14 18:51:36,262 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: JBoss EAP 7.4.0.GA (WildFly Core 15.0.2.Final-redhat-00001) iniciando
+2023-06-14 18:51:36,266 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Propiedades del sistema configuradas:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.separator = \
+	intellij.debug.agent = true
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\User\Documents\Wildfly\EAP-7.4.0\jboss-modules.jar
+	java.class.version = 55.0
+	java.home = C:\Program Files\Java\jdk-11.0.13
+	java.io.tmpdir = C:\Users\User\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk-11.0.13\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\Java\jdk-11.0.15\bin;C:\Users\User\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\User\AppData\Local\Programs\Python\Python310\;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\IBM\Client Access\Emulator;C:\Program Files (x86)\IBM\Client Access\Shared;C:\Program Files (x86)\IBM\Client Access\;C:\Program Files\PuTTY\;C:\android-sdk\tools;C:\android-sdk\tools\bin;C:\android-sdk\platform-tools;C:\Instaladores\instantclient_19_11;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\flutter\bin;C:\Users\User\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\apache-maven-3.6.3\bin;C:\apache-maven-3.6.3\bin;C:\Python27;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\PowerShell\7\;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\Java\jdk-11.0.15\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\android-sdk\tools;C:\android-sdk\tools\bin;C:\android-sdk\platform-tools;C:\android-sdk;C:\Users\User\AppData\Local\GitHubDesktop\bin;C:\Users\User\AppData\Roaming\npm;C:\Windows\System32;C:\src\flutter\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3\bin;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;C:\Users\User\Documents\Tomcat\apache-tomcat-WU\bin;C:\Users\User\Documents\Tomcat\apache-tomcat-WU\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\bin;C:\Users\User\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\User\AppData\Local\gitkraken\bin;C:\Program Files (x86)\Nmap;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;;.
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 11.0.13+10-LTS-370
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 11
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://openjdk.java.net/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.vendor.version = 18.9
+	java.version = 11.0.13
+	java.version.date = 2021-10-19
+	java.vm.compressedOopsMode = Zero based
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 11
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 11.0.13+10-LTS-370
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\User\Documents\Wildfly\EAP-7.4.0
+	jboss.host.name = cpu61-006161
+	jboss.modules.dir = C:\Users\User\Documents\Wildfly\EAP-7.4.0\modules
+	jboss.modules.system.pkgs = com.intellij.rt
+	jboss.node.name = cpu61-006161
+	jboss.qualified.host.name = cpu61-006161
+	jboss.server.base.dir = C:\Users\User\Documents\Wildfly\EAP-7.4.0\standalone
+	jboss.server.config.dir = C:\Users\User\Documents\Wildfly\EAP-7.4.0\standalone\configuration
+	jboss.server.data.dir = C:\Users\User\Documents\Wildfly\EAP-7.4.0\standalone\data
+	jboss.server.deploy.dir = C:\Users\User\Documents\Wildfly\EAP-7.4.0\standalone\data\content
+	jboss.server.log.dir = C:\Users\User\Documents\Wildfly\EAP-7.4.0\standalone\log
+	jboss.server.name = cpu61-006161
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\User\Documents\Wildfly\EAP-7.4.0\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Users\User\Documents\Wildfly\EAP-7.4.0\standalone\configuration/logging.properties
+	module.path = C:\Users\User\Documents\Wildfly\EAP-7.4.0\modules
+	org.jboss.boot.log.file = C:\Users\User\Documents\Wildfly\EAP-7.4.0\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk-11.0.13\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\User\Documents\Wildfly\EAP-7.4.0\jboss-modules.jar -mp C:\Users\User\Documents\Wildfly\EAP-7.4.0\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\User\Documents\Wildfly\EAP-7.4.0
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = PY
+	user.dir = C:\Users\User\Documents\Wildfly\EAP-7.4.0\bin
+	user.home = C:\Users\User
+	user.language = es
+	user.name = User
+	user.script = 
+	user.timezone = America/Asuncion
+	user.variant = 
+2023-06-14 18:51:36,272 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Argumentos de VM: -Dprogram.name=standalone.bat -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:25485,suspend=y,server=n -javaagent:C:\Users\User\AppData\Local\JetBrains\IntelliJIdea2021.3\captureAgent\debugger-agent.jar -Xlog:gc*:file="C:\Users\User\Documents\Wildfly\EAP-7.4.0\standalone\log\gc.log":time,uptimemillis:filecount=5,filesize=3M --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED -Dorg.jboss.boot.log.file=C:\Users\User\Documents\Wildfly\EAP-7.4.0\standalone\log\server.log -Dlogging.configuration=file:C:\Users\User\Documents\Wildfly\EAP-7.4.0\standalone\configuration/logging.properties 
+2023-06-14 18:51:38,006 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 1.15.3.Final-redhat-00001
+2023-06-14 18:51:38,613 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 14) WFLYCTL0033: La extensión 'security' es obsoleta y puede que no se admita en versiones futuras
+2023-06-14 18:51:39,039 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: El atributo 'security-realm' en el recurso en la dirección '/core-service=management/management-interface=http-interface' quedó obsoleto y quizás se borre en una versión futura. Consulte la descripción de atributos en la salida de la operación read-resource-description para aprender más sobre la obslescencia.
+2023-06-14 18:51:39,095 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 20) WFLYCTL0028: El atributo 'security-realm' en el recurso en la dirección '/subsystem=undertow/server=default-server/https-listener=https' quedó obsoleto y quizás se borre en una versión futura. Consulte la descripción de atributos en la salida de la operación read-resource-description para aprender más sobre la obslescencia.
+2023-06-14 18:51:39,276 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creando el servicio de administración http utilizando el enlace de socket (management-http)
+2023-06-14 18:51:39,312 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.8.4.Final-redhat-00001
+2023-06-14 18:51:39,326 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.8.4.Final-redhat-00001
+2023-06-14 18:51:39,443 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 50) WFLYCLINF0001: Activando el sub-sistema Infinispan.
+2023-06-14 18:51:39,452 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 66) WFLYSEC0002: Activando el sub-sistema de seguridad
+2023-06-14 18:51:39,487 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 59) WFLYMETRICS0001: Activación del subsistema de métricas de base
+2023-06-14 18:51:39,444 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 57) WFLYJSF0007: Activado las siguientes implementaciones de Jakarta Server Faces: [main]
+2023-06-14 18:51:39,458 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 68) WFLYTX0013: El atributo node-identifier del /subsystem=transactions está configurado como el valor predeterminado. Esto es peligroso para los entornos que ejecutan varios servidores. Asegúrese de que el valor del atributo sea único.
+2023-06-14 18:51:39,467 INFO  [org.jboss.as.security] (MSC service thread 1-3) WFLYSEC0001: Versión PicketBox actual=5.0.3.Final-redhat-00007
+2023-06-14 18:51:39,510 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 60) WFLYNAM0001: Activando el sub-sistema de nombrado
+2023-06-14 18:51:39,573 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 70) WFLYWS0002: Activando WebServices Extension
+2023-06-14 18:51:39,583 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 49) WFLYHEALTH0001: Activación del subsistema de control de estado básico
+2023-06-14 18:51:39,618 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 2.2.5.Final-redhat-00001 iniciando
+2023-06-14 18:51:39,630 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Iniciando el subsistema Jakarta Connectors (WildFly/IronJacamar 1.4.30.Final-redhat-00001)
+2023-06-14 18:51:39,651 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 52) WFLYRS0016: RESTEasy versión 3.15.1.Final-redhat-00001
+2023-06-14 18:51:39,760 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 41) WFLYJCA0004: Implementación del controlador que cumple con los requerimientos de JDBC class org.h2.Driver (versión 1.4)
+2023-06-14 18:51:39,801 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Iniciando el servicio de nombrado
+2023-06-14 18:51:39,806 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Servicio de controlador iniciado con driver-name = h2
+2023-06-14 18:51:39,826 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Sesión de correo vinculada [java:jboss/mail/Default]
+2023-06-14 18:51:40,171 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0014: Creación de manejador de archivos para la ruta de acceso 'C:\Users\User\Documents\Wildfly\EAP-7.4.0/welcome-content' con las opciones s [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-06-14 18:51:42,379 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 51) WFLYIO001: Worker 'default' ha configurado automáticamente los hilos de E/S 16 con los hilos de tareas máx. 128 en base a los procesadores 8 disponibles.
+2023-06-14 18:51:42,385 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0482: El grupo estricto mdb-strict-max-pool utiliza un tamaño de instancia máximo de 32 (por clase), el cual se deriva del número de CPU en este host.
+2023-06-14 18:51:42,384 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0481: El grupo estricto slsb-strict-max-pool utiliza un tamaño de instancia máximo de 128 (por clase), el cual se deriva del tamaño de grupo del Worker de hilos.
+2023-06-14 18:51:42,454 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: El ID de parche acumulativo JBoss EAP es: base, los parches one-off incluyen: none
+2023-06-14 18:51:42,458 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.20.SP1-redhat-00001
+2023-06-14 18:51:42,461 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Se inició el servidor default-server.
+2023-06-14 18:51:42,462 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) Queuing requests.
+2023-06-14 18:51:42,466 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host iniciando
+2023-06-14 18:51:42,494 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Se inició FileSystemDeploymentService para el directorio C:\Users\User\Documents\Wildfly\EAP-7.4.0\standalone\deployments
+2023-06-14 18:51:42,505 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Iniciando la implementación de yaguarete-5.0.3" (runtime-name: "yaguarete-5.0.3.war")
+2023-06-14 18:51:42,505 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Iniciando la implementación de yaguaretebe-6.1.0" (runtime-name: "yaguaretebe-6.1.0.war")
+2023-06-14 18:51:42,508 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Iniciando la implementación de ojdbc6-6.jar" (runtime-name: "ojdbc6-6.jar")
+2023-06-14 18:51:42,508 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Iniciando la implementación de sqljdbc4.jar" (runtime-name: "sqljdbc4.jar")
+2023-06-14 18:51:42,526 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-5) MSC000001: Failed to start service jboss.deployment.unit."yaguaretebe-6.1.0.war".STRUCTURE: org.jboss.msc.service.StartException in service jboss.deployment.unit."yaguaretebe-6.1.0.war".STRUCTURE: WFLYSRV0153: Error al procesar la fase STRUCTURE de deployment "yaguaretebe-6.1.0.war"
+	at org.jboss.as.server@15.0.2.Final-redhat-00001//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:189)
+	at org.jboss.msc@1.4.12.Final-redhat-00001//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1739)
+	at org.jboss.msc@1.4.12.Final-redhat-00001//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1701)
+	at org.jboss.msc@1.4.12.Final-redhat-00001//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1559)
+	at org.jboss.threads@2.4.0.Final-redhat-00001//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final-redhat-00001//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final-redhat-00001//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final-redhat-00001//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1363)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: WFLYSRV0160: No logró montar el contenido de la implementación
+	at org.jboss.as.server@15.0.2.Final-redhat-00001//org.jboss.as.server.deployment.module.DeploymentRootMountProcessor.deploy(DeploymentRootMountProcessor.java:95)
+	at org.jboss.as.server@15.0.2.Final-redhat-00001//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:182)
+	... 8 more
+Caused by: java.io.FileNotFoundException: C:\Users\User\Documents\Proyectos\Empresas-Nuevo\empresas-ueno-back\target\yaguaretebe-6.1.0 (El sistema no puede encontrar el archivo especificado)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.jboss.vfs@3.2.15.Final-redhat-00001//org.jboss.vfs.spi.RootFileSystem.openInputStream(RootFileSystem.java:51)
+	at org.jboss.vfs@3.2.15.Final-redhat-00001//org.jboss.vfs.VirtualFile.openStream(VirtualFile.java:318)
+	at org.jboss.vfs@3.2.15.Final-redhat-00001//org.jboss.vfs.VFS.mountZipExpanded(VFS.java:533)
+	at org.jboss.as.server@15.0.2.Final-redhat-00001//org.jboss.as.server.deployment.DeploymentMountProvider$Factory$ServerDeploymentRepositoryImpl.mountDeploymentContent(DeploymentMountProvider.java:110)
+	at org.jboss.as.server@15.0.2.Final-redhat-00001//org.jboss.as.server.deployment.module.DeploymentRootMountProcessor.deploy(DeploymentRootMountProcessor.java:91)
+	... 9 more
+
+2023-06-14 18:51:42,537 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-3) MSC000001: Failed to start service jboss.deployment.unit."yaguarete-5.0.3.war".STRUCTURE: org.jboss.msc.service.StartException in service jboss.deployment.unit."yaguarete-5.0.3.war".STRUCTURE: WFLYSRV0153: Error al procesar la fase STRUCTURE de deployment "yaguarete-5.0.3.war"
+	at org.jboss.as.server@15.0.2.Final-redhat-00001//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:189)
+	at org.jboss.msc@1.4.12.Final-redhat-00001//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1739)
+	at org.jboss.msc@1.4.12.Final-redhat-00001//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1701)
+	at org.jboss.msc@1.4.12.Final-redhat-00001//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1559)
+	at org.jboss.threads@2.4.0.Final-redhat-00001//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final-redhat-00001//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final-redhat-00001//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final-redhat-00001//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1363)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: WFLYSRV0160: No logró montar el contenido de la implementación
+	at org.jboss.as.server@15.0.2.Final-redhat-00001//org.jboss.as.server.deployment.module.DeploymentRootMountProcessor.deploy(DeploymentRootMountProcessor.java:95)
+	at org.jboss.as.server@15.0.2.Final-redhat-00001//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:182)
+	... 8 more
+Caused by: java.io.FileNotFoundException: C:\Users\User\Documents\Proyectos\Empresas-Nuevo\empresas-ueno-front\war\target\yaguarete-5.0.3 (El sistema no puede encontrar el archivo especificado)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.jboss.vfs@3.2.15.Final-redhat-00001//org.jboss.vfs.spi.RootFileSystem.openInputStream(RootFileSystem.java:51)
+	at org.jboss.vfs@3.2.15.Final-redhat-00001//org.jboss.vfs.VirtualFile.openStream(VirtualFile.java:318)
+	at org.jboss.vfs@3.2.15.Final-redhat-00001//org.jboss.vfs.VFS.mountZipExpanded(VFS.java:533)
+	at org.jboss.as.server@15.0.2.Final-redhat-00001//org.jboss.as.server.deployment.DeploymentMountProvider$Factory$ServerDeploymentRepositoryImpl.mountDeploymentContent(DeploymentMountProvider.java:110)
+	at org.jboss.as.server@15.0.2.Final-redhat-00001//org.jboss.as.server.deployment.module.DeploymentRootMountProcessor.deploy(DeploymentRootMountProcessor.java:91)
+	... 9 more
+
+2023-06-14 18:51:42,801 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP oyente default escuchando en 127.0.0.1:8081
+2023-06-14 18:51:42,808 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTPS oyente https escuchando en 127.0.0.1:8445
+2023-06-14 18:51:42,984 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0493: Suspensión del subsistema de Jakarta Enterprise Beans completa
+2023-06-14 18:51:43,105 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBossWS 5.4.2.Final-redhat-00001 (Apache CXF 3.3.9.redhat-00001) 
+2023-06-14 18:51:43,166 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Fuente de datos vinculada [java:jboss/datasources/ExampleDS]
+2023-06-14 18:51:43,803 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0004: Implementación del controlador que cumple con los requerimientos de JDBC class com.microsoft.sqlserver.jdbc.SQLServerDriver (versión 3.0)
+2023-06-14 18:51:43,842 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Servicio de controlador iniciado con driver-name = sqljdbc4.jar
+2023-06-14 18:51:43,864 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Fuente de datos vinculada [java:jboss/jdbc/SQLServer1]
+2023-06-14 18:51:43,865 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Fuente de datos vinculada [java:jboss/jdbc/SQLServer]
+2023-06-14 18:51:43,892 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0004: Implementación del controlador que cumple con los requerimientos de JDBC class oracle.jdbc.OracleDriver (versión 11.2)
+2023-06-14 18:51:43,895 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Servicio de controlador iniciado con driver-name = ojdbc6-6.jar
+2023-06-14 18:51:43,900 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Fuente de datos vinculada [java:jboss/jdbc/Oracle2]
+2023-06-14 18:51:43,900 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Fuente de datos vinculada [java:jboss/jdbc/Oracle]
+2023-06-14 18:51:43,904 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Fuente de datos vinculada [java:jboss/jdbc/Oracle1]
+2023-06-14 18:51:44,654 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 72) ISPN000128: Infinispan version: Red Hat Data Grid 'Infinispan 11.0.9.Final-redhat-00001' 8.1.1.GA
+2023-06-14 18:51:44,754 INFO  [org.infinispan.CONFIG] (MSC service thread 1-4) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-06-14 18:51:44,756 INFO  [org.infinispan.CONFIG] (MSC service thread 1-4) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-06-14 18:51:44,933 INFO  [org.infinispan.PERSISTENCE] (ServerService Thread Pool -- 72) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2023-06-14 18:51:45,280 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 72) WFLYCLINF0002: Inició http-remoting-connector caché del contenedor ejb
+2023-06-14 18:51:45,455 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Falló la operación ("add") - dirección: ([("deployment" => "yaguarete-5.0.3")]) - descripción de la falla: {"WFLYCTL0080: Servicios fallidos" => {"jboss.deployment.unit.\"yaguarete-5.0.3.war\".STRUCTURE" => "WFLYSRV0153: Error al procesar la fase STRUCTURE de deployment \"yaguarete-5.0.3.war\"
+    Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: WFLYSRV0160: No logró montar el contenido de la implementación
+    Caused by: java.io.FileNotFoundException: C:\\Users\\User\\Documents\\Proyectos\\Empresas-Nuevo\\empresas-ueno-front\\war\\target\\yaguarete-5.0.3 (El sistema no puede encontrar el archivo especificado)"}}
+2023-06-14 18:51:45,456 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Falló la operación ("add") - dirección: ([("deployment" => "yaguaretebe-6.1.0")]) - descripción de la falla: {"WFLYCTL0080: Servicios fallidos" => {"jboss.deployment.unit.\"yaguaretebe-6.1.0.war\".STRUCTURE" => "WFLYSRV0153: Error al procesar la fase STRUCTURE de deployment \"yaguaretebe-6.1.0.war\"
+    Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: WFLYSRV0160: No logró montar el contenido de la implementación
+    Caused by: java.io.FileNotFoundException: C:\\Users\\User\\Documents\\Proyectos\\Empresas-Nuevo\\empresas-ueno-back\\target\\yaguaretebe-6.1.0 (El sistema no puede encontrar el archivo especificado)"}}
+2023-06-14 18:51:45,464 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Implementado "yaguaretebe-6.1.0" (runtime-name : "yaguaretebe-6.1.0.war")
+2023-06-14 18:51:45,465 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Implementado "yaguarete-5.0.3" (runtime-name : "yaguarete-5.0.3.war")
+2023-06-14 18:51:45,465 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Implementado "sqljdbc4.jar" (runtime-name : "sqljdbc4.jar")
+2023-06-14 18:51:45,466 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Implementado "ojdbc6-6.jar" (runtime-name : "ojdbc6-6.jar")
+2023-06-14 18:51:45,468 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Reporte del estatus del servicio
+WFLYCTL0186: Servicios que no lograron iniciar:      service jboss.deployment.unit."yaguarete-5.0.3.war".STRUCTURE: WFLYSRV0153: Error al procesar la fase STRUCTURE de deployment "yaguarete-5.0.3.war"
+      service jboss.deployment.unit."yaguaretebe-6.1.0.war".STRUCTURE: WFLYSRV0153: Error al procesar la fase STRUCTURE de deployment "yaguaretebe-6.1.0.war"
+
+2023-06-14 18:51:45,624 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Reanudando el servidor
+2023-06-14 18:51:45,628 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: JBoss EAP 7.4.0.GA (WildFly Core 15.0.2.Final-redhat-00001) inició (con errores) en 11139ms - Se iniciaron 492 de 697 servicios (2 servicios fallaron o faltan dependencias, 354 servicios son diferidos, pasivos o por demanda)
+2023-06-14 18:51:45,632 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Interfaz de administración http escuchando en http://127.0.0.1:9990/management
+2023-06-14 18:51:45,633 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Consola de administración escuchando en http://127.0.0.1:9990
+2023-06-14 18:51:48,408 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Iniciando la implementación de yaguarete-5.0.6" (runtime-name: "yaguarete-5.0.6.war")
+2023-06-14 18:51:57,378 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase httpclient-4.2.6.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/cdm-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,378 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase commons-logging-1.1.1.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/cdm-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,379 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase commons-codec-1.6.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/cdm-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,379 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase httpcore-4.2.5.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/cdm-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,379 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase jcl-over-slf4j-1.7.7.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/cdm-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,380 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase joda-time-2.2.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/cdm-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,380 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase slf4j-api-1.7.7.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/cdm-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,380 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase ehcache-core-2.6.2.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/cdm-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,381 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase guava-17.0.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/cdm-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,405 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase httpclient-4.2.6.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/grib-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,406 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase commons-logging-1.1.1.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/grib-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,406 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase commons-codec-1.6.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/grib-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,406 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase httpcore-4.2.5.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/grib-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,406 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase jcl-over-slf4j-1.7.7.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/grib-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,407 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase joda-time-2.2.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/grib-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,407 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase ehcache-core-2.6.2.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/grib-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,407 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase guava-17.0.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/grib-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,407 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase slf4j-api-1.7.7.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/grib-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,409 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase httpclient-4.2.6.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/httpservices-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,409 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase commons-logging-1.1.1.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/httpservices-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,410 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase commons-codec-1.6.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/httpservices-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,410 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase httpcore-4.2.5.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/httpservices-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,410 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase slf4j-api-1.7.7.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/httpservices-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,435 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase slf4j-api-1.7.5.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/jdbcmetrics-2.0.1.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,438 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase commons-logging-1.1.1.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/junrar-0.7.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,439 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase plexus-utils-1.5.6.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/junrar-0.7.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,448 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase httpclient-4.2.6.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/netcdf4-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,449 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase commons-logging-1.1.1.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/netcdf4-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,449 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase commons-codec-1.6.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/netcdf4-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,449 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase httpcore-4.2.5.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/netcdf4-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,450 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase jcl-over-slf4j-1.7.7.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/netcdf4-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,450 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase joda-time-2.2.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/netcdf4-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,450 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase ehcache-core-2.6.2.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/netcdf4-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,450 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase guava-17.0.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/netcdf4-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,450 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase slf4j-api-1.7.7.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/netcdf4-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:57,483 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: La entrada de ruta de clase joda-time-2.2.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-front/war/target/yaguarete-5.0.6/WEB-INF/lib/udunits-4.5.5.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:51:59,990 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.ServletServerHttpAsyncRequestControl debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-06-14 18:51:59,990 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: No se está instalando el componente opcional org.springframework.web.context.request.async.StandardServletAsyncWebRequest debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-06-14 18:51:59,997 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: No se está instalando el componente opcional com.codahale.metrics.servlet.AbstractInstrumentedFilter$AsyncResultListener debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-06-14 18:51:59,998 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: No se está instalando el componente opcional org.apache.cxf.transport.http.Servlet3ContinuationProvider$Servlet3Continuation debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-06-14 18:52:00,122 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-6) WFLYRS0018: Uso explícito de la anotación Jackson en una implementación de servicios web RESTful de Jakarta; el sistema desactivará el procesamiento JSON Binding de Jakarta para la implementación actual. Considere configurar la propiedad 'resteasy.preferJacksonOverJsonB' como 'false' para restaurar JSON Binding de Jakarta.
+2023-06-14 18:52:00,129 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0005: Implementación de controlado que no cumple con los requerimientos de JDBC class com.soulgalore.jdbcmetrics.Driver (versión 0.0)
+2023-06-14 18:52:00,187 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Servicio de controlador iniciado con driver-name = yaguarete-5.0.6.war_com.soulgalore.jdbcmetrics.Driver_0_0
+2023-06-14 18:52:00,953 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 78) Inicializando Mojarra 2.3.14.SP04 para el contexto '/ueno'
+2023-06-14 18:52:16,608 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 78) WFLYUT0021: Contexto de web registrado: '/ueno' para el servidor 'default-server'
+2023-06-14 18:52:16,657 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Implementado "yaguarete-5.0.6" (runtime-name : "yaguarete-5.0.6.war")
+2023-06-14 18:52:16,658 INFO  [org.jboss.as.controller] (management-handler-thread - 1) WFLYCTL0183: Reporte del estatus del servicio
+WFLYCTL0186: Servicios que no lograron iniciar:      service jboss.deployment.unit."yaguarete-5.0.3.war".STRUCTURE: WFLYSRV0153: Error al procesar la fase STRUCTURE de deployment "yaguarete-5.0.3.war"
+      service jboss.deployment.unit."yaguaretebe-6.1.0.war".STRUCTURE: WFLYSRV0153: Error al procesar la fase STRUCTURE de deployment "yaguaretebe-6.1.0.war"
+
+2023-06-14 18:52:16,746 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Iniciando la implementación de yaguaretebe-6.1.2" (runtime-name: "yaguaretebe-6.1.2.war")
+2023-06-14 18:52:24,883 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase hk2.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/ha-api-3.1.12.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,884 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase hk2-core.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/ha-api-3.1.12.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,884 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase class-model.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/ha-api-3.1.12.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,884 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase config.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/ha-api-3.1.12.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,884 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase tiger-types.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/ha-api-3.1.12.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,884 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase bean-validator.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/ha-api-3.1.12.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,885 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase jtype.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/ha-api-3.1.12.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,885 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase auto-depends.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/ha-api-3.1.12.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,885 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase javax.inject.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/ha-api-3.1.12.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,885 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase asm-all-repackaged.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/ha-api-3.1.12.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,885 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase hk2-api.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/ha-api-3.1.12.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,885 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase osgi-resource-locator.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/ha-api-3.1.12.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,886 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase javax.inject.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/ha-api-3.1.12.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,900 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase jaxb-impl.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/jaxb-jxc-2.3.3.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,901 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase jaxb-xjc.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/jaxb-jxc-2.3.3.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,904 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase jaxb-impl.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/jaxb-xjc-2.3.3.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,912 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase jakarta.annotation-api.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/jaxws-rt-2.3.3.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,912 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase jakarta.activation.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/jaxws-rt-2.3.3.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,912 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase jakarta.jws-api.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/jaxws-rt-2.3.3.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,913 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase jakarta.xml.bind-api.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/jaxws-rt-2.3.3.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,913 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase jakarta.xml.ws-api.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/jaxws-rt-2.3.3.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,913 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase jakarta.xml.soap-api.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/jaxws-rt-2.3.3.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,913 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase FastInfoset.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/jaxws-rt-2.3.3.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,913 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase gmbal.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/jaxws-rt-2.3.3.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,914 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase ha-api.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/jaxws-rt-2.3.3.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,914 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase jaxb-impl.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/jaxws-rt-2.3.3.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,914 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase management-api.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/jaxws-rt-2.3.3.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,914 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase mimepull.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/jaxws-rt-2.3.3.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,914 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase pfl-basic.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/jaxws-rt-2.3.3.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,914 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase pfl-tf.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/jaxws-rt-2.3.3.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,915 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase policy.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/jaxws-rt-2.3.3.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,915 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase saaj-impl.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/jaxws-rt-2.3.3.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,918 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase stax-ex.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/jaxws-rt-2.3.3.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,918 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase stax2-api.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/jaxws-rt-2.3.3.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,918 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase streambuffer.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/jaxws-rt-2.3.3.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,918 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase woodstox-core.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/jaxws-rt-2.3.3.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,920 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase jaxws-rt.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/jaxws-tools-2.3.3.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,920 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase jaxb-xjc.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/jaxws-tools-2.3.3.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,921 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase jaxb-jxc.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/jaxws-tools-2.3.3.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,929 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase slf4j-api-1.7.5.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/jdbcmetrics-2.0.1.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:24,947 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: La entrada de ruta de clase oraclepki.jar en /C:/Users/User/Documents/Proyectos/Empresas-Nuevo/empresas-ueno-back/target/yaguaretebe-6.1.2/WEB-INF/lib/ojdbc10-19.17.0.0.jar no apunta a una jar válida para una referencia Class-Path.
+2023-06-14 18:52:26,189 WARN  [org.jboss.as.ee] (MSC service thread 1-8) WFLYEE0007: No se está instalando el componente opcional com.codahale.metrics.servlet.AbstractInstrumentedFilter$AsyncResultListener debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-06-14 18:52:26,192 WARN  [org.jboss.as.ee] (MSC service thread 1-8) WFLYEE0007: No se está instalando el componente opcional org.springframework.http.server.ServletServerHttpAsyncRequestControl debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-06-14 18:52:26,193 WARN  [org.jboss.as.ee] (MSC service thread 1-8) WFLYEE0007: No se está instalando el componente opcional com.sun.xml.ws.transport.http.servlet.WSAsyncListener$1 debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-06-14 18:52:26,194 WARN  [org.jboss.as.ee] (MSC service thread 1-8) WFLYEE0007: No se está instalando el componente opcional org.springframework.web.context.request.async.StandardServletAsyncWebRequest debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2023-06-14 18:52:26,228 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-8) WFLYRS0018: Uso explícito de la anotación Jackson en una implementación de servicios web RESTful de Jakarta; el sistema desactivará el procesamiento JSON Binding de Jakarta para la implementación actual. Considere configurar la propiedad 'resteasy.preferJacksonOverJsonB' como 'false' para restaurar JSON Binding de Jakarta.
+2023-06-14 18:52:26,231 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0005: Implementación de controlado que no cumple con los requerimientos de JDBC class com.soulgalore.jdbcmetrics.Driver (versión 0.0)
+2023-06-14 18:52:26,250 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0004: Implementación del controlador que cumple con los requerimientos de JDBC class com.microsoft.sqlserver.jdbc.SQLServerDriver (versión 6.1)
+2023-06-14 18:52:26,329 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0004: Implementación del controlador que cumple con los requerimientos de JDBC class oracle.jdbc.OracleDriver (versión 19.17)
+2023-06-14 18:52:26,331 WARN  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0003: No se puede instanciar la clase del controlador "org.olap4j.driver.xmla.XmlaOlap4jDriver": java.lang.NoSuchMethodException: org.olap4j.driver.xmla.XmlaOlap4jDriver.<init>()
+2023-06-14 18:52:26,365 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Servicio de controlador iniciado con driver-name = yaguaretebe-6.1.2.war_oracle.jdbc.OracleDriver_19_17
+2023-06-14 18:52:26,366 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Servicio de controlador iniciado con driver-name = yaguaretebe-6.1.2.war_com.soulgalore.jdbcmetrics.Driver_0_0
+2023-06-14 18:52:26,365 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Servicio de controlador iniciado con driver-name = yaguaretebe-6.1.2.war
+2023-06-14 18:52:26,365 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Servicio de controlador iniciado con driver-name = yaguaretebe-6.1.2.war_com.microsoft.sqlserver.jdbc.SQLServerDriver_6_1
+2023-06-14 18:52:27,226 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 83) Inicializando Mojarra 2.3.14.SP04 para el contexto '/YaguareteBE'
+2023-06-14 18:52:45,247 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 83) WFLYUT0021: Contexto de web registrado: '/YaguareteBE' para el servidor 'default-server'
+2023-06-14 18:52:45,321 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Implementado "yaguaretebe-6.1.2" (runtime-name : "yaguaretebe-6.1.2.war")
+2023-06-14 18:52:45,321 INFO  [org.jboss.as.controller] (management-handler-thread - 1) WFLYCTL0183: Reporte del estatus del servicio
+WFLYCTL0186: Servicios que no lograron iniciar:      service jboss.deployment.unit."yaguarete-5.0.3.war".STRUCTURE: WFLYSRV0153: Error al procesar la fase STRUCTURE de deployment "yaguarete-5.0.3.war"
+      service jboss.deployment.unit."yaguaretebe-6.1.0.war".STRUCTURE: WFLYSRV0153: Error al procesar la fase STRUCTURE de deployment "yaguaretebe-6.1.0.war"
+
+2023-06-14 18:56:18,250 ERROR [stderr] (default task-2) log4j:ERROR Could not create an Appender. Reported error follows.
+2023-06-14 18:56:18,253 ERROR [stderr] (default task-2) java.lang.ClassNotFoundException: org.apache.log4j.rolling.RollingFileAppender from [Module "deployment.yaguaretebe-6.1.2.war" from Service Module Loader]
+2023-06-14 18:56:18,255 ERROR [stderr] (default task-2) 	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:255)
+2023-06-14 18:56:18,255 ERROR [stderr] (default task-2) 	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+2023-06-14 18:56:18,256 ERROR [stderr] (default task-2) 	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+2023-06-14 18:56:18,256 ERROR [stderr] (default task-2) 	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+2023-06-14 18:56:18,257 ERROR [stderr] (default task-2) 	at java.base/java.lang.Class.forName0(Native Method)
+2023-06-14 18:56:18,257 ERROR [stderr] (default task-2) 	at java.base/java.lang.Class.forName(Class.java:315)
+2023-06-14 18:56:18,257 ERROR [stderr] (default task-2) 	at deployment.yaguaretebe-6.1.2.war//org.apache.log4j.helpers.Loader.loadClass(Loader.java:198)
+2023-06-14 18:56:18,258 ERROR [stderr] (default task-2) 	at deployment.yaguaretebe-6.1.2.war//org.apache.log4j.xml.DOMConfigurator.parseAppender(DOMConfigurator.java:247)
+2023-06-14 18:56:18,258 ERROR [stderr] (default task-2) 	at deployment.yaguaretebe-6.1.2.war//org.apache.log4j.xml.DOMConfigurator.findAppenderByName(DOMConfigurator.java:176)
+2023-06-14 18:56:18,259 ERROR [stderr] (default task-2) 	at deployment.yaguaretebe-6.1.2.war//org.apache.log4j.xml.DOMConfigurator.findAppenderByReference(DOMConfigurator.java:191)
+2023-06-14 18:56:18,259 ERROR [stderr] (default task-2) 	at deployment.yaguaretebe-6.1.2.war//org.apache.log4j.xml.DOMConfigurator.parseChildrenOfLoggerElement(DOMConfigurator.java:523)
+2023-06-14 18:56:18,259 ERROR [stderr] (default task-2) 	at deployment.yaguaretebe-6.1.2.war//org.apache.log4j.xml.DOMConfigurator.parseRoot(DOMConfigurator.java:492)
+2023-06-14 18:56:18,260 ERROR [stderr] (default task-2) 	at deployment.yaguaretebe-6.1.2.war//org.apache.log4j.xml.DOMConfigurator.parse(DOMConfigurator.java:1006)
+2023-06-14 18:56:18,260 ERROR [stderr] (default task-2) 	at deployment.yaguaretebe-6.1.2.war//org.apache.log4j.xml.DOMConfigurator.doConfigure(DOMConfigurator.java:872)
+2023-06-14 18:56:18,260 ERROR [stderr] (default task-2) 	at deployment.yaguaretebe-6.1.2.war//org.apache.log4j.xml.DOMConfigurator.doConfigure(DOMConfigurator.java:778)
+2023-06-14 18:56:18,261 ERROR [stderr] (default task-2) 	at deployment.yaguaretebe-6.1.2.war//org.apache.log4j.helpers.OptionConverter.selectAndConfigure(OptionConverter.java:526)
+2023-06-14 18:56:18,262 ERROR [stderr] (default task-2) 	at deployment.yaguaretebe-6.1.2.war//org.apache.log4j.LogManager.<clinit>(LogManager.java:127)
+2023-06-14 18:56:18,262 ERROR [stderr] (default task-2) 	at deployment.yaguaretebe-6.1.2.war//org.apache.log4j.Logger.getLogger(Logger.java:117)
+2023-06-14 18:56:18,263 ERROR [stderr] (default task-2) 	at deployment.yaguaretebe-6.1.2.war//com.roshka.raf.route.RouteExecutorManager.<clinit>(RouteExecutorManager.java:13)
+2023-06-14 18:56:18,264 ERROR [stderr] (default task-2) 	at deployment.yaguaretebe-6.1.2.war//com.roshka.raf.RouteServlet.processRoute(RouteServlet.java:128)
+2023-06-14 18:56:18,264 ERROR [stderr] (default task-2) 	at deployment.yaguaretebe-6.1.2.war//com.roshka.raf.RouteServlet.doGet(RouteServlet.java:161)
+2023-06-14 18:56:18,264 ERROR [stderr] (default task-2) 	at javax.servlet.api@2.0.0.Final-redhat-00001//javax.servlet.http.HttpServlet.service(HttpServlet.java:503)
+2023-06-14 18:56:18,265 ERROR [stderr] (default task-2) 	at deployment.yaguaretebe-6.1.2.war//com.roshka.raf.servlet.CustomServlet.service(CustomServlet.java:22)
+2023-06-14 18:56:18,265 ERROR [stderr] (default task-2) 	at javax.servlet.api@2.0.0.Final-redhat-00001//javax.servlet.http.HttpServlet.service(HttpServlet.java:590)
+2023-06-14 18:56:18,265 ERROR [stderr] (default task-2) 	at io.undertow.servlet@2.2.5.Final-redhat-00001//io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+2023-06-14 18:56:18,266 ERROR [stderr] (default task-2) 	at io.undertow.servlet@2.2.5.Final-redhat-00001//io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+2023-06-14 18:56:18,266 ERROR [stderr] (default task-2) 	at deployment.yaguaretebe-6.1.2.war//py.com.bbva.yaguarete.filter.YaguareteBEFilter.doFilter(YaguareteBEFilter.java:91)
+2023-06-14 18:56:18,266 ERROR [stderr] (default task-2) 	at io.undertow.servlet@2.2.5.Final-redhat-00001//io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+2023-06-14 18:56:18,267 ERROR [stderr] (default task-2) 	at io.undertow.servlet@2.2.5.Final-redhat-00001//io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+2023-06-14 18:56:18,267 ERROR [stderr] (default task-2) 	at io.undertow.servlet@2.2.5.Final-redhat-00001//io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+2023-06-14 18:56:18,268 ERROR [stderr] (default task-2) 	at io.undertow.servlet@2.2.5.Final-redhat-00001//io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+2023-06-14 18:56:18,268 ERROR [stderr] (default task-2) 	at io.undertow.servlet@2.2.5.Final-redhat-00001//io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+2023-06-14 18:56:18,269 ERROR [stderr] (default task-2) 	at io.undertow.servlet@2.2.5.Final-redhat-00001//io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+2023-06-14 18:56:18,269 ERROR [stderr] (default task-2) 	at org.wildfly.extension.undertow@7.4.0.GA-redhat-00005//org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+2023-06-14 18:56:18,270 ERROR [stderr] (default task-2) 	at io.undertow.core@2.2.5.Final-redhat-00001//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2023-06-14 18:56:18,270 ERROR [stderr] (default task-2) 	at io.undertow.servlet@2.2.5.Final-redhat-00001//io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+2023-06-14 18:56:18,271 ERROR [stderr] (default task-2) 	at io.undertow.servlet@2.2.5.Final-redhat-00001//io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:117)
+2023-06-14 18:56:18,272 ERROR [stderr] (default task-2) 	at io.undertow.servlet@2.2.5.Final-redhat-00001//io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+2023-06-14 18:56:18,272 ERROR [stderr] (default task-2) 	at io.undertow.core@2.2.5.Final-redhat-00001//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2023-06-14 18:56:18,273 ERROR [stderr] (default task-2) 	at io.undertow.core@2.2.5.Final-redhat-00001//io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+2023-06-14 18:56:18,273 ERROR [stderr] (default task-2) 	at io.undertow.servlet@2.2.5.Final-redhat-00001//io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+2023-06-14 18:56:18,274 ERROR [stderr] (default task-2) 	at io.undertow.core@2.2.5.Final-redhat-00001//io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+2023-06-14 18:56:18,274 ERROR [stderr] (default task-2) 	at io.undertow.servlet@2.2.5.Final-redhat-00001//io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+2023-06-14 18:56:18,274 ERROR [stderr] (default task-2) 	at io.undertow.core@2.2.5.Final-redhat-00001//io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+2023-06-14 18:56:18,275 ERROR [stderr] (default task-2) 	at io.undertow.core@2.2.5.Final-redhat-00001//io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+2023-06-14 18:56:18,275 ERROR [stderr] (default task-2) 	at io.undertow.core@2.2.5.Final-redhat-00001//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2023-06-14 18:56:18,275 ERROR [stderr] (default task-2) 	at org.wildfly.extension.undertow@7.4.0.GA-redhat-00005//org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+2023-06-14 18:56:18,276 ERROR [stderr] (default task-2) 	at io.undertow.core@2.2.5.Final-redhat-00001//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2023-06-14 18:56:18,276 ERROR [stderr] (default task-2) 	at org.wildfly.extension.undertow@7.4.0.GA-redhat-00005//org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+2023-06-14 18:56:18,277 ERROR [stderr] (default task-2) 	at io.undertow.servlet@2.2.5.Final-redhat-00001//io.undertow.servlet.handlers.SendErrorPageHandler.handleRequest(SendErrorPageHandler.java:52)
+2023-06-14 18:56:18,277 ERROR [stderr] (default task-2) 	at io.undertow.core@2.2.5.Final-redhat-00001//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2023-06-14 18:56:18,278 ERROR [stderr] (default task-2) 	at io.undertow.servlet@2.2.5.Final-redhat-00001//io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)
+2023-06-14 18:56:18,278 ERROR [stderr] (default task-2) 	at io.undertow.servlet@2.2.5.Final-redhat-00001//io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)
+2023-06-14 18:56:18,279 ERROR [stderr] (default task-2) 	at io.undertow.servlet@2.2.5.Final-redhat-00001//io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)
+2023-06-14 18:56:18,279 ERROR [stderr] (default task-2) 	at io.undertow.servlet@2.2.5.Final-redhat-00001//io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)
+2023-06-14 18:56:18,280 ERROR [stderr] (default task-2) 	at io.undertow.servlet@2.2.5.Final-redhat-00001//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+2023-06-14 18:56:18,280 ERROR [stderr] (default task-2) 	at io.undertow.servlet@2.2.5.Final-redhat-00001//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+2023-06-14 18:56:18,280 ERROR [stderr] (default task-2) 	at org.wildfly.extension.undertow@7.4.0.GA-redhat-00005//org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+2023-06-14 18:56:18,281 ERROR [stderr] (default task-2) 	at org.wildfly.extension.undertow@7.4.0.GA-redhat-00005//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
+2023-06-14 18:56:18,281 ERROR [stderr] (default task-2) 	at org.wildfly.extension.undertow@7.4.0.GA-redhat-00005//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
+2023-06-14 18:56:18,282 ERROR [stderr] (default task-2) 	at org.wildfly.extension.undertow@7.4.0.GA-redhat-00005//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
+2023-06-14 18:56:18,282 ERROR [stderr] (default task-2) 	at org.wildfly.extension.undertow@7.4.0.GA-redhat-00005//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
+2023-06-14 18:56:18,282 ERROR [stderr] (default task-2) 	at io.undertow.servlet@2.2.5.Final-redhat-00001//io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)
+2023-06-14 18:56:18,282 ERROR [stderr] (default task-2) 	at io.undertow.servlet@2.2.5.Final-redhat-00001//io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)
+2023-06-14 18:56:18,283 ERROR [stderr] (default task-2) 	at io.undertow.servlet@2.2.5.Final-redhat-00001//io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)
+2023-06-14 18:56:18,283 ERROR [stderr] (default task-2) 	at io.undertow.core@2.2.5.Final-redhat-00001//io.undertow.server.Connectors.executeRootHandler(Connectors.java:387)
+2023-06-14 18:56:18,283 ERROR [stderr] (default task-2) 	at io.undertow.core@2.2.5.Final-redhat-00001//io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:841)
+2023-06-14 18:56:18,284 ERROR [stderr] (default task-2) 	at org.jboss.threads@2.4.0.Final-redhat-00001//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+2023-06-14 18:56:18,284 ERROR [stderr] (default task-2) 	at org.jboss.threads@2.4.0.Final-redhat-00001//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+2023-06-14 18:56:18,284 ERROR [stderr] (default task-2) 	at org.jboss.threads@2.4.0.Final-redhat-00001//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+2023-06-14 18:56:18,285 ERROR [stderr] (default task-2) 	at org.jboss.threads@2.4.0.Final-redhat-00001//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1348)
+2023-06-14 18:56:18,285 ERROR [stderr] (default task-2) 	at org.jboss.xnio@3.8.4.Final-redhat-00001//org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1280)
+2023-06-14 18:56:18,285 ERROR [stderr] (default task-2) 	at java.base/java.lang.Thread.run(Thread.java:834)
+2023-06-14 18:56:18,501 ERROR [stderr] (default task-2) [MsAuthClient#publicKey] ---> GET http://fo-sandbox02-srv.lnx.elcomercio.local:8855/auth/public-key HTTP/1.1
+2023-06-14 18:56:18,593 ERROR [stderr] (default task-2) [MsAuthClient#publicKey] <--- HTTP/1.1 200  (90ms)

@@ -1,0 +1,661 @@
+2022-12-23 09:30:59,386 INFO  [org.jboss.modules] (main) JBoss Modules version 1.11.0.Final-redhat-00001
+2022-12-23 09:30:59,700 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.12.Final-redhat-00001
+2022-12-23 09:30:59,708 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final-redhat-00001
+2022-12-23 09:30:59,798 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: JBoss EAP 7.4.0.GA (WildFly Core 15.0.2.Final-redhat-00001) starting
+2022-12-23 09:30:59,799 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	intellij.debug.agent = true
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/user/servidores/EAP-7.4.0/jboss-modules.jar:/home/user/installer/idea-IU-221.5921.22/plugins/java/lib/rt/debugger-agent.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /home/user/.sdkman/candidates/java/8.0.265-open/jre/lib/endorsed
+	java.ext.dirs = /home/user/.sdkman/candidates/java/8.0.265-open/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /home/user/.sdkman/candidates/java/8.0.265-open/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_265-b01
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_265
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.265-b01
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = /home/user/servidores/EAP-7.4.0
+	jboss.host.name = user01
+	jboss.modules.dir = /home/user/servidores/EAP-7.4.0/modules
+	jboss.modules.system.pkgs = com.intellij.rt
+	jboss.node.name = user01
+	jboss.qualified.host.name = user01
+	jboss.server.base.dir = /home/user/servidores/EAP-7.4.0/standalone
+	jboss.server.config.dir = /home/user/servidores/EAP-7.4.0/standalone/configuration
+	jboss.server.data.dir = /home/user/servidores/EAP-7.4.0/standalone/data
+	jboss.server.deploy.dir = /home/user/servidores/EAP-7.4.0/standalone/data/content
+	jboss.server.log.dir = /home/user/servidores/EAP-7.4.0/standalone/log
+	jboss.server.name = user01
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/user/servidores/EAP-7.4.0/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/user/servidores/EAP-7.4.0/standalone/configuration/logging.properties
+	module.path = /home/user/servidores/EAP-7.4.0/modules
+	org.jboss.boot.log.file = /home/user/servidores/EAP-7.4.0/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Linux
+	os.version = 5.15.0-56-generic
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /home/user/.sdkman/candidates/java/8.0.265-open/jre/lib/resources.jar:/home/user/.sdkman/candidates/java/8.0.265-open/jre/lib/rt.jar:/home/user/.sdkman/candidates/java/8.0.265-open/jre/lib/sunrsasign.jar:/home/user/.sdkman/candidates/java/8.0.265-open/jre/lib/jsse.jar:/home/user/.sdkman/candidates/java/8.0.265-open/jre/lib/jce.jar:/home/user/.sdkman/candidates/java/8.0.265-open/jre/lib/charsets.jar:/home/user/.sdkman/candidates/java/8.0.265-open/jre/lib/jfr.jar:/home/user/.sdkman/candidates/java/8.0.265-open/jre/classes:/home/user/installer/idea-IU-221.5921.22/plugins/java/lib/rt/debugger-agent.jar
+	sun.boot.library.path = /home/user/.sdkman/candidates/java/8.0.265-open/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/user/servidores/EAP-7.4.0/jboss-modules.jar -mp /home/user/servidores/EAP-7.4.0/modules org.jboss.as.standalone -Djboss.home.dir=/home/user/servidores/EAP-7.4.0 -Djboss.server.base.dir=/home/user/servidores/EAP-7.4.0/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /home/user/servidores/EAP-7.4.0/bin
+	user.home = /home/user
+	user.language = en
+	user.name = user
+	user.timezone = America/Asuncion
+2022-12-23 09:30:59,800 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -verbose:gc -Xloggc:/home/user/servidores/EAP-7.4.0/standalone/log/gc.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=5 -XX:GCLogFileSize=3M -XX:-TraceClassUnloading -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:34613,suspend=y,server=n -javaagent:/home/user/installer/idea-IU-221.5921.22/plugins/java/lib/rt/debugger-agent.jar -Dorg.jboss.boot.log.file=/home/user/servidores/EAP-7.4.0/standalone/log/server.log -Dlogging.configuration=file:/home/user/servidores/EAP-7.4.0/standalone/configuration/logging.properties 
+2022-12-23 09:31:00,425 INFO  [org.wildfly.security] (ServerService Thread Pool -- 24) ELY00001: WildFly Elytron version 1.15.3.Final-redhat-00001
+2022-12-23 09:31:00,646 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 25) WFLYCTL0033: Extension 'security' is deprecated and may not be supported in future versions
+2022-12-23 09:31:00,874 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2022-12-23 09:31:00,909 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 34) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2022-12-23 09:31:00,968 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2022-12-23 09:31:00,984 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.8.4.Final-redhat-00001
+2022-12-23 09:31:00,991 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.8.4.Final-redhat-00001
+2022-12-23 09:31:01,031 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 50) WFLYCLINF0001: Activating Infinispan subsystem.
+2022-12-23 09:31:01,037 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 51) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2022-12-23 09:31:01,053 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.20.SP1-redhat-00001
+2022-12-23 09:31:01,054 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 52) WFLYRS0016: RESTEasy version 3.15.1.Final-redhat-00001
+2022-12-23 09:31:01,062 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 49) WFLYHEALTH0001: Activating Base Health Subsystem
+2022-12-23 09:31:01,064 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.4.30.Final-redhat-00001)
+2022-12-23 09:31:01,065 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 41) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2022-12-23 09:31:01,069 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 59) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2022-12-23 09:31:01,074 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 57) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2022-12-23 09:31:01,081 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = h2
+2022-12-23 09:31:01,083 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 60) WFLYNAM0001: Activating Naming Subsystem
+2022-12-23 09:31:01,093 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 68) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2022-12-23 09:31:01,135 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2022-12-23 09:31:01,136 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2022-12-23 09:31:01,136 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 66) WFLYSEC0002: Activating Security Subsystem
+2022-12-23 09:31:01,139 INFO  [org.jboss.as.security] (MSC service thread 1-4) WFLYSEC0001: Current PicketBox version=5.0.3.Final-redhat-00007
+2022-12-23 09:31:01,158 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 70) WFLYWS0002: Activating WebServices Extension
+2022-12-23 09:31:01,162 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 2.2.5.Final-redhat-00001 starting
+2022-12-23 09:31:01,268 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2022-12-23 09:31:01,269 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2022-12-23 09:31:01,318 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0014: Creating file handler for path '/home/user/servidores/EAP-7.4.0/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2022-12-23 09:31:01,333 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
+2022-12-23 09:31:01,335 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) Queuing requests.
+2022-12-23 09:31:01,337 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2022-12-23 09:31:01,583 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8081
+2022-12-23 09:31:01,625 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2022-12-23 09:31:01,672 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2022-12-23 09:31:01,745 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: JBoss EAP cumulative patch ID is: base, one-off patches include: none
+2022-12-23 09:31:01,764 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory /home/user/servidores/EAP-7.4.0/standalone/deployments
+2022-12-23 09:31:01,771 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "yaguarete-5.0.3" (runtime-name: "yaguarete-5.0.3.war")
+2022-12-23 09:31:01,771 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "ojdbc6-6.jar" (runtime-name: "ojdbc6-6.jar")
+2022-12-23 09:31:01,773 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "sqljdbc4.jar" (runtime-name: "sqljdbc4.jar")
+2022-12-23 09:31:01,786 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "yaguaretebe-6.1.0" (runtime-name: "yaguaretebe-6.1.0.war")
+2022-12-23 09:31:01,837 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8445
+2022-12-23 09:31:01,982 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBossWS 5.4.2.Final-redhat-00001 (Apache CXF 3.3.9.redhat-00001) 
+2022-12-23 09:31:02,605 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0004: Deploying JDBC-compliant driver class com.microsoft.sqlserver.jdbc.SQLServerDriver (version 3.0)
+2022-12-23 09:31:02,627 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = sqljdbc4.jar
+2022-12-23 09:31:02,631 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/jdbc/SQLServer1]
+2022-12-23 09:31:02,632 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/jdbc/SQLServer]
+2022-12-23 09:31:02,683 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0004: Deploying JDBC-compliant driver class oracle.jdbc.OracleDriver (version 11.2)
+2022-12-23 09:31:02,687 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = ojdbc6-6.jar
+2022-12-23 09:31:02,688 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/jdbc/Oracle]
+2022-12-23 09:31:02,688 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/jdbc/Oracle1]
+2022-12-23 09:31:02,688 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/jdbc/Oracle2]
+2022-12-23 09:31:03,307 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 72) ISPN000128: Infinispan version: Red Hat Data Grid 'Infinispan 11.0.9.Final-redhat-00001' 8.1.1.GA
+2022-12-23 09:31:03,489 INFO  [org.infinispan.CONFIG] (MSC service thread 1-1) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2022-12-23 09:31:03,496 INFO  [org.infinispan.CONFIG] (MSC service thread 1-1) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2022-12-23 09:31:03,681 INFO  [org.infinispan.PERSISTENCE] (ServerService Thread Pool -- 72) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2022-12-23 09:31:04,026 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 72) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2022-12-23 09:31:06,796 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry jaxb-api.jar in /home/user/git/bbva/banca-web-be/target/yaguaretebe-6.1.0/WEB-INF/lib/jaxb-impl-2.2.3-1.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,796 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry activation.jar in /home/user/git/bbva/banca-web-be/target/yaguaretebe-6.1.0/WEB-INF/lib/jaxb-impl-2.2.3-1.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,796 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry jsr173_1.0_api.jar in /home/user/git/bbva/banca-web-be/target/yaguaretebe-6.1.0/WEB-INF/lib/jaxb-impl-2.2.3-1.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,796 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry jaxb1-impl.jar in /home/user/git/bbva/banca-web-be/target/yaguaretebe-6.1.0/WEB-INF/lib/jaxb-impl-2.2.3-1.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,805 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry slf4j-api-1.7.5.jar in /home/user/git/bbva/banca-web-be/target/yaguaretebe-6.1.0/WEB-INF/lib/jdbcmetrics-2.0.1.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,856 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry httpclient-4.2.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/httpservices-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,856 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry commons-logging-1.1.1.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/httpservices-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,856 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry commons-codec-1.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/httpservices-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,856 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry httpcore-4.2.5.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/httpservices-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,856 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry slf4j-api-1.7.7.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/httpservices-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,876 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry slf4j-api-1.7.5.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/jdbcmetrics-2.0.1.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,877 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry joda-time-2.2.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/udunits-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,880 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry httpclient-4.2.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,880 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry commons-logging-1.1.1.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,881 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry commons-codec-1.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,881 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry httpcore-4.2.5.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,881 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry jcl-over-slf4j-1.7.7.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,881 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry joda-time-2.2.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,881 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry slf4j-api-1.7.7.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,881 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry ehcache-core-2.6.2.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,881 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry guava-17.0.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,881 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry commons-logging-1.1.1.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/junrar-0.7.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,881 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry plexus-utils-1.5.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/junrar-0.7.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,888 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry httpclient-4.2.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,889 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry commons-logging-1.1.1.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,889 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry commons-codec-1.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,889 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry httpcore-4.2.5.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,889 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry jcl-over-slf4j-1.7.7.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,889 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry joda-time-2.2.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,889 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry ehcache-core-2.6.2.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,889 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry guava-17.0.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:06,889 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry slf4j-api-1.7.7.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:07,013 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry httpclient-4.2.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:07,013 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry commons-logging-1.1.1.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:07,013 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry commons-codec-1.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:07,014 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry httpcore-4.2.5.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:07,014 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry jcl-over-slf4j-1.7.7.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:07,014 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry joda-time-2.2.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:07,014 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry ehcache-core-2.6.2.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:07,014 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry guava-17.0.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:07,014 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry slf4j-api-1.7.7.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:07,742 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component com.codahale.metrics.servlet.AbstractInstrumentedFilter$AsyncResultListener due to an exception (enable DEBUG log level to see the cause)
+2022-12-23 09:31:07,744 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2022-12-23 09:31:07,745 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2022-12-23 09:31:07,792 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-5) WFLYRS0018: Explicit usage of Jackson annotation in a Jakarta RESTful Web Services deployment; the system will disable Jakarta JSON Binding processing for the current deployment. Consider setting the 'resteasy.preferJacksonOverJsonB' property to 'false' to restore Jakarta JSON Binding.
+2022-12-23 09:31:07,801 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0004: Deploying JDBC-compliant driver class com.microsoft.sqlserver.jdbc.SQLServerDriver (version 6.1)
+2022-12-23 09:31:07,818 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0004: Deploying JDBC-compliant driver class oracle.jdbc.OracleDriver (version 11.2)
+2022-12-23 09:31:07,820 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.soulgalore.jdbcmetrics.Driver (version 0.0)
+2022-12-23 09:31:07,821 WARN  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0003: Unable to instantiate driver class "org.olap4j.driver.xmla.XmlaOlap4jDriver": java.lang.NoSuchMethodException: org.olap4j.driver.xmla.XmlaOlap4jDriver.<init>()
+2022-12-23 09:31:07,850 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = yaguaretebe-6.1.0.war
+2022-12-23 09:31:07,850 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = yaguaretebe-6.1.0.war_com.soulgalore.jdbcmetrics.Driver_0_0
+2022-12-23 09:31:07,850 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = yaguaretebe-6.1.0.war_oracle.jdbc.OracleDriver_11_2
+2022-12-23 09:31:07,851 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = yaguaretebe-6.1.0.war_com.microsoft.sqlserver.jdbc.SQLServerDriver_6_1
+2022-12-23 09:31:07,957 WARN  [org.jboss.as.ee] (MSC service thread 1-4) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2022-12-23 09:31:07,958 WARN  [org.jboss.as.ee] (MSC service thread 1-4) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2022-12-23 09:31:07,962 WARN  [org.jboss.as.ee] (MSC service thread 1-4) WFLYEE0007: Not installing optional component com.codahale.metrics.servlet.AbstractInstrumentedFilter$AsyncResultListener due to an exception (enable DEBUG log level to see the cause)
+2022-12-23 09:31:07,963 WARN  [org.jboss.as.ee] (MSC service thread 1-4) WFLYEE0007: Not installing optional component org.apache.cxf.transport.http.Servlet3ContinuationProvider$Servlet3Continuation due to an exception (enable DEBUG log level to see the cause)
+2022-12-23 09:31:08,010 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-4) WFLYRS0018: Explicit usage of Jackson annotation in a Jakarta RESTful Web Services deployment; the system will disable Jakarta JSON Binding processing for the current deployment. Consider setting the 'resteasy.preferJacksonOverJsonB' property to 'false' to restore Jakarta JSON Binding.
+2022-12-23 09:31:08,012 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.soulgalore.jdbcmetrics.Driver (version 0.0)
+2022-12-23 09:31:08,031 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = yaguarete-5.0.3.war_com.soulgalore.jdbcmetrics.Driver_0_0
+2022-12-23 09:31:08,111 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 84) Initializing Mojarra 2.3.14.SP04 for context '/YaguareteBE'
+2022-12-23 09:31:08,163 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 87) Initializing Mojarra 2.3.14.SP04 for context '/empresas'
+2022-12-23 09:31:17,662 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 87) WFLYUT0021: Registered web context: '/empresas' for server 'default-server'
+2022-12-23 09:31:18,661 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 84) WFLYUT0021: Registered web context: '/YaguareteBE' for server 'default-server'
+2022-12-23 09:31:18,723 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "yaguaretebe-6.1.0" (runtime-name : "yaguaretebe-6.1.0.war")
+2022-12-23 09:31:18,723 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "yaguarete-5.0.3" (runtime-name : "yaguarete-5.0.3.war")
+2022-12-23 09:31:18,723 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "sqljdbc4.jar" (runtime-name : "sqljdbc4.jar")
+2022-12-23 09:31:18,723 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "ojdbc6-6.jar" (runtime-name : "ojdbc6-6.jar")
+2022-12-23 09:31:18,774 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2022-12-23 09:31:18,778 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.4.0.GA (WildFly Core 15.0.2.Final-redhat-00001) started in 19892ms - Started 1257 of 1462 services (364 services are lazy, passive or on-demand)
+2022-12-23 09:31:18,782 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2022-12-23 09:31:18,782 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2022-12-23 09:31:18,925 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = yaguarete-5.0.3.war_com.soulgalore.jdbcmetrics.Driver_0_0
+2022-12-23 09:31:18,930 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 84) WFLYUT0022: Unregistered web context: '/empresas' from server 'default-server'
+2022-12-23 09:31:18,957 WARNING [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 84) Unexpected state during contextDestroyed: no ConfigManager instance in current ServletContext but one is expected to exist.
+2022-12-23 09:31:18,958 SEVERE [javax.faces] (ServerService Thread Pool -- 84) Unable to obtain InjectionProvider from init time FacesContext. Does this container implement the Mojarra Injection SPI?
+2022-12-23 09:31:18,958 SEVERE [javax.faces] (ServerService Thread Pool -- 84) Unable to call @PreDestroy annotated methods because no InjectionProvider can be found. Does this container implement the Mojarra Injection SPI?
+2022-12-23 09:31:19,041 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment yaguarete-5.0.3 (runtime-name: yaguarete-5.0.3.war) in 120ms
+2022-12-23 09:31:19,104 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "yaguarete-5.0.3" (runtime-name: "yaguarete-5.0.3.war")
+2022-12-23 09:31:19,157 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "yaguarete-5.0.3" (runtime-name: "yaguarete-5.0.3.war")
+2022-12-23 09:31:23,493 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry httpclient-4.2.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/httpservices-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,494 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry commons-logging-1.1.1.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/httpservices-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,494 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry commons-codec-1.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/httpservices-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,494 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry httpcore-4.2.5.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/httpservices-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,494 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry slf4j-api-1.7.7.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/httpservices-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,504 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry slf4j-api-1.7.5.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/jdbcmetrics-2.0.1.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,504 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry joda-time-2.2.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/udunits-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,507 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry httpclient-4.2.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,507 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry commons-logging-1.1.1.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,507 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry commons-codec-1.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,507 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry httpcore-4.2.5.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,507 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry jcl-over-slf4j-1.7.7.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,507 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry joda-time-2.2.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,507 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry slf4j-api-1.7.7.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,507 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry ehcache-core-2.6.2.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,508 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry guava-17.0.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,508 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry commons-logging-1.1.1.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/junrar-0.7.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,508 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry plexus-utils-1.5.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/junrar-0.7.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,515 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry httpclient-4.2.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,515 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry commons-logging-1.1.1.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,516 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry commons-codec-1.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,516 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry httpcore-4.2.5.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,516 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry jcl-over-slf4j-1.7.7.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,516 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry joda-time-2.2.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,516 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry ehcache-core-2.6.2.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,516 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry guava-17.0.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,516 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry slf4j-api-1.7.7.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,603 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry httpclient-4.2.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,603 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry commons-logging-1.1.1.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,603 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry commons-codec-1.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,603 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry httpcore-4.2.5.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,603 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry jcl-over-slf4j-1.7.7.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,603 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry joda-time-2.2.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,603 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry ehcache-core-2.6.2.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,603 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry guava-17.0.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:23,603 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry slf4j-api-1.7.7.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:24,161 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2022-12-23 09:31:24,161 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2022-12-23 09:31:24,163 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component com.codahale.metrics.servlet.AbstractInstrumentedFilter$AsyncResultListener due to an exception (enable DEBUG log level to see the cause)
+2022-12-23 09:31:24,164 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.apache.cxf.transport.http.Servlet3ContinuationProvider$Servlet3Continuation due to an exception (enable DEBUG log level to see the cause)
+2022-12-23 09:31:24,188 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-5) WFLYRS0018: Explicit usage of Jackson annotation in a Jakarta RESTful Web Services deployment; the system will disable Jakarta JSON Binding processing for the current deployment. Consider setting the 'resteasy.preferJacksonOverJsonB' property to 'false' to restore Jakarta JSON Binding.
+2022-12-23 09:31:24,190 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.soulgalore.jdbcmetrics.Driver (version 0.0)
+2022-12-23 09:31:24,206 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = yaguarete-5.0.3.war_com.soulgalore.jdbcmetrics.Driver_0_0
+2022-12-23 09:31:24,357 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 61) Initializing Mojarra 2.3.14.SP04 for context '/empresas'
+2022-12-23 09:31:30,276 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0021: Registered web context: '/empresas' for server 'default-server'
+2022-12-23 09:31:30,293 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "yaguarete-5.0.3" (runtime-name : "yaguarete-5.0.3.war")
+2022-12-23 09:31:30,313 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = yaguaretebe-6.1.0.war_com.soulgalore.jdbcmetrics.Driver_0_0
+2022-12-23 09:31:30,314 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = yaguaretebe-6.1.0.war_com.microsoft.sqlserver.jdbc.SQLServerDriver_6_1
+2022-12-23 09:31:30,313 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = yaguaretebe-6.1.0.war_oracle.jdbc.OracleDriver_11_2
+2022-12-23 09:31:30,313 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = yaguaretebe-6.1.0.war
+2022-12-23 09:31:30,314 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0022: Unregistered web context: '/YaguareteBE' from server 'default-server'
+2022-12-23 09:31:30,317 WARNING [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 61) Unexpected state during contextDestroyed: no ConfigManager instance in current ServletContext but one is expected to exist.
+2022-12-23 09:31:30,318 SEVERE [javax.faces] (ServerService Thread Pool -- 61) Unable to obtain InjectionProvider from init time FacesContext. Does this container implement the Mojarra Injection SPI?
+2022-12-23 09:31:30,318 SEVERE [javax.faces] (ServerService Thread Pool -- 61) Unable to call @PreDestroy annotated methods because no InjectionProvider can be found. Does this container implement the Mojarra Injection SPI?
+2022-12-23 09:31:30,363 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment yaguaretebe-6.1.0 (runtime-name: yaguaretebe-6.1.0.war) in 50ms
+2022-12-23 09:31:30,377 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "yaguaretebe-6.1.0" (runtime-name: "yaguaretebe-6.1.0.war")
+2022-12-23 09:31:30,426 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "yaguaretebe-6.1.0" (runtime-name: "yaguaretebe-6.1.0.war")
+2022-12-23 09:31:33,184 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry jaxb-api.jar in /home/user/git/bbva/banca-web-be/target/yaguaretebe-6.1.0/WEB-INF/lib/jaxb-impl-2.2.3-1.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:33,184 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry activation.jar in /home/user/git/bbva/banca-web-be/target/yaguaretebe-6.1.0/WEB-INF/lib/jaxb-impl-2.2.3-1.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:33,184 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry jsr173_1.0_api.jar in /home/user/git/bbva/banca-web-be/target/yaguaretebe-6.1.0/WEB-INF/lib/jaxb-impl-2.2.3-1.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:33,185 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry jaxb1-impl.jar in /home/user/git/bbva/banca-web-be/target/yaguaretebe-6.1.0/WEB-INF/lib/jaxb-impl-2.2.3-1.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:33,193 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry slf4j-api-1.7.5.jar in /home/user/git/bbva/banca-web-be/target/yaguaretebe-6.1.0/WEB-INF/lib/jdbcmetrics-2.0.1.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 09:31:33,570 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component com.codahale.metrics.servlet.AbstractInstrumentedFilter$AsyncResultListener due to an exception (enable DEBUG log level to see the cause)
+2022-12-23 09:31:33,571 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2022-12-23 09:31:33,571 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2022-12-23 09:31:33,580 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-5) WFLYRS0018: Explicit usage of Jackson annotation in a Jakarta RESTful Web Services deployment; the system will disable Jakarta JSON Binding processing for the current deployment. Consider setting the 'resteasy.preferJacksonOverJsonB' property to 'false' to restore Jakarta JSON Binding.
+2022-12-23 09:31:33,586 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0004: Deploying JDBC-compliant driver class com.microsoft.sqlserver.jdbc.SQLServerDriver (version 6.1)
+2022-12-23 09:31:33,606 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0004: Deploying JDBC-compliant driver class oracle.jdbc.OracleDriver (version 11.2)
+2022-12-23 09:31:33,608 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.soulgalore.jdbcmetrics.Driver (version 0.0)
+2022-12-23 09:31:33,609 WARN  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0003: Unable to instantiate driver class "org.olap4j.driver.xmla.XmlaOlap4jDriver": java.lang.NoSuchMethodException: org.olap4j.driver.xmla.XmlaOlap4jDriver.<init>()
+2022-12-23 09:31:33,621 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = yaguaretebe-6.1.0.war_com.soulgalore.jdbcmetrics.Driver_0_0
+2022-12-23 09:31:33,621 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = yaguaretebe-6.1.0.war
+2022-12-23 09:31:33,621 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = yaguaretebe-6.1.0.war_com.microsoft.sqlserver.jdbc.SQLServerDriver_6_1
+2022-12-23 09:31:33,621 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = yaguaretebe-6.1.0.war_oracle.jdbc.OracleDriver_11_2
+2022-12-23 09:31:33,637 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 57) Initializing Mojarra 2.3.14.SP04 for context '/YaguareteBE'
+2022-12-23 09:31:41,041 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 57) WFLYUT0021: Registered web context: '/YaguareteBE' for server 'default-server'
+2022-12-23 09:31:41,053 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "yaguaretebe-6.1.0" (runtime-name : "yaguaretebe-6.1.0.war")
+2022-12-23 10:23:01,177 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0272: Suspending server
+2022-12-23 10:23:01,182 INFO  [org.jboss.as.ejb3] (management-handler-thread - 3) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2022-12-23 10:23:01,185 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2022-12-23 10:23:01,209 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 57) WFLYUT0022: Unregistered web context: '/empresas' from server 'default-server'
+2022-12-23 10:23:01,210 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = yaguaretebe-6.1.0.war_oracle.jdbc.OracleDriver_11_2
+2022-12-23 10:23:01,211 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = yaguaretebe-6.1.0.war_com.soulgalore.jdbcmetrics.Driver_0_0
+2022-12-23 10:23:01,212 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = yaguaretebe-6.1.0.war_com.microsoft.sqlserver.jdbc.SQLServerDriver_6_1
+2022-12-23 10:23:01,212 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = yaguaretebe-6.1.0.war
+2022-12-23 10:23:01,223 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/jdbc/Oracle2]
+2022-12-23 10:23:01,224 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = yaguarete-5.0.3.war_com.soulgalore.jdbcmetrics.Driver_0_0
+2022-12-23 10:23:01,224 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 95) WFLYUT0022: Unregistered web context: '/YaguareteBE' from server 'default-server'
+2022-12-23 10:23:01,223 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/jdbc/Oracle1]
+2022-12-23 10:23:01,228 WARNING [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 95) Unexpected state during contextDestroyed: no ConfigManager instance in current ServletContext but one is expected to exist.
+2022-12-23 10:23:01,228 SEVERE [javax.faces] (ServerService Thread Pool -- 95) Unable to obtain InjectionProvider from init time FacesContext. Does this container implement the Mojarra Injection SPI?
+2022-12-23 10:23:01,228 SEVERE [javax.faces] (ServerService Thread Pool -- 95) Unable to call @PreDestroy annotated methods because no InjectionProvider can be found. Does this container implement the Mojarra Injection SPI?
+2022-12-23 10:23:01,231 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/jdbc/SQLServer1]
+2022-12-23 10:23:01,231 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2022-12-23 10:23:01,256 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/jdbc/SQLServer]
+2022-12-23 10:23:01,258 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = sqljdbc4.jar
+2022-12-23 10:23:01,261 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/jdbc/Oracle]
+2022-12-23 10:23:01,259 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0019: Host default-host stopping
+2022-12-23 10:23:01,262 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2022-12-23 10:23:01,266 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2022-12-23 10:23:01,272 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment sqljdbc4.jar (runtime-name: sqljdbc4.jar) in 62ms
+2022-12-23 10:23:01,349 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = ojdbc6-6.jar
+2022-12-23 10:23:01,353 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment ojdbc6-6.jar (runtime-name: ojdbc6-6.jar) in 139ms
+2022-12-23 10:23:01,353 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTP listener default suspending
+2022-12-23 10:23:01,353 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0008: Undertow HTTPS listener https suspending
+2022-12-23 10:23:01,354 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8445
+2022-12-23 10:23:01,354 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8081
+2022-12-23 10:23:01,356 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0004: Undertow 2.2.5.Final-redhat-00001 stopping
+2022-12-23 10:23:01,376 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment yaguaretebe-6.1.0 (runtime-name: yaguaretebe-6.1.0.war) in 162ms
+2022-12-23 10:23:01,392 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment yaguarete-5.0.3 (runtime-name: yaguarete-5.0.3.war) in 178ms
+2022-12-23 10:23:01,414 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 102) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2022-12-23 10:23:01,416 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 102) Stopping cache manager null on null
+2022-12-23 10:23:01,428 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: JBoss EAP 7.4.0.GA (WildFly Core 15.0.2.Final-redhat-00001) stopped in 207ms
+2022-12-23 14:56:57,486 INFO  [org.jboss.modules] (main) JBoss Modules version 1.11.0.Final-redhat-00001
+2022-12-23 14:56:57,998 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.12.Final-redhat-00001
+2022-12-23 14:56:58,024 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final-redhat-00001
+2022-12-23 14:56:58,155 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: JBoss EAP 7.4.0.GA (WildFly Core 15.0.2.Final-redhat-00001) starting
+2022-12-23 14:56:58,157 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	intellij.debug.agent = true
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/user/servidores/EAP-7.4.0/jboss-modules.jar:/home/user/installer/idea-IU-221.5921.22/plugins/java/lib/rt/debugger-agent.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /home/user/.sdkman/candidates/java/8.0.265-open/jre/lib/endorsed
+	java.ext.dirs = /home/user/.sdkman/candidates/java/8.0.265-open/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /home/user/.sdkman/candidates/java/8.0.265-open/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_265-b01
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_265
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.265-b01
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = /home/user/servidores/EAP-7.4.0
+	jboss.host.name = user01
+	jboss.modules.dir = /home/user/servidores/EAP-7.4.0/modules
+	jboss.modules.system.pkgs = com.intellij.rt
+	jboss.node.name = user01
+	jboss.qualified.host.name = user01
+	jboss.server.base.dir = /home/user/servidores/EAP-7.4.0/standalone
+	jboss.server.config.dir = /home/user/servidores/EAP-7.4.0/standalone/configuration
+	jboss.server.data.dir = /home/user/servidores/EAP-7.4.0/standalone/data
+	jboss.server.deploy.dir = /home/user/servidores/EAP-7.4.0/standalone/data/content
+	jboss.server.log.dir = /home/user/servidores/EAP-7.4.0/standalone/log
+	jboss.server.name = user01
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/user/servidores/EAP-7.4.0/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/user/servidores/EAP-7.4.0/standalone/configuration/logging.properties
+	module.path = /home/user/servidores/EAP-7.4.0/modules
+	org.jboss.boot.log.file = /home/user/servidores/EAP-7.4.0/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Linux
+	os.version = 5.15.0-56-generic
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /home/user/.sdkman/candidates/java/8.0.265-open/jre/lib/resources.jar:/home/user/.sdkman/candidates/java/8.0.265-open/jre/lib/rt.jar:/home/user/.sdkman/candidates/java/8.0.265-open/jre/lib/sunrsasign.jar:/home/user/.sdkman/candidates/java/8.0.265-open/jre/lib/jsse.jar:/home/user/.sdkman/candidates/java/8.0.265-open/jre/lib/jce.jar:/home/user/.sdkman/candidates/java/8.0.265-open/jre/lib/charsets.jar:/home/user/.sdkman/candidates/java/8.0.265-open/jre/lib/jfr.jar:/home/user/.sdkman/candidates/java/8.0.265-open/jre/classes:/home/user/installer/idea-IU-221.5921.22/plugins/java/lib/rt/debugger-agent.jar
+	sun.boot.library.path = /home/user/.sdkman/candidates/java/8.0.265-open/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/user/servidores/EAP-7.4.0/jboss-modules.jar -mp /home/user/servidores/EAP-7.4.0/modules org.jboss.as.standalone -Djboss.home.dir=/home/user/servidores/EAP-7.4.0 -Djboss.server.base.dir=/home/user/servidores/EAP-7.4.0/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /home/user/servidores/EAP-7.4.0/bin
+	user.home = /home/user
+	user.language = en
+	user.name = user
+	user.timezone = America/Asuncion
+2022-12-23 14:56:58,158 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -verbose:gc -Xloggc:/home/user/servidores/EAP-7.4.0/standalone/log/gc.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=5 -XX:GCLogFileSize=3M -XX:-TraceClassUnloading -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:34613,suspend=y,server=n -javaagent:/home/user/installer/idea-IU-221.5921.22/plugins/java/lib/rt/debugger-agent.jar -Dorg.jboss.boot.log.file=/home/user/servidores/EAP-7.4.0/standalone/log/server.log -Dlogging.configuration=file:/home/user/servidores/EAP-7.4.0/standalone/configuration/logging.properties 
+2022-12-23 14:56:58,958 INFO  [org.wildfly.security] (ServerService Thread Pool -- 24) ELY00001: WildFly Elytron version 1.15.3.Final-redhat-00001
+2022-12-23 14:56:59,213 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 13) WFLYCTL0033: Extension 'security' is deprecated and may not be supported in future versions
+2022-12-23 14:56:59,459 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2022-12-23 14:56:59,498 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 34) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2022-12-23 14:56:59,561 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2022-12-23 14:56:59,574 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.8.4.Final-redhat-00001
+2022-12-23 14:56:59,578 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.8.4.Final-redhat-00001
+2022-12-23 14:56:59,627 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 68) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2022-12-23 14:56:59,643 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 70) WFLYWS0002: Activating WebServices Extension
+2022-12-23 14:56:59,640 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 51) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2022-12-23 14:56:59,649 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 49) WFLYHEALTH0001: Activating Base Health Subsystem
+2022-12-23 14:56:59,654 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 66) WFLYSEC0002: Activating Security Subsystem
+2022-12-23 14:56:59,655 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 50) WFLYCLINF0001: Activating Infinispan subsystem.
+2022-12-23 14:56:59,661 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 52) WFLYRS0016: RESTEasy version 3.15.1.Final-redhat-00001
+2022-12-23 14:56:59,661 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 57) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2022-12-23 14:56:59,665 INFO  [org.jboss.as.security] (MSC service thread 1-4) WFLYSEC0001: Current PicketBox version=5.0.3.Final-redhat-00007
+2022-12-23 14:56:59,668 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 60) WFLYNAM0001: Activating Naming Subsystem
+2022-12-23 14:56:59,677 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.20.SP1-redhat-00001
+2022-12-23 14:56:59,690 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.4.30.Final-redhat-00001)
+2022-12-23 14:56:59,704 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 59) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2022-12-23 14:56:59,704 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 41) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2022-12-23 14:56:59,716 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = h2
+2022-12-23 14:56:59,727 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 2.2.5.Final-redhat-00001 starting
+2022-12-23 14:56:59,770 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
+2022-12-23 14:56:59,788 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2022-12-23 14:56:59,865 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2022-12-23 14:56:59,865 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2022-12-23 14:56:59,887 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0014: Creating file handler for path '/home/user/servidores/EAP-7.4.0/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2022-12-23 14:56:59,895 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2022-12-23 14:56:59,896 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) Queuing requests.
+2022-12-23 14:56:59,897 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host starting
+2022-12-23 14:57:00,165 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8081
+2022-12-23 14:57:00,238 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2022-12-23 14:57:00,295 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2022-12-23 14:57:00,328 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: JBoss EAP cumulative patch ID is: base, one-off patches include: none
+2022-12-23 14:57:00,356 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory /home/user/servidores/EAP-7.4.0/standalone/deployments
+2022-12-23 14:57:00,358 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "sqljdbc4.jar" (runtime-name: "sqljdbc4.jar")
+2022-12-23 14:57:00,359 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "ojdbc6-6.jar" (runtime-name: "ojdbc6-6.jar")
+2022-12-23 14:57:00,359 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "yaguarete-5.0.3" (runtime-name: "yaguarete-5.0.3.war")
+2022-12-23 14:57:00,359 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "yaguaretebe-6.1.0" (runtime-name: "yaguaretebe-6.1.0.war")
+2022-12-23 14:57:00,423 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8445
+2022-12-23 14:57:00,557 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 5.4.2.Final-redhat-00001 (Apache CXF 3.3.9.redhat-00001) 
+2022-12-23 14:57:01,150 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0004: Deploying JDBC-compliant driver class com.microsoft.sqlserver.jdbc.SQLServerDriver (version 3.0)
+2022-12-23 14:57:01,170 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = sqljdbc4.jar
+2022-12-23 14:57:01,174 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/jdbc/SQLServer1]
+2022-12-23 14:57:01,175 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/jdbc/SQLServer]
+2022-12-23 14:57:01,230 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0004: Deploying JDBC-compliant driver class oracle.jdbc.OracleDriver (version 11.2)
+2022-12-23 14:57:01,232 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = ojdbc6-6.jar
+2022-12-23 14:57:01,236 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/jdbc/Oracle]
+2022-12-23 14:57:01,237 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/jdbc/Oracle2]
+2022-12-23 14:57:01,237 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/jdbc/Oracle1]
+2022-12-23 14:57:01,799 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 72) ISPN000128: Infinispan version: Red Hat Data Grid 'Infinispan 11.0.9.Final-redhat-00001' 8.1.1.GA
+2022-12-23 14:57:01,880 INFO  [org.infinispan.CONFIG] (MSC service thread 1-4) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2022-12-23 14:57:01,882 INFO  [org.infinispan.CONFIG] (MSC service thread 1-4) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2022-12-23 14:57:02,064 INFO  [org.infinispan.PERSISTENCE] (ServerService Thread Pool -- 72) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2022-12-23 14:57:02,312 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 72) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2022-12-23 14:57:04,754 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry httpclient-4.2.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/httpservices-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,755 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry commons-logging-1.1.1.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/httpservices-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,755 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry commons-codec-1.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/httpservices-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,755 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry httpcore-4.2.5.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/httpservices-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,755 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry slf4j-api-1.7.7.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/httpservices-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,767 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry slf4j-api-1.7.5.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/jdbcmetrics-2.0.1.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,767 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry joda-time-2.2.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/udunits-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,770 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry httpclient-4.2.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,770 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry commons-logging-1.1.1.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,770 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry commons-codec-1.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,770 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry httpcore-4.2.5.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,770 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jcl-over-slf4j-1.7.7.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,770 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry joda-time-2.2.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,770 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry slf4j-api-1.7.7.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,771 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry ehcache-core-2.6.2.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,771 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry guava-17.0.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,771 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry commons-logging-1.1.1.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/junrar-0.7.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,771 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry plexus-utils-1.5.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/junrar-0.7.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,778 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry httpclient-4.2.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,778 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry commons-logging-1.1.1.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,779 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry commons-codec-1.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,779 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry httpcore-4.2.5.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,779 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jcl-over-slf4j-1.7.7.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,779 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry joda-time-2.2.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,779 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry ehcache-core-2.6.2.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,779 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry guava-17.0.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,779 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry slf4j-api-1.7.7.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,869 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry httpclient-4.2.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,870 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry commons-logging-1.1.1.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,870 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry commons-codec-1.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,870 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry httpcore-4.2.5.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,870 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jcl-over-slf4j-1.7.7.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,870 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry joda-time-2.2.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,870 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry ehcache-core-2.6.2.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,870 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry guava-17.0.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:04,870 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry slf4j-api-1.7.7.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:05,028 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxb-api.jar in /home/user/git/bbva/banca-web-be/target/yaguaretebe-6.1.0/WEB-INF/lib/jaxb-impl-2.2.3-1.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:05,028 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry activation.jar in /home/user/git/bbva/banca-web-be/target/yaguaretebe-6.1.0/WEB-INF/lib/jaxb-impl-2.2.3-1.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:05,028 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jsr173_1.0_api.jar in /home/user/git/bbva/banca-web-be/target/yaguaretebe-6.1.0/WEB-INF/lib/jaxb-impl-2.2.3-1.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:05,028 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxb1-impl.jar in /home/user/git/bbva/banca-web-be/target/yaguaretebe-6.1.0/WEB-INF/lib/jaxb-impl-2.2.3-1.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:05,039 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry slf4j-api-1.7.5.jar in /home/user/git/bbva/banca-web-be/target/yaguaretebe-6.1.0/WEB-INF/lib/jdbcmetrics-2.0.1.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:05,657 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: Not installing optional component com.codahale.metrics.servlet.AbstractInstrumentedFilter$AsyncResultListener due to an exception (enable DEBUG log level to see the cause)
+2022-12-23 14:57:05,660 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2022-12-23 14:57:05,661 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2022-12-23 14:57:05,709 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-6) WFLYRS0018: Explicit usage of Jackson annotation in a Jakarta RESTful Web Services deployment; the system will disable Jakarta JSON Binding processing for the current deployment. Consider setting the 'resteasy.preferJacksonOverJsonB' property to 'false' to restore Jakarta JSON Binding.
+2022-12-23 14:57:05,720 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0004: Deploying JDBC-compliant driver class com.microsoft.sqlserver.jdbc.SQLServerDriver (version 6.1)
+2022-12-23 14:57:05,742 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0004: Deploying JDBC-compliant driver class oracle.jdbc.OracleDriver (version 11.2)
+2022-12-23 14:57:05,745 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.soulgalore.jdbcmetrics.Driver (version 0.0)
+2022-12-23 14:57:05,747 WARN  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0003: Unable to instantiate driver class "org.olap4j.driver.xmla.XmlaOlap4jDriver": java.lang.NoSuchMethodException: org.olap4j.driver.xmla.XmlaOlap4jDriver.<init>()
+2022-12-23 14:57:05,773 WARN  [org.jboss.as.ee] (MSC service thread 1-7) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2022-12-23 14:57:05,773 WARN  [org.jboss.as.ee] (MSC service thread 1-7) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2022-12-23 14:57:05,778 WARN  [org.jboss.as.ee] (MSC service thread 1-7) WFLYEE0007: Not installing optional component com.codahale.metrics.servlet.AbstractInstrumentedFilter$AsyncResultListener due to an exception (enable DEBUG log level to see the cause)
+2022-12-23 14:57:05,779 WARN  [org.jboss.as.ee] (MSC service thread 1-7) WFLYEE0007: Not installing optional component org.apache.cxf.transport.http.Servlet3ContinuationProvider$Servlet3Continuation due to an exception (enable DEBUG log level to see the cause)
+2022-12-23 14:57:05,783 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = yaguaretebe-6.1.0.war_com.soulgalore.jdbcmetrics.Driver_0_0
+2022-12-23 14:57:05,783 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = yaguaretebe-6.1.0.war_com.microsoft.sqlserver.jdbc.SQLServerDriver_6_1
+2022-12-23 14:57:05,783 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = yaguaretebe-6.1.0.war
+2022-12-23 14:57:05,784 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = yaguaretebe-6.1.0.war_oracle.jdbc.OracleDriver_11_2
+2022-12-23 14:57:05,833 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-7) WFLYRS0018: Explicit usage of Jackson annotation in a Jakarta RESTful Web Services deployment; the system will disable Jakarta JSON Binding processing for the current deployment. Consider setting the 'resteasy.preferJacksonOverJsonB' property to 'false' to restore Jakarta JSON Binding.
+2022-12-23 14:57:05,836 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.soulgalore.jdbcmetrics.Driver (version 0.0)
+2022-12-23 14:57:05,852 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = yaguarete-5.0.3.war_com.soulgalore.jdbcmetrics.Driver_0_0
+2022-12-23 14:57:06,022 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 89) Initializing Mojarra 2.3.14.SP04 for context '/YaguareteBE'
+2022-12-23 14:57:06,059 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 74) Initializing Mojarra 2.3.14.SP04 for context '/empresas'
+2022-12-23 14:57:15,520 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 74) WFLYUT0021: Registered web context: '/empresas' for server 'default-server'
+2022-12-23 14:57:16,391 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 89) WFLYUT0021: Registered web context: '/YaguareteBE' for server 'default-server'
+2022-12-23 14:57:16,449 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "yaguaretebe-6.1.0" (runtime-name : "yaguaretebe-6.1.0.war")
+2022-12-23 14:57:16,449 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "yaguarete-5.0.3" (runtime-name : "yaguarete-5.0.3.war")
+2022-12-23 14:57:16,449 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "sqljdbc4.jar" (runtime-name : "sqljdbc4.jar")
+2022-12-23 14:57:16,449 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "ojdbc6-6.jar" (runtime-name : "ojdbc6-6.jar")
+2022-12-23 14:57:16,605 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2022-12-23 14:57:16,610 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.4.0.GA (WildFly Core 15.0.2.Final-redhat-00001) started in 19763ms - Started 1257 of 1462 services (364 services are lazy, passive or on-demand)
+2022-12-23 14:57:16,612 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2022-12-23 14:57:16,613 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2022-12-23 14:57:16,776 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = yaguarete-5.0.3.war_com.soulgalore.jdbcmetrics.Driver_0_0
+2022-12-23 14:57:16,780 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 89) WFLYUT0022: Unregistered web context: '/empresas' from server 'default-server'
+2022-12-23 14:57:16,798 WARNING [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 89) Unexpected state during contextDestroyed: no ConfigManager instance in current ServletContext but one is expected to exist.
+2022-12-23 14:57:16,798 SEVERE [javax.faces] (ServerService Thread Pool -- 89) Unable to obtain InjectionProvider from init time FacesContext. Does this container implement the Mojarra Injection SPI?
+2022-12-23 14:57:16,798 SEVERE [javax.faces] (ServerService Thread Pool -- 89) Unable to call @PreDestroy annotated methods because no InjectionProvider can be found. Does this container implement the Mojarra Injection SPI?
+2022-12-23 14:57:16,883 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment yaguarete-5.0.3 (runtime-name: yaguarete-5.0.3.war) in 109ms
+2022-12-23 14:57:16,947 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "yaguarete-5.0.3" (runtime-name: "yaguarete-5.0.3.war")
+2022-12-23 14:57:17,007 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "yaguarete-5.0.3" (runtime-name: "yaguarete-5.0.3.war")
+2022-12-23 14:57:19,879 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry httpclient-4.2.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/httpservices-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,880 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry commons-logging-1.1.1.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/httpservices-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,880 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry commons-codec-1.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/httpservices-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,880 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry httpcore-4.2.5.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/httpservices-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,880 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry slf4j-api-1.7.7.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/httpservices-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,890 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry slf4j-api-1.7.5.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/jdbcmetrics-2.0.1.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,890 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry joda-time-2.2.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/udunits-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,893 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry httpclient-4.2.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,893 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry commons-logging-1.1.1.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,893 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry commons-codec-1.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,893 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry httpcore-4.2.5.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,893 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry jcl-over-slf4j-1.7.7.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,893 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry joda-time-2.2.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,893 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry slf4j-api-1.7.7.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,893 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry ehcache-core-2.6.2.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,893 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry guava-17.0.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/cdm-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,893 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry commons-logging-1.1.1.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/junrar-0.7.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,893 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry plexus-utils-1.5.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/junrar-0.7.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,900 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry httpclient-4.2.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,900 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry commons-logging-1.1.1.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,900 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry commons-codec-1.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,900 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry httpcore-4.2.5.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,900 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry jcl-over-slf4j-1.7.7.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,900 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry joda-time-2.2.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,900 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry ehcache-core-2.6.2.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,900 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry guava-17.0.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,900 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry slf4j-api-1.7.7.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/netcdf4-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,987 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry httpclient-4.2.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,987 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry commons-logging-1.1.1.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,987 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry commons-codec-1.6.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,988 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry httpcore-4.2.5.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,988 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry jcl-over-slf4j-1.7.7.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,988 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry joda-time-2.2.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,988 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry ehcache-core-2.6.2.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,988 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry guava-17.0.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:19,988 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry slf4j-api-1.7.7.jar in /home/user/git/bbva/banca-web-front/war/target/yaguarete-5.0.3/WEB-INF/lib/grib-4.5.5.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:20,716 WARN  [org.jboss.as.ee] (MSC service thread 1-1) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2022-12-23 14:57:20,716 WARN  [org.jboss.as.ee] (MSC service thread 1-1) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2022-12-23 14:57:20,719 WARN  [org.jboss.as.ee] (MSC service thread 1-1) WFLYEE0007: Not installing optional component com.codahale.metrics.servlet.AbstractInstrumentedFilter$AsyncResultListener due to an exception (enable DEBUG log level to see the cause)
+2022-12-23 14:57:20,720 WARN  [org.jboss.as.ee] (MSC service thread 1-1) WFLYEE0007: Not installing optional component org.apache.cxf.transport.http.Servlet3ContinuationProvider$Servlet3Continuation due to an exception (enable DEBUG log level to see the cause)
+2022-12-23 14:57:20,753 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-1) WFLYRS0018: Explicit usage of Jackson annotation in a Jakarta RESTful Web Services deployment; the system will disable Jakarta JSON Binding processing for the current deployment. Consider setting the 'resteasy.preferJacksonOverJsonB' property to 'false' to restore Jakarta JSON Binding.
+2022-12-23 14:57:20,755 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.soulgalore.jdbcmetrics.Driver (version 0.0)
+2022-12-23 14:57:20,772 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = yaguarete-5.0.3.war_com.soulgalore.jdbcmetrics.Driver_0_0
+2022-12-23 14:57:20,901 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 13) Initializing Mojarra 2.3.14.SP04 for context '/empresas'
+2022-12-23 14:57:28,702 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 13) WFLYUT0021: Registered web context: '/empresas' for server 'default-server'
+2022-12-23 14:57:28,714 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "yaguarete-5.0.3" (runtime-name : "yaguarete-5.0.3.war")
+2022-12-23 14:57:28,743 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = yaguaretebe-6.1.0.war_com.soulgalore.jdbcmetrics.Driver_0_0
+2022-12-23 14:57:28,743 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = yaguaretebe-6.1.0.war
+2022-12-23 14:57:28,743 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = yaguaretebe-6.1.0.war_com.microsoft.sqlserver.jdbc.SQLServerDriver_6_1
+2022-12-23 14:57:28,744 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = yaguaretebe-6.1.0.war_oracle.jdbc.OracleDriver_11_2
+2022-12-23 14:57:28,744 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 13) WFLYUT0022: Unregistered web context: '/YaguareteBE' from server 'default-server'
+2022-12-23 14:57:28,748 WARNING [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 13) Unexpected state during contextDestroyed: no ConfigManager instance in current ServletContext but one is expected to exist.
+2022-12-23 14:57:28,748 SEVERE [javax.faces] (ServerService Thread Pool -- 13) Unable to obtain InjectionProvider from init time FacesContext. Does this container implement the Mojarra Injection SPI?
+2022-12-23 14:57:28,749 SEVERE [javax.faces] (ServerService Thread Pool -- 13) Unable to call @PreDestroy annotated methods because no InjectionProvider can be found. Does this container implement the Mojarra Injection SPI?
+2022-12-23 14:57:28,801 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment yaguaretebe-6.1.0 (runtime-name: yaguaretebe-6.1.0.war) in 58ms
+2022-12-23 14:57:28,813 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "yaguaretebe-6.1.0" (runtime-name: "yaguaretebe-6.1.0.war")
+2022-12-23 14:57:28,904 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "yaguaretebe-6.1.0" (runtime-name: "yaguaretebe-6.1.0.war")
+2022-12-23 14:57:32,049 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0059: Class Path entry jaxb-api.jar in /home/user/git/bbva/banca-web-be/target/yaguaretebe-6.1.0/WEB-INF/lib/jaxb-impl-2.2.3-1.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:32,050 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0059: Class Path entry activation.jar in /home/user/git/bbva/banca-web-be/target/yaguaretebe-6.1.0/WEB-INF/lib/jaxb-impl-2.2.3-1.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:32,050 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0059: Class Path entry jsr173_1.0_api.jar in /home/user/git/bbva/banca-web-be/target/yaguaretebe-6.1.0/WEB-INF/lib/jaxb-impl-2.2.3-1.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:32,050 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0059: Class Path entry jaxb1-impl.jar in /home/user/git/bbva/banca-web-be/target/yaguaretebe-6.1.0/WEB-INF/lib/jaxb-impl-2.2.3-1.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:32,058 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0059: Class Path entry slf4j-api-1.7.5.jar in /home/user/git/bbva/banca-web-be/target/yaguaretebe-6.1.0/WEB-INF/lib/jdbcmetrics-2.0.1.jar  does not point to a valid jar for a Class-Path reference.
+2022-12-23 14:57:32,453 WARN  [org.jboss.as.ee] (MSC service thread 1-7) WFLYEE0007: Not installing optional component com.codahale.metrics.servlet.AbstractInstrumentedFilter$AsyncResultListener due to an exception (enable DEBUG log level to see the cause)
+2022-12-23 14:57:32,454 WARN  [org.jboss.as.ee] (MSC service thread 1-7) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2022-12-23 14:57:32,454 WARN  [org.jboss.as.ee] (MSC service thread 1-7) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2022-12-23 14:57:32,465 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-7) WFLYRS0018: Explicit usage of Jackson annotation in a Jakarta RESTful Web Services deployment; the system will disable Jakarta JSON Binding processing for the current deployment. Consider setting the 'resteasy.preferJacksonOverJsonB' property to 'false' to restore Jakarta JSON Binding.
+2022-12-23 14:57:32,473 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0004: Deploying JDBC-compliant driver class com.microsoft.sqlserver.jdbc.SQLServerDriver (version 6.1)
+2022-12-23 14:57:32,494 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0004: Deploying JDBC-compliant driver class oracle.jdbc.OracleDriver (version 11.2)
+2022-12-23 14:57:32,495 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.soulgalore.jdbcmetrics.Driver (version 0.0)
+2022-12-23 14:57:32,497 WARN  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0003: Unable to instantiate driver class "org.olap4j.driver.xmla.XmlaOlap4jDriver": java.lang.NoSuchMethodException: org.olap4j.driver.xmla.XmlaOlap4jDriver.<init>()
+2022-12-23 14:57:32,510 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = yaguaretebe-6.1.0.war_com.soulgalore.jdbcmetrics.Driver_0_0
+2022-12-23 14:57:32,510 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = yaguaretebe-6.1.0.war_oracle.jdbc.OracleDriver_11_2
+2022-12-23 14:57:32,510 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = yaguaretebe-6.1.0.war
+2022-12-23 14:57:32,510 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = yaguaretebe-6.1.0.war_com.microsoft.sqlserver.jdbc.SQLServerDriver_6_1
+2022-12-23 14:57:32,526 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 66) Initializing Mojarra 2.3.14.SP04 for context '/YaguareteBE'
+2022-12-23 14:57:40,120 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 66) WFLYUT0021: Registered web context: '/YaguareteBE' for server 'default-server'
+2022-12-23 14:57:40,131 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "yaguaretebe-6.1.0" (runtime-name : "yaguaretebe-6.1.0.war")
+2022-12-23 16:33:22,820 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0272: Suspending server
+2022-12-23 16:33:22,826 INFO  [org.jboss.as.ejb3] (management-handler-thread - 3) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2022-12-23 16:33:22,835 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2022-12-23 16:33:22,843 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = yaguaretebe-6.1.0.war_com.soulgalore.jdbcmetrics.Driver_0_0
+2022-12-23 16:33:22,844 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = yaguaretebe-6.1.0.war
+2022-12-23 16:33:22,843 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = yaguaretebe-6.1.0.war_com.microsoft.sqlserver.jdbc.SQLServerDriver_6_1
+2022-12-23 16:33:22,843 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = yaguaretebe-6.1.0.war_oracle.jdbc.OracleDriver_11_2
+2022-12-23 16:33:22,844 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 66) WFLYUT0022: Unregistered web context: '/empresas' from server 'default-server'
+2022-12-23 16:33:22,845 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/jdbc/SQLServer1]
+2022-12-23 16:33:22,847 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 93) WFLYUT0022: Unregistered web context: '/YaguareteBE' from server 'default-server'
+2022-12-23 16:33:22,856 WARNING [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 93) Unexpected state during contextDestroyed: no ConfigManager instance in current ServletContext but one is expected to exist.
+2022-12-23 16:33:22,856 SEVERE [javax.faces] (ServerService Thread Pool -- 93) Unable to obtain InjectionProvider from init time FacesContext. Does this container implement the Mojarra Injection SPI?
+2022-12-23 16:33:22,857 SEVERE [javax.faces] (ServerService Thread Pool -- 93) Unable to call @PreDestroy annotated methods because no InjectionProvider can be found. Does this container implement the Mojarra Injection SPI?
+2022-12-23 16:33:22,857 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/jdbc/Oracle1]
+2022-12-23 16:33:22,859 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/jdbc/Oracle2]
+2022-12-23 16:33:22,862 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = yaguarete-5.0.3.war_com.soulgalore.jdbcmetrics.Driver_0_0
+2022-12-23 16:33:22,876 WARNING [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 66) Unexpected state during contextDestroyed: no ConfigManager instance in current ServletContext but one is expected to exist.
+2022-12-23 16:33:22,877 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2022-12-23 16:33:22,878 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/jdbc/SQLServer]
+2022-12-23 16:33:22,878 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/jdbc/Oracle]
+2022-12-23 16:33:22,883 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = sqljdbc4.jar
+2022-12-23 16:33:22,933 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment sqljdbc4.jar (runtime-name: sqljdbc4.jar) in 89ms
+2022-12-23 16:33:22,939 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2022-12-23 16:33:22,939 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2022-12-23 16:33:22,953 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0019: Host default-host stopping
+2022-12-23 16:33:22,953 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = ojdbc6-6.jar
+2022-12-23 16:33:22,958 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment ojdbc6-6.jar (runtime-name: ojdbc6-6.jar) in 96ms
+2022-12-23 16:33:22,960 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTPS listener https suspending
+2022-12-23 16:33:22,960 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTP listener default suspending
+2022-12-23 16:33:22,960 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8081
+2022-12-23 16:33:22,961 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8445
+2022-12-23 16:33:22,963 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0004: Undertow 2.2.5.Final-redhat-00001 stopping
+2022-12-23 16:33:23,026 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment yaguaretebe-6.1.0 (runtime-name: yaguaretebe-6.1.0.war) in 164ms
+2022-12-23 16:33:23,042 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment yaguarete-5.0.3 (runtime-name: yaguarete-5.0.3.war) in 179ms
+2022-12-23 16:33:23,087 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 102) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2022-12-23 16:33:23,090 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 102) Stopping cache manager null on null
+2022-12-23 16:33:23,098 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: JBoss EAP 7.4.0.GA (WildFly Core 15.0.2.Final-redhat-00001) stopped in 233ms

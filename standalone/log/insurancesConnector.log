@@ -1,0 +1,202 @@
+INFO  | 2023-01-10 15:16:07,658 | ServerService Thread Pool -- 3 | --- Configurando BancardTCWS ---
+INFO  | 2023-01-10 15:16:07,660 | ServerService Thread Pool -- 3 | user: 
+INFO  | 2023-01-10 15:16:07,660 | ServerService Thread Pool -- 3 | url: https://sbc.bancardnet.dom/acceso
+INFO  | 2023-01-10 15:16:07,660 | ServerService Thread Pool -- 3 | ws.pool.size: 150
+INFO  | 2023-01-10 15:16:07,660 | ServerService Thread Pool -- 3 | Servicios: 16
+INFO  | 2023-01-10 15:16:07,661 | ServerService Thread Pool -- 3 | CodEntidad: 7
+INFO  | 2023-01-10 15:16:07,661 | ServerService Thread Pool -- 3 |  - consultaSaldo
+INFO  | 2023-01-10 15:16:07,661 | ServerService Thread Pool -- 3 |  - extractoDia
+INFO  | 2023-01-10 15:16:07,661 | ServerService Thread Pool -- 3 |  - extractosAnteriores
+INFO  | 2023-01-10 15:16:07,661 | ServerService Thread Pool -- 3 |  - ciclosExtractosAnteriores
+INFO  | 2023-01-10 15:16:07,661 | ServerService Thread Pool -- 3 |  - transaccionesTc
+INFO  | 2023-01-10 15:16:07,661 | ServerService Thread Pool -- 3 |  - autorizaciones
+INFO  | 2023-01-10 15:16:07,662 | ServerService Thread Pool -- 3 |  - transaccionAdelanto
+INFO  | 2023-01-10 15:16:07,662 | ServerService Thread Pool -- 3 |  - cardinformerGetParams
+INFO  | 2023-01-10 15:16:07,662 | ServerService Thread Pool -- 3 |  - cardinformerSetParams
+INFO  | 2023-01-10 15:16:07,662 | ServerService Thread Pool -- 3 |  - cardinformerMovements
+INFO  | 2023-01-10 15:16:07,663 | ServerService Thread Pool -- 3 |  - debitCardDisable
+INFO  | 2023-01-10 15:16:07,663 | ServerService Thread Pool -- 3 |  - cardReprintDelivered
+INFO  | 2023-01-10 15:16:07,663 | ServerService Thread Pool -- 3 |  - debitCardActivation
+INFO  | 2023-01-10 15:16:07,663 | ServerService Thread Pool -- 3 |  - debitCardBin8Activation
+INFO  | 2023-01-10 15:16:07,663 | ServerService Thread Pool -- 3 |  - debitCardPinActivation
+INFO  | 2023-01-10 15:16:07,663 | ServerService Thread Pool -- 3 |  - debitCardPinActivation
+INFO  | 2023-01-10 15:16:07,663 | ServerService Thread Pool -- 3 | --- ------------ ----------- ---
+INFO  | 2023-01-10 15:20:27,230 | ServerService Thread Pool -- 8 | --- Configurando BancardTCWS ---
+INFO  | 2023-01-10 15:20:27,232 | ServerService Thread Pool -- 8 | user: 
+INFO  | 2023-01-10 15:20:27,232 | ServerService Thread Pool -- 8 | url: https://sbc.bancardnet.dom/acceso
+INFO  | 2023-01-10 15:20:27,232 | ServerService Thread Pool -- 8 | ws.pool.size: 150
+INFO  | 2023-01-10 15:20:27,232 | ServerService Thread Pool -- 8 | Servicios: 16
+INFO  | 2023-01-10 15:20:27,233 | ServerService Thread Pool -- 8 | CodEntidad: 7
+INFO  | 2023-01-10 15:20:27,233 | ServerService Thread Pool -- 8 |  - consultaSaldo
+INFO  | 2023-01-10 15:20:27,233 | ServerService Thread Pool -- 8 |  - extractoDia
+INFO  | 2023-01-10 15:20:27,233 | ServerService Thread Pool -- 8 |  - extractosAnteriores
+INFO  | 2023-01-10 15:20:27,233 | ServerService Thread Pool -- 8 |  - ciclosExtractosAnteriores
+INFO  | 2023-01-10 15:20:27,233 | ServerService Thread Pool -- 8 |  - transaccionesTc
+INFO  | 2023-01-10 15:20:27,233 | ServerService Thread Pool -- 8 |  - autorizaciones
+INFO  | 2023-01-10 15:20:27,233 | ServerService Thread Pool -- 8 |  - transaccionAdelanto
+INFO  | 2023-01-10 15:20:27,234 | ServerService Thread Pool -- 8 |  - cardinformerGetParams
+INFO  | 2023-01-10 15:20:27,234 | ServerService Thread Pool -- 8 |  - cardinformerSetParams
+INFO  | 2023-01-10 15:20:27,234 | ServerService Thread Pool -- 8 |  - cardinformerMovements
+INFO  | 2023-01-10 15:20:27,235 | ServerService Thread Pool -- 8 |  - debitCardDisable
+INFO  | 2023-01-10 15:20:27,235 | ServerService Thread Pool -- 8 |  - cardReprintDelivered
+INFO  | 2023-01-10 15:20:27,235 | ServerService Thread Pool -- 8 |  - debitCardActivation
+INFO  | 2023-01-10 15:20:27,235 | ServerService Thread Pool -- 8 |  - debitCardBin8Activation
+INFO  | 2023-01-10 15:20:27,235 | ServerService Thread Pool -- 8 |  - debitCardPinActivation
+INFO  | 2023-01-10 15:20:27,235 | ServerService Thread Pool -- 8 |  - debitCardPinActivation
+INFO  | 2023-01-10 15:20:27,236 | ServerService Thread Pool -- 8 | --- ------------ ----------- ---
+INFO  | 2023-01-10 15:32:16,167 | ServerService Thread Pool -- 24 | --- Configurando BancardTCWS ---
+INFO  | 2023-01-10 15:32:16,168 | ServerService Thread Pool -- 24 | user: 
+INFO  | 2023-01-10 15:32:16,169 | ServerService Thread Pool -- 24 | url: https://sbc.bancardnet.dom/acceso
+INFO  | 2023-01-10 15:32:16,169 | ServerService Thread Pool -- 24 | ws.pool.size: 150
+INFO  | 2023-01-10 15:32:16,169 | ServerService Thread Pool -- 24 | Servicios: 16
+INFO  | 2023-01-10 15:32:16,169 | ServerService Thread Pool -- 24 | CodEntidad: 7
+INFO  | 2023-01-10 15:32:16,169 | ServerService Thread Pool -- 24 |  - consultaSaldo
+INFO  | 2023-01-10 15:32:16,169 | ServerService Thread Pool -- 24 |  - extractoDia
+INFO  | 2023-01-10 15:32:16,169 | ServerService Thread Pool -- 24 |  - extractosAnteriores
+INFO  | 2023-01-10 15:32:16,169 | ServerService Thread Pool -- 24 |  - ciclosExtractosAnteriores
+INFO  | 2023-01-10 15:32:16,170 | ServerService Thread Pool -- 24 |  - transaccionesTc
+INFO  | 2023-01-10 15:32:16,170 | ServerService Thread Pool -- 24 |  - autorizaciones
+INFO  | 2023-01-10 15:32:16,170 | ServerService Thread Pool -- 24 |  - transaccionAdelanto
+INFO  | 2023-01-10 15:32:16,170 | ServerService Thread Pool -- 24 |  - cardinformerGetParams
+INFO  | 2023-01-10 15:32:16,170 | ServerService Thread Pool -- 24 |  - cardinformerSetParams
+INFO  | 2023-01-10 15:32:16,170 | ServerService Thread Pool -- 24 |  - cardinformerMovements
+INFO  | 2023-01-10 15:32:16,171 | ServerService Thread Pool -- 24 |  - debitCardDisable
+INFO  | 2023-01-10 15:32:16,171 | ServerService Thread Pool -- 24 |  - cardReprintDelivered
+INFO  | 2023-01-10 15:32:16,171 | ServerService Thread Pool -- 24 |  - debitCardActivation
+INFO  | 2023-01-10 15:32:16,171 | ServerService Thread Pool -- 24 |  - debitCardBin8Activation
+INFO  | 2023-01-10 15:32:16,171 | ServerService Thread Pool -- 24 |  - debitCardPinActivation
+INFO  | 2023-01-10 15:32:16,171 | ServerService Thread Pool -- 24 |  - debitCardPinActivation
+INFO  | 2023-01-10 15:32:16,171 | ServerService Thread Pool -- 24 | --- ------------ ----------- ---
+INFO  | 2023-01-10 15:40:54,388 | ServerService Thread Pool -- 28 | --- Configurando BancardTCWS ---
+INFO  | 2023-01-10 15:40:54,389 | ServerService Thread Pool -- 28 | user: 
+INFO  | 2023-01-10 15:40:54,389 | ServerService Thread Pool -- 28 | url: https://sbc.bancardnet.dom/acceso
+INFO  | 2023-01-10 15:40:54,390 | ServerService Thread Pool -- 28 | ws.pool.size: 150
+INFO  | 2023-01-10 15:40:54,390 | ServerService Thread Pool -- 28 | Servicios: 16
+INFO  | 2023-01-10 15:40:54,390 | ServerService Thread Pool -- 28 | CodEntidad: 7
+INFO  | 2023-01-10 15:40:54,390 | ServerService Thread Pool -- 28 |  - consultaSaldo
+INFO  | 2023-01-10 15:40:54,390 | ServerService Thread Pool -- 28 |  - extractoDia
+INFO  | 2023-01-10 15:40:54,390 | ServerService Thread Pool -- 28 |  - extractosAnteriores
+INFO  | 2023-01-10 15:40:54,391 | ServerService Thread Pool -- 28 |  - ciclosExtractosAnteriores
+INFO  | 2023-01-10 15:40:54,391 | ServerService Thread Pool -- 28 |  - transaccionesTc
+INFO  | 2023-01-10 15:40:54,391 | ServerService Thread Pool -- 28 |  - autorizaciones
+INFO  | 2023-01-10 15:40:54,391 | ServerService Thread Pool -- 28 |  - transaccionAdelanto
+INFO  | 2023-01-10 15:40:54,391 | ServerService Thread Pool -- 28 |  - cardinformerGetParams
+INFO  | 2023-01-10 15:40:54,392 | ServerService Thread Pool -- 28 |  - cardinformerSetParams
+INFO  | 2023-01-10 15:40:54,392 | ServerService Thread Pool -- 28 |  - cardinformerMovements
+INFO  | 2023-01-10 15:40:54,393 | ServerService Thread Pool -- 28 |  - debitCardDisable
+INFO  | 2023-01-10 15:40:54,393 | ServerService Thread Pool -- 28 |  - cardReprintDelivered
+INFO  | 2023-01-10 15:40:54,394 | ServerService Thread Pool -- 28 |  - debitCardActivation
+INFO  | 2023-01-10 15:40:54,394 | ServerService Thread Pool -- 28 |  - debitCardBin8Activation
+INFO  | 2023-01-10 15:40:54,394 | ServerService Thread Pool -- 28 |  - debitCardPinActivation
+INFO  | 2023-01-10 15:40:54,394 | ServerService Thread Pool -- 28 |  - debitCardPinActivation
+INFO  | 2023-01-10 15:40:54,394 | ServerService Thread Pool -- 28 | --- ------------ ----------- ---
+ERROR | 2023-01-10 15:44:15,836 |       default task-6 | RouteExecutorManager.executeRoute error: 
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.roshka.raf.route.RouteExecutorManager.executeRoute(RouteExecutorManager.java:31)
+	at com.roshka.raf.RouteServlet.processRoute(RouteServlet.java:128)
+	at com.roshka.raf.RouteServlet.doPost(RouteServlet.java:179)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:523)
+	at com.roshka.raf.servlet.CustomServlet.service(CustomServlet.java:22)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at py.com.bbva.yaguarete.filter.YaguareteBEFilter.doFilter(YaguareteBEFilter.java:91)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:117)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.servlet.handlers.SendErrorPageHandler.handleRequest(SendErrorPageHandler.java:52)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:387)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:841)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1280)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: py.com.bbva.yaguarete.exception.YaguareteServiceException: Invalid destination account
+	at py.com.bbva.yaguarete.command.TransferServices.getAccountTransferToThird(TransferServices.java:351)
+	... 59 more
+INFO  | 2023-01-10 15:51:07,039 | ServerService Thread Pool -- 10 | --- Configurando BancardTCWS ---
+INFO  | 2023-01-10 15:51:07,041 | ServerService Thread Pool -- 10 | user: 
+INFO  | 2023-01-10 15:51:07,041 | ServerService Thread Pool -- 10 | url: https://sbc.bancardnet.dom/acceso
+INFO  | 2023-01-10 15:51:07,042 | ServerService Thread Pool -- 10 | ws.pool.size: 150
+INFO  | 2023-01-10 15:51:07,042 | ServerService Thread Pool -- 10 | Servicios: 16
+INFO  | 2023-01-10 15:51:07,042 | ServerService Thread Pool -- 10 | CodEntidad: 7
+INFO  | 2023-01-10 15:51:07,042 | ServerService Thread Pool -- 10 |  - consultaSaldo
+INFO  | 2023-01-10 15:51:07,042 | ServerService Thread Pool -- 10 |  - extractoDia
+INFO  | 2023-01-10 15:51:07,043 | ServerService Thread Pool -- 10 |  - extractosAnteriores
+INFO  | 2023-01-10 15:51:07,043 | ServerService Thread Pool -- 10 |  - ciclosExtractosAnteriores
+INFO  | 2023-01-10 15:51:07,043 | ServerService Thread Pool -- 10 |  - transaccionesTc
+INFO  | 2023-01-10 15:51:07,043 | ServerService Thread Pool -- 10 |  - autorizaciones
+INFO  | 2023-01-10 15:51:07,043 | ServerService Thread Pool -- 10 |  - transaccionAdelanto
+INFO  | 2023-01-10 15:51:07,044 | ServerService Thread Pool -- 10 |  - cardinformerGetParams
+INFO  | 2023-01-10 15:51:07,044 | ServerService Thread Pool -- 10 |  - cardinformerSetParams
+INFO  | 2023-01-10 15:51:07,044 | ServerService Thread Pool -- 10 |  - cardinformerMovements
+INFO  | 2023-01-10 15:51:07,045 | ServerService Thread Pool -- 10 |  - debitCardDisable
+INFO  | 2023-01-10 15:51:07,046 | ServerService Thread Pool -- 10 |  - cardReprintDelivered
+INFO  | 2023-01-10 15:51:07,046 | ServerService Thread Pool -- 10 |  - debitCardActivation
+INFO  | 2023-01-10 15:51:07,046 | ServerService Thread Pool -- 10 |  - debitCardBin8Activation
+INFO  | 2023-01-10 15:51:07,046 | ServerService Thread Pool -- 10 |  - debitCardPinActivation
+INFO  | 2023-01-10 15:51:07,046 | ServerService Thread Pool -- 10 |  - debitCardPinActivation
+INFO  | 2023-01-10 15:51:07,047 | ServerService Thread Pool -- 10 | --- ------------ ----------- ---
+INFO  | 2023-01-10 16:15:18,684 | ServerService Thread Pool -- 26 | --- Configurando BancardTCWS ---
+INFO  | 2023-01-10 16:15:18,693 | ServerService Thread Pool -- 26 | user: 
+INFO  | 2023-01-10 16:15:18,693 | ServerService Thread Pool -- 26 | url: https://sbc.bancardnet.dom/acceso
+INFO  | 2023-01-10 16:15:18,693 | ServerService Thread Pool -- 26 | ws.pool.size: 150
+INFO  | 2023-01-10 16:15:18,693 | ServerService Thread Pool -- 26 | Servicios: 16
+INFO  | 2023-01-10 16:15:18,694 | ServerService Thread Pool -- 26 | CodEntidad: 7
+INFO  | 2023-01-10 16:15:18,694 | ServerService Thread Pool -- 26 |  - consultaSaldo
+INFO  | 2023-01-10 16:15:18,694 | ServerService Thread Pool -- 26 |  - extractoDia
+INFO  | 2023-01-10 16:15:18,694 | ServerService Thread Pool -- 26 |  - extractosAnteriores
+INFO  | 2023-01-10 16:15:18,694 | ServerService Thread Pool -- 26 |  - ciclosExtractosAnteriores
+INFO  | 2023-01-10 16:15:18,694 | ServerService Thread Pool -- 26 |  - transaccionesTc
+INFO  | 2023-01-10 16:15:18,695 | ServerService Thread Pool -- 26 |  - autorizaciones
+INFO  | 2023-01-10 16:15:18,695 | ServerService Thread Pool -- 26 |  - transaccionAdelanto
+INFO  | 2023-01-10 16:15:18,695 | ServerService Thread Pool -- 26 |  - cardinformerGetParams
+INFO  | 2023-01-10 16:15:18,695 | ServerService Thread Pool -- 26 |  - cardinformerSetParams
+INFO  | 2023-01-10 16:15:18,695 | ServerService Thread Pool -- 26 |  - cardinformerMovements
+INFO  | 2023-01-10 16:15:18,696 | ServerService Thread Pool -- 26 |  - debitCardDisable
+INFO  | 2023-01-10 16:15:18,696 | ServerService Thread Pool -- 26 |  - cardReprintDelivered
+INFO  | 2023-01-10 16:15:18,696 | ServerService Thread Pool -- 26 |  - debitCardActivation
+INFO  | 2023-01-10 16:15:18,697 | ServerService Thread Pool -- 26 |  - debitCardBin8Activation
+INFO  | 2023-01-10 16:15:18,697 | ServerService Thread Pool -- 26 |  - debitCardPinActivation
+INFO  | 2023-01-10 16:15:18,697 | ServerService Thread Pool -- 26 |  - debitCardPinActivation
+INFO  | 2023-01-10 16:15:18,697 | ServerService Thread Pool -- 26 | --- ------------ ----------- ---

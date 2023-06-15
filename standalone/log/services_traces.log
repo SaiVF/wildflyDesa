@@ -1,0 +1,67 @@
+15/06/23 10:35:31 || INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+15/06/23 10:35:31 || INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:259 - Response frin new HTTPResponse: <string>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCEMpvi4pOKLQMUF8EMnxSygirCYAAanjHwF744srUyg4CH9rKjHRgnhsS7jVvQauCTYfogQv2KBVW7jI/g9SvCVaKNhfw8s7i6TTHkPjB1C19qL1M3kMBgb5QfRzZhiDI4GLms+IumJ2vxUgtZO393AMC5eojQe+ERErt/IxYOSQIDAQAB</string>
+15/06/23 10:43:21 || INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:404 - Building post method to URI http://localhost:8081/YaguareteBE/api/auth/login.xml
+15/06/23 10:43:21 || INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+15/06/23 10:43:21 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authCompanyData,value=
+15/06/23 10:43:21 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authCompanyDataType,value=D
+15/06/23 10:43:21 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authData,value=503646
+15/06/23 10:43:21 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceOs,value=WINDOWS
+15/06/23 10:43:21 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=passwordAuth,value=ePK58fFJa9L5n4OGe1lZdjItPV6jJelwsCwQ1JjnUlROkFEEAMoW8Ljbh4Nnb26RURiDGtckysVaeGHixGRVNrx7c0xKwku74gs/MIaRB7GK9txdzgQjej94oQ3jDMF63a+QTraZnXghLqlIEuMfquLp/BBtqtdqCxD7VyEMdaw=
+15/06/23 10:43:21 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authDataType,value=D
+15/06/23 10:43:21 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceOsVersion,value=Windows NT 10.0 Win64 x64
+15/06/23 10:43:21 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=clientVersion,value=1.0.0
+15/06/23 10:43:21 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceId,value=3f0f1298-7bba-40ca-8484-885848549d90
+15/06/23 10:43:21 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authVersion,value=1.0.0
+15/06/23 10:43:21 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=clientType,value=WEB
+15/06/23 10:43:21 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=tstamp,value=1686840201296
+15/06/23 10:43:21 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceModel,value=114
+15/06/23 10:43:21 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=ssign,value=fa48a785f25e7e612dd751b9ab344414492a0c8b
+15/06/23 10:43:21 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authCustomerType,value=AUTH_COMPANY
+15/06/23 10:43:21 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceBrand,value=Chrome
+15/06/23 10:43:38 || INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:441 - Response: <list>
+  <error>
+    <severity>ERROR</severity>
+    <code>raf000</code>
+    <technicalDescription>Unexpected Exception: null</technicalDescription>
+    <alertDescription>Unexpected Exception: null</alertDescription>
+    <customerDescription>Unexpected Exception: null</customerDescription>
+    <httpStatus>0</httpStatus>
+  </error>
+</list>
+15/06/23 10:43:47 || INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:404 - Building post method to URI http://localhost:8081/YaguareteBE/api/auth/login.xml
+15/06/23 10:43:47 || INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+15/06/23 10:43:47 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authCompanyData,value=
+15/06/23 10:43:47 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authCompanyDataType,value=D
+15/06/23 10:43:47 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authData,value=503646
+15/06/23 10:43:47 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceOs,value=WINDOWS
+15/06/23 10:43:47 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=passwordAuth,value=NBxg/hkG1xNQkBJFR8GwCZQTvYhZ10LtEdM7Hdxx2YYgU/IpE4q5EneQaglhWHCNbX9TatgBFUFiyJG6bivcV9V6Fcfkg8Dl8hGwTMVxLfrM48slsicIwKvhw2e79sAph8TFw1hYDS4x1wXPDxnO4NImgkxbx+r+en+BgjRT1Uo=
+15/06/23 10:43:47 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authDataType,value=D
+15/06/23 10:43:47 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceOsVersion,value=Windows NT 10.0 Win64 x64
+15/06/23 10:43:47 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=clientVersion,value=1.0.0
+15/06/23 10:43:47 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceId,value=3f0f1298-7bba-40ca-8484-885848549d90
+15/06/23 10:43:47 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authVersion,value=1.0.0
+15/06/23 10:43:47 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=clientType,value=WEB
+15/06/23 10:43:47 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=tstamp,value=1686840227507
+15/06/23 10:43:47 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceModel,value=114
+15/06/23 10:43:47 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=ssign,value=f8291cb478c3d285a52c648e6e2086724030316c
+15/06/23 10:43:47 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authCustomerType,value=AUTH_COMPANY
+15/06/23 10:43:47 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceBrand,value=Chrome
+15/06/23 10:43:53 || INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+15/06/23 10:43:53 || INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:259 - Response frin new HTTPResponse: <string>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCEMpvi4pOKLQMUF8EMnxSygirCYAAanjHwF744srUyg4CH9rKjHRgnhsS7jVvQauCTYfogQv2KBVW7jI/g9SvCVaKNhfw8s7i6TTHkPjB1C19qL1M3kMBgb5QfRzZhiDI4GLms+IumJ2vxUgtZO393AMC5eojQe+ERErt/IxYOSQIDAQAB</string>
+15/06/23 10:44:02 || INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:441 - Response: <list>
+  <error>
+    <severity>ERROR</severity>
+    <code>raf000</code>
+    <technicalDescription>Unexpected Exception: null</technicalDescription>
+    <alertDescription>Unexpected Exception: null</alertDescription>
+    <customerDescription>Unexpected Exception: null</customerDescription>
+    <httpStatus>0</httpStatus>
+  </error>
+</list>
+15/06/23 10:50:25 || INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+15/06/23 10:50:48 || INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+15/06/23 10:51:48 || INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+15/06/23 11:06:11 || INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+15/06/23 11:06:12 || INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+15/06/23 11:07:21 || INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+15/06/23 14:29:39 || INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters

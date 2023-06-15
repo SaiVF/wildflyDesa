@@ -1,0 +1,48 @@
+#Aplication properties
+#backend.serverAddress=http://192.168.251.13:9080/YaguareteBE/api
+#backend.serverAddress=https://www.bbva.com.py/YaguareteBE/api
+#backend.serverAddress=http://api.bbva.com.py:9080/YaguareteBE/api
+backend.serverAddress=http://localhost:8082/YaguareteBE/api
+
+is.development=false
+
+backend.connectionTimeout=5000
+backend.responseFormat=xml
+
+#Login properties
+login.authVersion=1.0.0
+login.clientVersion=1.0.0
+login.clientType=WEB
+
+login.clientSecret=abcd
+login.md5PasswordEncript=true
+
+#Captcha properties
+captcha.image.width=184
+captcha.image.height=51
+captcha.image.noise=0
+captcha.image.background=true
+captcha.image.gimp=true
+captcha.size=4
+captcha.chars=abcdefghjkmnpqrstuvwxyz23456789
+
+# Session properties
+# session.timeout this is how long (in minutes) is the maximum inactivity time to log the user out
+# session.timeout.warning this is how long (in minutes) the user has to be inactive in order to show him a warning dialog
+# session.timeout.checkRate this is (in minutes) the interval of time that the browser will wait before asking the server about the idle status
+session.timeout=20
+session.timeout.warning=19
+session.timeout.checkRate=1
+session.timeout.retries=3
+session.deviceid.expire=2592000
+
+tirica.apiKey=
+tirica.responseFormat=json
+tirica.comexRecipient=bbvapy.comex@bbva.com
+tirica.asistRecipient=contactos.py@bbva.com
+tirica.contactoRecipient=sugerenciasdecalidad.py.group@bbva.com
+# UA analitics produccion, borrar en desarrollo
+yaguarete.analitycs=
+yaguarete.catalyst=
+
+fb.pixel.id=

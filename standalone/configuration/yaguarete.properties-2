@@ -1,0 +1,119 @@
+# Application configuration properties that are not server specific
+#site.public=https://www.bancognb.com.py/public/
+#tirica.serverAddress=https://www.bancognb.com.py/public/
+#site.public=http://localhost:8080/public/
+#site.public=http://localhost:8081/empresas/home?doc=80004567-3&tipo=E
+#tirica.serverAddress=http://localhost:8080/public/
+
+site.public=http://localhost:8082/ueno/home
+tirica.serverAddress=http://localhost:8082/public/
+empresa.url=http://localhost:8082/ueno/home
+persona.url=http://localhost:8082/ueno/homePersonas
+
+branch.map.api.url=https\://maps.googleapis.com/maps/api/js?sensor=false&callback=initMap
+
+auth.login.url=/login
+auth.logout.url=/logout
+
+security.token.csrf=X-Csrf-Token
+
+globalposition.tables.maxitems=5
+loans.pendingfees.maxitems=4
+checkbook.maxitems=2
+carousel.promotions.maxitems=10
+
+pagination.size=10
+
+# Maximum upload file size (in bits). -1 indicates no limit
+file.maxfilesize=1048576
+file.maxnumberoffiles=3
+file.maxconcurrentuploads=3
+file.internationalTransfermaxSize=5242880
+
+# account coding
+hashCode.secret=
+
+# cache time to live in seconds
+cache.properties.time.to.live.branches=2000
+cache.properties.time.to.live.globalposition=10
+cache.properties.time.to.live.other=180
+
+# cache time promotions in seconds, production value = 3600
+cache.manager.promotions=3600
+
+promotions.cache.enabled=true
+promotions.cache.location=cachedPromotions
+
+pronet_iframe_id=5
+pronet_iframe_us=bbva
+pronet_iframe_ps=
+pronet_iframe_url=https://seguro.aquipago.com.py/pagosWeb/servpagos.php
+
+everilion.application.url=https://www.futbolnonstop.com/custom/bbva.mul/Web/BBVAMULLogin.aspx?utm_source=BBVA-Paraguay&utm_medium=Banner&utm_campaign=Enlace_Vuelta_BBVA-Paraguay
+
+#pinpad bancard produccion
+key.easy.bancard.pinpad.url=https://pinpad.infonet.com.py/vpinpad/#
+
+#canje de puntos
+beneficios.client=
+beneficios.url=https://www.beneficiosbancognb.com.py/experience/
+
+#pinpad bancard desarrollo
+#key.easy.bancard.pinpad.url=https://temp.bancard.com.py:2443/vpinpad/#
+
+#Parametros necesarios para obtener la cantidad de extractos disponibilizados
+dms.closing_dates.max=12
+statements.closing_dates.max=11
+
+#info prepaga mastercard
+#prepaga.card.public.site.url=https://www.bancognb.com.py/tarjeta-prepaga.jsp
+prepaga.card.public.site.url=https://localhost:8080/tarjeta-prepaga.jsp
+opinator.opi.name=web-desconexion-pa
+
+#propiedad analitica
+yaguarete.catalyst=https://assets.adobedtm.com/ca7a0b31ee61/da3b97dbd17f/launch-f90abff0f7d4.min.js
+
+# url para logos en lista de pagos de servicios
+#servicepayment.logo.base.url=https://www.bancognb.com.py/cdn/servicios/
+servicepayment.logo.base.url=http://localhost:8080/cdn/servicios/
+
+# Cambio de marca 2021-2022
+# regristro.marca - deprecado desde fusion 2022
+registro.marca=
+registro.marca.corto=
+registro.marca.linea=417 6000&nbsp;
+#dominio=www.bancognb.com.py
+dominio=localhost:8081
+
+# dominio.href - Cadena utilizada tags <a/> que deban hacer referencia al dominio de la web publica y privada.
+#dominio.href=https://www.bancognb.com.py
+dominio.href=http://localhost:8081
+
+# URLs a redes sociales
+red.social.whatsapp=https://wa.me/595214176000
+red.social.facebook=https://www.facebook.com/BancoGNB
+red.social.twitter=https://twitter.com/BancoGNB
+red.social.instagram=https://www.instagram.com/bancognb
+
+# API Key de cliente Yaguarete utilizado en solicitudes a yaguareteBE donde se requiere identificar al sistema cliente
+yaguarete.apiKey=
+
+
+
+#pago servicio
+ps.api.key=be680de3871ca8e263ad@80794a57-e0c1-4a2b-b351-7b95bf2e706b@9fc77f64c26c30b4eff4
+ps.token=fbb811863d3b6b34ee2a@3e6a8f64-3c7c-4d64-b519-bca0fa54e922@ed4b52b1cbcb3aba8746
+ps.url=http://192.168.40.82:1300/pago-servicios-fielco/
+#ps.url=http://localhost:8080/pago-servicios-fielco/
+yaguaretebe.url=http://localhost:8081/YaguareteBE/api/
+
+
+#ps.api.key=be680de3871ca8e263ad@80794a57-e0c1-4a2b-b351-7b95bf2e706b@9fc77f64c26c30b4eff4
+#ps.token=fbb811863d3b6b34ee2a@3e6a8f64-3c7c-4d64-b519-bca0fa54e922@ed4b52b1cbcb3aba8746
+#ps.url=http://192.168.40.82:1300/pago-servicios-fielco/
+#ps.url=http://localhost:8080/pago-servicios-fielco/
+#yaguaretebe.url=http://localhost:8081/YaguareteBE/api/
+
+shared.secret=
+public.key=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCEMpvi4pOKLQMUF8EMnxSygirCYAAanjHwF744srUyg4CH9rKjHRgnhsS7jVvQauCTYfogQv2KBVW7jI/g9SvCVaKNhfw8s7i6TTHkPjB1C19qL1M3kMBgb5QfRzZhiDI4GLms+IumJ2vxUgtZO393AMC5eojQe+ERErt/IxYOSQIDAQAB
+private.key=MIICdQIBADANBgkqhkiG9w0BAQEFAASCAl8wggJbAgEAAoGBAIQym+Lik4otAxQXwQyfFLKCKsJgABqeMfAXvjiytTKDgIf2sqMdGCeGxLuNW9Bq4JNh+iBC/YoFVbuMj+D1K8JVoo2F/DyzuLpNMeQ+MHULX2ovUzeQwGBvlB9HNmGIMjgYuaz4i6Yna/FSC1k7f3cAwLl6iNB74RESu38jFg5JAgMBAAECgYArqkfBPlO7bTi6F0qFr7n3aHVVNL50DFK0WjNTqPuezr7SqhLBO+fxjltHE98CzXqWU+N5aocyYqa5xyjzBihIkqRqW1XM01SipIPsQ5Hxxchl7haki5cJQKR5BdoH0bd4/bbwNI4lQM3oKVA8KFbDdxhW40GoqXVbFMyJO0cl8QJBANOs86Jw8k2V5iBjo9Qy6P8R8WnGKg3dE+lVgPjWQZQOr86H0C3+tej9NkhFMcAZcJjLIrdL6fjgusNIbsLguD0CQQCf4S1sMWwK8Hw+/NBL7QuqvDD4NRIe5yr9RBL9mjr9vPfIxUOgFCwhxqV5/80Nf9T5fm3cYrWiC298f+spRYL9AkB1JoBEg/wmYnLVtC+krnRzTsvsfYci2xs9BVx226W5upMkW9gkzJaDFzjmsJ0DM1E0zyAsj/AzFLVohPsAEf0FAkBgO3JSuCC3KO8wHo3l1YV7PBEhpRgGH9CBZzMjEG1HgzGF2C6PMPUrU10Q5MZwxKvVjKLlz0hShB2Ty48pZVylAkAWgWS3HsryuODocX3LvxZZncL85yMtXPm6efXfmYb9JYq1oD1oH2xI33NdEJR+ORF7ZfE+Mx4llIdmgvujagQv

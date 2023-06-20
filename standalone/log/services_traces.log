@@ -65,3 +65,2300 @@
 15/06/23 11:06:12 || INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
 15/06/23 11:07:21 || INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
 15/06/23 14:29:39 || INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+15/06/23 16:37:26 || INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+15/06/23 16:40:33 || INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+15/06/23 16:41:51 || INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+15/06/23 16:42:14 || INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+15/06/23 16:43:03 || INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+15/06/23 18:12:09 || INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+19/06/23 19:30:30 || INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+19/06/23 19:30:30 || INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:259 - Response frin new HTTPResponse: <string>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCEMpvi4pOKLQMUF8EMnxSygirCYAAanjHwF744srUyg4CH9rKjHRgnhsS7jVvQauCTYfogQv2KBVW7jI/g9SvCVaKNhfw8s7i6TTHkPjB1C19qL1M3kMBgb5QfRzZhiDI4GLms+IumJ2vxUgtZO393AMC5eojQe+ERErt/IxYOSQIDAQAB</string>
+20/06/23 09:47:16 || INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 09:47:16 || INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:259 - Response frin new HTTPResponse: <string>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCEMpvi4pOKLQMUF8EMnxSygirCYAAanjHwF744srUyg4CH9rKjHRgnhsS7jVvQauCTYfogQv2KBVW7jI/g9SvCVaKNhfw8s7i6TTHkPjB1C19qL1M3kMBgb5QfRzZhiDI4GLms+IumJ2vxUgtZO393AMC5eojQe+ERErt/IxYOSQIDAQAB</string>
+20/06/23 11:28:49 || INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:404 - Building post method to URI http://localhost:8081/YaguareteBE/api/auth/login.xml
+20/06/23 11:28:49 || INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:28:50 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authCompanyData,value=9587400
+20/06/23 11:28:50 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authCompanyDataType,value=D
+20/06/23 11:28:50 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authData,value=8665168
+20/06/23 11:28:50 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceOs,value=WINDOWS
+20/06/23 11:28:50 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=passwordAuth,value=AZ0WYyrGGKt/2ypYeBu5HYMagbCoPnNe6MDkFnoKTLoywobWd1YErMbDWsLiqSDjYbJaFb4wWQucZ3xQhHd+/TuOfawyF/nxXGNOkrn6XeU8z2YpJ+keSiOU4TVwYRRubBEiciYVyr9iaP/6ugKj5N6T3oNHU/7FmlfqkqrQqNM=
+20/06/23 11:28:50 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authDataType,value=D
+20/06/23 11:28:50 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceOsVersion,value=Windows NT 10.0 Win64 x64
+20/06/23 11:28:50 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=clientVersion,value=1.0.0
+20/06/23 11:28:50 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceId,value=3f0f1298-7bba-40ca-8484-885848549d90
+20/06/23 11:28:50 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authVersion,value=1.0.0
+20/06/23 11:28:50 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=clientType,value=WEB
+20/06/23 11:28:50 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=tstamp,value=1687274929617
+20/06/23 11:28:50 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceModel,value=114
+20/06/23 11:28:50 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=ssign,value=a8d36abcbf38a14ca6303d9b5407b6d9aaaa5ef8
+20/06/23 11:28:50 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authCustomerType,value=AUTH_COMPANY
+20/06/23 11:28:50 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceBrand,value=Chrome
+20/06/23 11:28:53 || INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:441 - Response: <list>
+  <error>
+    <severity>ERROR</severity>
+    <code>a1510</code>
+    <technicalDescription>Invalid Login</technicalDescription>
+    <alertDescription>Invalid Login</alertDescription>
+    <customerDescription>Invalid Login </customerDescription>
+    <httpStatus>401</httpStatus>
+  </error>
+</list>
+20/06/23 11:29:00 || INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:404 - Building post method to URI http://localhost:8081/YaguareteBE/api/auth/login.xml
+20/06/23 11:29:00 || INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:29:00 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authCompanyData,value=9587400
+20/06/23 11:29:00 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authCompanyDataType,value=D
+20/06/23 11:29:00 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authData,value=8665168
+20/06/23 11:29:00 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceOs,value=WINDOWS
+20/06/23 11:29:00 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=passwordAuth,value=FfKNt7wTre+ZQ61DUCafEyEBKc8LyGCCG8TL9vsZRKetwB0FYfkbhFELVGmpcj+6jQGYrwt7apxOZ6cp5DR5wH+otj02gcEsfzVPjoxVxEMiKa0kRmYYMufpoH9POH8tQIiUc64LU9HX8XDQD+jq16RW766MI0MpyK6hufP4wag=
+20/06/23 11:29:00 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authDataType,value=D
+20/06/23 11:29:00 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceOsVersion,value=Windows NT 10.0 Win64 x64
+20/06/23 11:29:00 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=clientVersion,value=1.0.0
+20/06/23 11:29:00 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceId,value=3f0f1298-7bba-40ca-8484-885848549d90
+20/06/23 11:29:00 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authVersion,value=1.0.0
+20/06/23 11:29:00 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=clientType,value=WEB
+20/06/23 11:29:00 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=tstamp,value=1687274940264
+20/06/23 11:29:00 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceModel,value=114
+20/06/23 11:29:00 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=ssign,value=6036358eb64f53f09d48ffc4a26183bb1c6ff059
+20/06/23 11:29:00 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authCustomerType,value=AUTH_COMPANY
+20/06/23 11:29:00 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceBrand,value=Chrome
+20/06/23 11:29:00 || INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:441 - Response: <list>
+  <error>
+    <severity>ERROR</severity>
+    <code>a1510</code>
+    <technicalDescription>Invalid Login</technicalDescription>
+    <alertDescription>Invalid Login</alertDescription>
+    <customerDescription>Invalid Login </customerDescription>
+    <httpStatus>401</httpStatus>
+  </error>
+</list>
+20/06/23 11:29:04 || INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:404 - Building post method to URI http://localhost:8081/YaguareteBE/api/auth/login.xml
+20/06/23 11:29:04 || INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:29:04 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authCompanyData,value=9587400
+20/06/23 11:29:04 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authCompanyDataType,value=D
+20/06/23 11:29:04 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authData,value=8665168
+20/06/23 11:29:04 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceOs,value=WINDOWS
+20/06/23 11:29:04 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=passwordAuth,value=bpo62Cvf/fTX1CHR+5pADoHNV0kZj8EScWqTmMa/XlmUGv87ciP7rbfdHTz5GZBz1TOh3le2LfOyrviW2j8Jk9X8ZanGT1bka660sk/WpBZDVKKiWBTb8+S5ihpB4bChoeR+jdKMdF+GoBtAZPeezwK2aoZSpZDqWwrxJPdjHQo=
+20/06/23 11:29:04 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authDataType,value=D
+20/06/23 11:29:04 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceOsVersion,value=Windows NT 10.0 Win64 x64
+20/06/23 11:29:04 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=clientVersion,value=1.0.0
+20/06/23 11:29:04 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceId,value=3f0f1298-7bba-40ca-8484-885848549d90
+20/06/23 11:29:04 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authVersion,value=1.0.0
+20/06/23 11:29:04 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=clientType,value=WEB
+20/06/23 11:29:04 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=tstamp,value=1687274944041
+20/06/23 11:29:04 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceModel,value=114
+20/06/23 11:29:04 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=ssign,value=a7e4fe4e379126d25abe30ec8ffa49468fba35a0
+20/06/23 11:29:04 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authCustomerType,value=AUTH_COMPANY
+20/06/23 11:29:04 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceBrand,value=Chrome
+20/06/23 11:29:04 || INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:441 - Response: <list>
+  <error>
+    <severity>ERROR</severity>
+    <code>a1510</code>
+    <technicalDescription>Invalid Login</technicalDescription>
+    <alertDescription>Invalid Login</alertDescription>
+    <customerDescription>Invalid Login </customerDescription>
+    <httpStatus>401</httpStatus>
+  </error>
+</list>
+20/06/23 11:31:31 || INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:404 - Building post method to URI http://localhost:8081/YaguareteBE/api/auth/login.xml
+20/06/23 11:31:31 || INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:31:31 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authCompanyData,value=502104
+20/06/23 11:31:31 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authCompanyDataType,value=D
+20/06/23 11:31:31 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authData,value=352678
+20/06/23 11:31:31 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceOs,value=WINDOWS
+20/06/23 11:31:31 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=passwordAuth,value=A4Ced959AhqicoreAV598XIgzNs00h1Sh8wPkvrBs56ePuk72KYgMIm1woLyq4R5bEvoXQ8E7OJC6dMX3BZZWxwJd78uWKLa3C+qzUi1JmXHFFgHEU2mVFQxYfFEofIO2C49uJQC7Z5tecrkzRXMuQmEkq/1hNSMVZm3SKPKa6A=
+20/06/23 11:31:31 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authDataType,value=D
+20/06/23 11:31:31 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceOsVersion,value=Windows NT 10.0 Win64 x64
+20/06/23 11:31:31 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=clientVersion,value=1.0.0
+20/06/23 11:31:31 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceId,value=3f0f1298-7bba-40ca-8484-885848549d90
+20/06/23 11:31:31 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authVersion,value=1.0.0
+20/06/23 11:31:31 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=clientType,value=WEB
+20/06/23 11:31:31 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=tstamp,value=1687275091463
+20/06/23 11:31:31 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceModel,value=114
+20/06/23 11:31:31 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=ssign,value=19daa1e496f53b2c440f1799ad15113a2f74507c
+20/06/23 11:31:31 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=authCustomerType,value=AUTH_COMPANY
+20/06/23 11:31:31 || INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=deviceBrand,value=Chrome
+20/06/23 11:31:36 || INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:441 - Response: <loginResponse>
+  <lastAccess>20230620 104838</lastAccess>
+  <userInfo>
+    <fullName>FFFF 352678 FFFF FFFF FFFF</fullName>
+    <isVip>false</isVip>
+    <profile>COMPLETO</profile>
+    <address>
+      <city>ASUNCION</city>
+      <description>XXXXXXXXXXXXXXXXXXXX</description>
+    </address>
+    <manager>
+      <name>XXXX XXXX XXXX XXXX</name>
+      <email>notificaciones@ueno.com.py</email>
+      <phoneNumber>6188000</phoneNumber>
+    </manager>
+    <defaultBranch>
+      <id>84</id>
+      <branchNumber>61</branchNumber>
+      <name>CASA MATRIZ</name>
+      <address>
+        <country>1</country>
+        <city>1</city>
+        <description>Avda Sta Teresa e/ Av. del Chaco Torres del Paseo Piso I</description>
+        <latitude>-25.29</latitude>
+        <longitude>-57.57</longitude>
+      </address>
+      <phoneNumber>618-8000</phoneNumber>
+    </defaultBranch>
+    <transactionalKeyStatus>3</transactionalKeyStatus>
+    <clientCode>352678</clientCode>
+    <profileDescription>ACCESO A TODAS LAS OPCIONES</profileDescription>
+    <gender>F</gender>
+    <birthDate>19920108</birthDate>
+    <birthCountry>PARAGUAY</birthCountry>
+    <countryCodBT>586</countryCodBT>
+    <institutionCodes>
+      <entry>
+        <int>9769</int>
+        <string>SalaryPayment</string>
+      </entry>
+    </institutionCodes>
+    <survey>false</survey>
+    <documentClientNumber>352678</documentClientNumber>
+    <documentClientTypeBT>1</documentClientTypeBT>
+    <clientCodeDtm></clientCodeDtm>
+    <employee>false</employee>
+    <softoken></softoken>
+    <companyName>JJJJ JJJJ JJJJ JJJJ 502104</companyName>
+    <externalCompanyCode>502104</externalCompanyCode>
+  </userInfo>
+  <accessToken>ef29b8d8cdc8c1155e78839e242e09817b1c3825</accessToken>
+  <firstLogin>false</firstLogin>
+  <conditionsAccepted>true</conditionsAccepted>
+  <transactionalKeyStatus>EXPIRED</transactionalKeyStatus>
+  <loginInfo>
+    <lastLoginDateTime>20-06-2023 10:48:38</lastLoginDateTime>
+    <lastLoginChannel>WEB</lastLoginChannel>
+    <isTimeSync>true</isTimeSync>
+  </loginInfo>
+  <isAccesoSessionITGF>true</isAccesoSessionITGF>
+</loginResponse>
+20/06/23 11:31:37 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/check_preapproved_available.xml
+20/06/23 11:31:37 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:31:37 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:31:37 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <list/>
+20/06/23 11:31:37 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/check_company_loan.xml
+20/06/23 11:31:37 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:31:37 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=codPersona,value=352678
+20/06/23 11:31:37 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:31:39 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <yaguareteBEResponse>
+  <status>false</status>
+</yaguareteBEResponse>
+20/06/23 11:31:39 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:197 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/check_preapproved_available
+20/06/23 11:31:39 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:31:39 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:31:39 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:218 - Response: []
+20/06/23 11:31:39 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/check_company_loan.xml
+20/06/23 11:31:39 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:31:39 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=codPersona,value=352678
+20/06/23 11:31:39 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:31:40 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <yaguareteBEResponse>
+  <status>false</status>
+</yaguareteBEResponse>
+20/06/23 11:31:40 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:197 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/check_preapproved_available
+20/06/23 11:31:40 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:31:40 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:31:40 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:218 - Response: []
+20/06/23 11:31:41 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/get_permissions.xml
+20/06/23 11:31:41 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:31:41 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:31:43 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <list>
+  <userPermission>
+    <messageCode>000</messageCode>
+    <consultation>S</consultation>
+    <register>N</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Desconocido</type>
+    <yaguareteType>Unknown</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>005</messageCode>
+    <consultation>N</consultation>
+    <register>S</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Desconocido</type>
+    <yaguareteType>Unknown</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>010</messageCode>
+    <consultation>S</consultation>
+    <register>N</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Desconocido</type>
+    <yaguareteType>Unknown</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>011</messageCode>
+    <consultation>S</consultation>
+    <register>N</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Cuentas del cliente</type>
+    <yaguareteType>ClientAccounts</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>015</messageCode>
+    <consultation>N</consultation>
+    <register>S</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Desconocido</type>
+    <yaguareteType>Unknown</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>017</messageCode>
+    <consultation>N</consultation>
+    <register>S</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Desconocido</type>
+    <yaguareteType>Unknown</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>020</messageCode>
+    <consultation>S</consultation>
+    <register>N</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Saldo detallado de cuentas</type>
+    <yaguareteType>DetailedAccountBalance</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>021</messageCode>
+    <consultation>S</consultation>
+    <register>N</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Movimientos por cuenta</type>
+    <yaguareteType>AccountMovements</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>023</messageCode>
+    <consultation>S</consultation>
+    <register>S</register>
+    <authorize>S</authorize>
+    <userId>109</userId>
+    <type>Autorizar operaciones pendientes</type>
+    <yaguareteType>OperationAuthorization</yaguareteType>
+    <cantidadAutorizantes>1</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>024</messageCode>
+    <consultation>S</consultation>
+    <register>N</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Consulta de autorizaciones del dia</type>
+    <yaguareteType>CheckDailyAuthorizations</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>025</messageCode>
+    <consultation>S</consultation>
+    <register>S</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Impresion de factura</type>
+    <yaguareteType>InvoiceImpresion</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>030</messageCode>
+    <consultation>N</consultation>
+    <register>S</register>
+    <authorize>S</authorize>
+    <userId>109</userId>
+    <type>Transferencias entre cuentas propias</type>
+    <yaguareteType>Transfer</yaguareteType>
+    <cantidadAutorizantes>1</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>031</messageCode>
+    <consultation>N</consultation>
+    <register>S</register>
+    <authorize>S</authorize>
+    <userId>109</userId>
+    <type>Pago de Préstamos</type>
+    <yaguareteType>LoanPayment</yaguareteType>
+    <cantidadAutorizantes>1</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>032</messageCode>
+    <consultation>N</consultation>
+    <register>S</register>
+    <authorize>S</authorize>
+    <userId>109</userId>
+    <type>Pago de Tarjetas</type>
+    <yaguareteType>CardPayment</yaguareteType>
+    <cantidadAutorizantes>1</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>033</messageCode>
+    <consultation>S</consultation>
+    <register>S</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Pagos Aduaneros</type>
+    <yaguareteType>CustomPayment</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>036</messageCode>
+    <consultation>N</consultation>
+    <register>S</register>
+    <authorize>S</authorize>
+    <userId>109</userId>
+    <type>Transferencia Interbancaria</type>
+    <yaguareteType>TransferToOtherBank</yaguareteType>
+    <cantidadAutorizantes>1</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>037</messageCode>
+    <consultation>S</consultation>
+    <register>S</register>
+    <authorize>S</authorize>
+    <userId>109</userId>
+    <type>Consulta Transferencia Interbancaria</type>
+    <yaguareteType>CheckTransferToOtherBank</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>038</messageCode>
+    <consultation>S</consultation>
+    <register>S</register>
+    <authorize>S</authorize>
+    <userId>109</userId>
+    <type>Cancelar Transferencia Interbancaria</type>
+    <yaguareteType>CancelTransferToOtherBank</yaguareteType>
+    <cantidadAutorizantes>1</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>039</messageCode>
+    <consultation>N</consultation>
+    <register>S</register>
+    <authorize>S</authorize>
+    <userId>109</userId>
+    <type>Transferencias a terceros</type>
+    <yaguareteType>TransferToThird</yaguareteType>
+    <cantidadAutorizantes>1</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>040</messageCode>
+    <consultation>S</consultation>
+    <register>N</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Transferencias a terceros</type>
+    <yaguareteType>CheckReturnedChecks</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>041</messageCode>
+    <consultation>S</consultation>
+    <register>N</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Consulta de depositos a confirmar</type>
+    <yaguareteType>CheckDepositsToConfirm</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>045</messageCode>
+    <consultation>N</consultation>
+    <register>S</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Desconocido</type>
+    <yaguareteType>Unknown</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>046</messageCode>
+    <consultation>S</consultation>
+    <register>N</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Desconocido</type>
+    <yaguareteType>Unknown</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>050</messageCode>
+    <consultation>S</consultation>
+    <register>N</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Desconocido</type>
+    <yaguareteType>Unknown</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>070</messageCode>
+    <consultation>S</consultation>
+    <register>S</register>
+    <authorize>S</authorize>
+    <userId>109</userId>
+    <type>Pago de Salarios</type>
+    <yaguareteType>SalaryPayment</yaguareteType>
+    <cantidadAutorizantes>1</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>075</messageCode>
+    <consultation>N</consultation>
+    <register>S</register>
+    <authorize>S</authorize>
+    <userId>109</userId>
+    <type>Pago a Proveedores</type>
+    <yaguareteType>ProviderPayment</yaguareteType>
+    <cantidadAutorizantes>1</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>080</messageCode>
+    <consultation>N</consultation>
+    <register>S</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Cambio de clave</type>
+    <yaguareteType>ChangeKey</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>081</messageCode>
+    <consultation>N</consultation>
+    <register>S</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Desconocido</type>
+    <yaguareteType>Unknown</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>083</messageCode>
+    <consultation>S</consultation>
+    <register>N</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Extractos</type>
+    <yaguareteType>Invoices</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>088</messageCode>
+    <consultation>S</consultation>
+    <register>S</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Desconocido</type>
+    <yaguareteType>Unknown</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>099</messageCode>
+    <consultation>S</consultation>
+    <register>S</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Consulta de novedades y notas</type>
+    <yaguareteType>CheckNewsAndNotes</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>100</messageCode>
+    <consultation>S</consultation>
+    <register>S</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Desconocido</type>
+    <yaguareteType>Unknown</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>105</messageCode>
+    <consultation>N</consultation>
+    <register>S</register>
+    <authorize>S</authorize>
+    <userId>109</userId>
+    <type>Desconocido</type>
+    <yaguareteType>Unknown</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>211</messageCode>
+    <consultation>S</consultation>
+    <register>S</register>
+    <authorize>S</authorize>
+    <userId>109</userId>
+    <type>Desconocido</type>
+    <yaguareteType>Unknown</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>213</messageCode>
+    <consultation>S</consultation>
+    <register>N</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Impresion extractos tarjetas de credito</type>
+    <yaguareteType>CardInvoiceImpresion</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>219</messageCode>
+    <consultation>S</consultation>
+    <register>S</register>
+    <authorize>S</authorize>
+    <userId>109</userId>
+    <type>Cambio de clave de transaccion</type>
+    <yaguareteType>ChangeTransactionalKey</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>225</messageCode>
+    <consultation>S</consultation>
+    <register>S</register>
+    <authorize>S</authorize>
+    <userId>109</userId>
+    <type>Consulta historico de pago a proveedores</type>
+    <yaguareteType>CheckProviderPaymentHistory</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>226</messageCode>
+    <consultation>S</consultation>
+    <register>S</register>
+    <authorize>S</authorize>
+    <userId>109</userId>
+    <type>Desconocido</type>
+    <yaguareteType>Unknown</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>227</messageCode>
+    <consultation>S</consultation>
+    <register>S</register>
+    <authorize>S</authorize>
+    <userId>109</userId>
+    <type>Transferencias al Exterior</type>
+    <yaguareteType>InternationalTransfer</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>228</messageCode>
+    <consultation>S</consultation>
+    <register>N</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Desconocido</type>
+    <yaguareteType>Unknown</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>229</messageCode>
+    <consultation>S</consultation>
+    <register>N</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Solicitud de cancelacion de productos</type>
+    <yaguareteType>CancelProducts</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>230</messageCode>
+    <consultation>N</consultation>
+    <register>S</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Desconocido</type>
+    <yaguareteType>Unknown</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>231</messageCode>
+    <consultation>N</consultation>
+    <register>S</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Desconocido</type>
+    <yaguareteType>Unknown</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>233</messageCode>
+    <consultation>S</consultation>
+    <register>S</register>
+    <authorize>S</authorize>
+    <userId>109</userId>
+    <type>Desconocido</type>
+    <yaguareteType>Unknown</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>234</messageCode>
+    <consultation>S</consultation>
+    <register>S</register>
+    <authorize>S</authorize>
+    <userId>109</userId>
+    <type>Desconocido</type>
+    <yaguareteType>Unknown</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>235</messageCode>
+    <consultation>S</consultation>
+    <register>S</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Desconocido</type>
+    <yaguareteType>Unknown</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>236</messageCode>
+    <consultation>S</consultation>
+    <register>S</register>
+    <authorize>S</authorize>
+    <userId>109</userId>
+    <type>Desconocido</type>
+    <yaguareteType>Unknown</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>237</messageCode>
+    <consultation>S</consultation>
+    <register>S</register>
+    <authorize>S</authorize>
+    <userId>109</userId>
+    <type>Desconocido</type>
+    <yaguareteType>Unknown</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>238</messageCode>
+    <consultation>S</consultation>
+    <register>S</register>
+    <authorize>S</authorize>
+    <userId>109</userId>
+    <type>Desconocido</type>
+    <yaguareteType>Unknown</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>089</messageCode>
+    <consultation>S</consultation>
+    <register>S</register>
+    <authorize>S</authorize>
+    <userId>109</userId>
+    <type>Pago de Servicios WS</type>
+    <yaguareteType>ServicesPaymentWS</yaguareteType>
+    <cantidadAutorizantes>1</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>102</messageCode>
+    <consultation>S</consultation>
+    <register>N</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Desconocido</type>
+    <yaguareteType>Unknown</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>103</messageCode>
+    <consultation>S</consultation>
+    <register>N</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Desconocido</type>
+    <yaguareteType>Unknown</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>104</messageCode>
+    <consultation>S</consultation>
+    <register>N</register>
+    <authorize>N</authorize>
+    <userId>109</userId>
+    <type>Desconocido</type>
+    <yaguareteType>Unknown</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>022</messageCode>
+    <consultation>S</consultation>
+    <register>S</register>
+    <authorize>S</authorize>
+    <userId>109</userId>
+    <type>Impresion de comprobantes</type>
+    <yaguareteType>ReceiptImpresion</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>012</messageCode>
+    <consultation>S</consultation>
+    <register>S</register>
+    <authorize>S</authorize>
+    <userId>109</userId>
+    <type>Desconocido</type>
+    <yaguareteType>Unknown</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+  <userPermission>
+    <messageCode>027</messageCode>
+    <consultation>N</consultation>
+    <register>S</register>
+    <authorize>S</authorize>
+    <userId>109</userId>
+    <type>Desconocido</type>
+    <yaguareteType>Unknown</yaguareteType>
+    <cantidadAutorizantes>0</cantidadAutorizantes>
+  </userPermission>
+</list>
+20/06/23 11:31:43 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/get_permission.xml
+20/06/23 11:31:43 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:31:43 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:31:43 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=type,value=OperationAuthorization
+20/06/23 11:31:43 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <userPermission>
+  <messageCode>023</messageCode>
+  <consultation>S</consultation>
+  <register>S</register>
+  <authorize>S</authorize>
+  <userId>109</userId>
+  <type>Autorizar operaciones pendientes</type>
+  <yaguareteType>OperationAuthorization</yaguareteType>
+  <cantidadAutorizantes>1</cantidadAutorizantes>
+</userPermission>
+20/06/23 11:31:43 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/get_config_popup.xml
+20/06/23 11:31:43 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:31:43 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:31:43 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <boolean>false</boolean>
+20/06/23 11:31:43 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/global_position.xml
+20/06/23 11:31:43 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:31:43 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=excludeFilter,value=TJ
+20/06/23 11:31:43 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:31:44 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <globalPosition>
+  <savingAccountsSummary>
+    <accounts>
+      <account>
+        <accountNumber>96912076</accountNumber>
+        <accountType>
+          <code>AH</code>
+          <description>AHORROS A LA VISTA</description>
+          <customDescription>Ahorro a la Vista</customDescription>
+        </accountType>
+        <designation>XXXX XXXX XXXX XXXX</designation>
+        <currency>
+          <code>GS</code>
+          <description>Guaranies</description>
+        </currency>
+        <rate>0.25</rate>
+        <snpAccountNumber>0000000096912076</snpAccountNumber>
+        <printStatement>S</printStatement>
+        <openingDate>20230102</openingDate>
+        <currentBalance>125490876.00</currentBalance>
+        <availableBalance>125490876.00</availableBalance>
+        <retainedBalance>0.00</retainedBalance>
+        <owners/>
+        <ownershipType>P</ownershipType>
+        <conditions/>
+        <hasRenewalOption>false</hasRenewalOption>
+      </account>
+      <account>
+        <accountNumber>61933909</accountNumber>
+        <accountType>
+          <code>AH</code>
+          <description>AHORROS A LA VISTA</description>
+          <customDescription>Ahorro a la Vista</customDescription>
+        </accountType>
+        <designation>XXXX XXXX XXXX XXXX</designation>
+        <currency>
+          <code>GS</code>
+          <description>Guaranies</description>
+        </currency>
+        <rate>0.25</rate>
+        <snpAccountNumber>0000000061933909</snpAccountNumber>
+        <printStatement>S</printStatement>
+        <openingDate>20220915</openingDate>
+        <currentBalance>56997194.00</currentBalance>
+        <availableBalance>56997194.00</availableBalance>
+        <retainedBalance>0.00</retainedBalance>
+        <owners/>
+        <ownershipType>P</ownershipType>
+        <conditions/>
+        <hasRenewalOption>false</hasRenewalOption>
+      </account>
+      <account>
+        <accountNumber>96912127</accountNumber>
+        <accountType>
+          <code>AH</code>
+          <description>AHORROS A LA VISTA</description>
+          <customDescription>Ahorro a la Vista</customDescription>
+        </accountType>
+        <designation>XXXX XXXX XXXX XXXX</designation>
+        <currency>
+          <code>GS</code>
+          <description>Guaranies</description>
+        </currency>
+        <rate>0.25</rate>
+        <snpAccountNumber>0000000096912127</snpAccountNumber>
+        <printStatement>S</printStatement>
+        <openingDate>20221202</openingDate>
+        <currentBalance>149776519.00</currentBalance>
+        <availableBalance>149776519.00</availableBalance>
+        <retainedBalance>0.00</retainedBalance>
+        <owners/>
+        <ownershipType>P</ownershipType>
+        <conditions/>
+        <hasRenewalOption>false</hasRenewalOption>
+      </account>
+      <account>
+        <accountNumber>96111631</accountNumber>
+        <accountType>
+          <code>AH</code>
+          <description>AHORROS A LA VISTA</description>
+          <customDescription>Ahorro a la Vista</customDescription>
+        </accountType>
+        <designation>XXXX XXXX XXXX XXXX</designation>
+        <currency>
+          <code>USD</code>
+          <description>Dolares</description>
+        </currency>
+        <rate>0.1</rate>
+        <snpAccountNumber>0000000096111631</snpAccountNumber>
+        <printStatement>S</printStatement>
+        <openingDate>20221025</openingDate>
+        <currentBalance>149999797.00</currentBalance>
+        <availableBalance>149999797.00</availableBalance>
+        <retainedBalance>0.00</retainedBalance>
+        <owners/>
+        <ownershipType>P</ownershipType>
+        <conditions/>
+        <hasRenewalOption>false</hasRenewalOption>
+      </account>
+      <account>
+        <accountNumber>61131997</accountNumber>
+        <accountType>
+          <code>AH</code>
+          <description>AHORROS A LA VISTA</description>
+          <customDescription>Ahorro a la Vista</customDescription>
+        </accountType>
+        <designation>XXXX XXXX XXXX XXXX</designation>
+        <currency>
+          <code>USD</code>
+          <description>Dolares</description>
+        </currency>
+        <rate>0.1</rate>
+        <snpAccountNumber>0000000061131997</snpAccountNumber>
+        <printStatement>S</printStatement>
+        <openingDate>20220831</openingDate>
+        <currentBalance>150000056.42</currentBalance>
+        <availableBalance>150000056.42</availableBalance>
+        <retainedBalance>0.00</retainedBalance>
+        <owners/>
+        <ownershipType>P</ownershipType>
+        <conditions/>
+        <hasRenewalOption>false</hasRenewalOption>
+      </account>
+    </accounts>
+    <balanceSummary>
+      <balanceSummary>
+        <currency>
+          <code>GS</code>
+          <description>Guaranies</description>
+        </currency>
+        <balance>332264589.00</balance>
+      </balanceSummary>
+      <balanceSummary>
+        <currency>
+          <code>USD</code>
+          <description>Dolares</description>
+        </currency>
+        <balance>299999853.42</balance>
+      </balanceSummary>
+    </balanceSummary>
+    <label>Disponible</label>
+  </savingAccountsSummary>
+  <checkingAccountsSummary>
+    <accounts/>
+    <balanceSummary/>
+  </checkingAccountsSummary>
+  <fixedDepositsSummary>
+    <accounts>
+      <account>
+        <accountNumber>6193303519</accountNumber>
+        <accountType>
+          <code>CD</code>
+          <description>CERTIFICADOS DE DEPOSITO</description>
+          <customDescription>Certificado de depósito</customDescription>
+        </accountType>
+        <designation>XXXX XXXX XXXX XXXX</designation>
+        <currency>
+          <code>GS</code>
+          <description>Guaranies</description>
+        </currency>
+        <rate>9.5</rate>
+        <printStatement>S</printStatement>
+        <openingDate>20221021</openingDate>
+        <expirationDate>20231026</expirationDate>
+        <currentBalance>50000000.00</currentBalance>
+        <availableBalance>2082191.00</availableBalance>
+        <retainedBalance>0.00</retainedBalance>
+        <owners/>
+        <ownershipType>P</ownershipType>
+        <conditions/>
+        <hasRenewalOption>false</hasRenewalOption>
+        <certificateNumber>6692</certificateNumber>
+      </account>
+    </accounts>
+    <balanceSummary>
+      <balanceSummary>
+        <currency>
+          <code>GS</code>
+          <description>Guaranies</description>
+        </currency>
+        <balance>50000000.00</balance>
+      </balanceSummary>
+    </balanceSummary>
+    <label>Capital</label>
+  </fixedDepositsSummary>
+  <scheduledSavingAccountSummary>
+    <accounts/>
+    <balanceSummary/>
+  </scheduledSavingAccountSummary>
+  <cardsSummary>
+    <cards/>
+    <debtsSummary/>
+    <availableBalancesSummary/>
+    <creditLinesSummary/>
+  </cardsSummary>
+  <loansSummary>
+    <loans>
+      <loan>
+        <accountNumber>612361309589</accountNumber>
+        <accountType>
+          <code>PT</code>
+          <description>COMPRA DE CARTERA</description>
+        </accountType>
+        <designation>XXXX XXXX XXXX XXXX</designation>
+        <currency>
+          <code>GS</code>
+          <description>Guaranies</description>
+        </currency>
+        <rate>15.00</rate>
+        <loanAmount>1955822.00</loanAmount>
+        <loanBalance>955822.00</loanBalance>
+        <interestBalance>41301.00</interestBalance>
+        <openingDate>20230203</openingDate>
+        <expirationDate>20230606</expirationDate>
+        <nextExpirationDate>20230506</nextExpirationDate>
+        <daysPastDue>0</daysPastDue>
+        <term>0</term>
+        <currentPendingFee>3</currentPendingFee>
+        <amortizationAmount>1000000.00</amortizationAmount>
+        <conditions/>
+        <setPendingFeesCount>4</setPendingFeesCount>
+        <relation>P</relation>
+        <totalBalance>997123.00</totalBalance>
+      </loan>
+      <loan>
+        <accountNumber>61226101819</accountNumber>
+        <accountType>
+          <code>PT</code>
+          <description>PRESTAMOS C/ PAGARE</description>
+        </accountType>
+        <designation>JJJJ JJJJ JJJJ JJJJ 502104</designation>
+        <currency>
+          <code>GS</code>
+          <description>Guaranies</description>
+        </currency>
+        <rate>24.00</rate>
+        <loanAmount>642965281.00</loanAmount>
+        <loanBalance>515021325.00</loanBalance>
+        <interestBalance>31875419.00</interestBalance>
+        <openingDate>20221019</openingDate>
+        <expirationDate>20251019</expirationDate>
+        <nextExpirationDate>20230519</nextExpirationDate>
+        <daysPastDue>0</daysPastDue>
+        <term>0</term>
+        <currentPendingFee>7</currentPendingFee>
+        <amortizationAmount>127943956.00</amortizationAmount>
+        <conditions/>
+        <setPendingFeesCount>36</setPendingFeesCount>
+        <relation>P</relation>
+        <totalBalance>546896744.00</totalBalance>
+      </loan>
+      <loan>
+        <accountNumber>61236800065</accountNumber>
+        <accountType>
+          <code>PT</code>
+          <description>INVERSIONISTA CASH COLLATERAL</description>
+        </accountType>
+        <designation>XXXX XXXX XXXX XXXX</designation>
+        <currency>
+          <code>GS</code>
+          <description>Guaranies</description>
+        </currency>
+        <rate>18.00</rate>
+        <loanAmount>27891195.00</loanAmount>
+        <loanBalance>19902906.00</loanBalance>
+        <interestBalance>730687.00</interestBalance>
+        <openingDate>20230206</openingDate>
+        <expirationDate>20240106</expirationDate>
+        <nextExpirationDate>20230606</nextExpirationDate>
+        <daysPastDue>0</daysPastDue>
+        <term>0</term>
+        <currentPendingFee>4</currentPendingFee>
+        <amortizationAmount>7988289.00</amortizationAmount>
+        <conditions/>
+        <setPendingFeesCount>11</setPendingFeesCount>
+        <relation>P</relation>
+        <totalBalance>20633593.00</totalBalance>
+      </loan>
+      <loan>
+        <accountNumber>612361309559</accountNumber>
+        <accountType>
+          <code>PT</code>
+          <description>COMPRA DE CARTERA</description>
+        </accountType>
+        <designation>XXXX XXXX XXXX XXXX</designation>
+        <currency>
+          <code>USD</code>
+          <description>Dolares</description>
+        </currency>
+        <rate>6.3</rate>
+        <loanAmount>7763.00</loanAmount>
+        <loanBalance>1913.00</loanBalance>
+        <interestBalance>37.00</interestBalance>
+        <openingDate>20230131</openingDate>
+        <expirationDate>20230520</expirationDate>
+        <nextExpirationDate>20230520</nextExpirationDate>
+        <daysPastDue>0</daysPastDue>
+        <term>0</term>
+        <currentPendingFee>4</currentPendingFee>
+        <amortizationAmount>5850.00</amortizationAmount>
+        <conditions/>
+        <setPendingFeesCount>4</setPendingFeesCount>
+        <relation>P</relation>
+        <totalBalance>1950.00</totalBalance>
+      </loan>
+      <loan>
+        <accountNumber>612261309004</accountNumber>
+        <accountType>
+          <code>PT</code>
+          <description>COMPRA DE CARTERA</description>
+        </accountType>
+        <designation>XXXX XXXX XXXX XXXX</designation>
+        <currency>
+          <code>USD</code>
+          <description>Dolares</description>
+        </currency>
+        <rate>7.00</rate>
+        <loanAmount>2629.00</loanAmount>
+        <loanBalance>2245.00</loanBalance>
+        <interestBalance>5.91</interestBalance>
+        <openingDate>20220928</openingDate>
+        <expirationDate>20261021</expirationDate>
+        <nextExpirationDate>20230521</nextExpirationDate>
+        <daysPastDue>0</daysPastDue>
+        <term>0</term>
+        <currentPendingFee>7</currentPendingFee>
+        <amortizationAmount>384.00</amortizationAmount>
+        <conditions/>
+        <setPendingFeesCount>48</setPendingFeesCount>
+        <relation>P</relation>
+        <totalBalance>2250.91</totalBalance>
+      </loan>
+    </loans>
+    <balanceSummary>
+      <balanceSummary>
+        <currency>
+          <code>GS</code>
+          <description>Guaranies</description>
+        </currency>
+        <balance>535880053.00</balance>
+      </balanceSummary>
+      <balanceSummary>
+        <currency>
+          <code>USD</code>
+          <description>Dolares</description>
+        </currency>
+        <balance>4158.00</balance>
+      </balanceSummary>
+    </balanceSummary>
+    <amortizationsSummary>
+      <balanceSummary>
+        <currency>
+          <code>GS</code>
+          <description>Guaranies</description>
+        </currency>
+        <balance>136932245.00</balance>
+      </balanceSummary>
+      <balanceSummary>
+        <currency>
+          <code>USD</code>
+          <description>Dolares</description>
+        </currency>
+        <balance>6234.00</balance>
+      </balanceSummary>
+    </amortizationsSummary>
+    <interestBalanceSummary>
+      <balanceSummary>
+        <currency>
+          <code>GS</code>
+          <description>Guaranies</description>
+        </currency>
+        <balance>32647407.00</balance>
+      </balanceSummary>
+      <balanceSummary>
+        <currency>
+          <code>USD</code>
+          <description>Dolares</description>
+        </currency>
+        <balance>42.91</balance>
+      </balanceSummary>
+    </interestBalanceSummary>
+    <totalBalancesSummary>
+      <balanceSummary>
+        <currency>
+          <code>GS</code>
+          <description>Guaranies</description>
+        </currency>
+        <balance>568527460.00</balance>
+      </balanceSummary>
+      <balanceSummary>
+        <currency>
+          <code>USD</code>
+          <description>Dolares</description>
+        </currency>
+        <balance>4200.91</balance>
+      </balanceSummary>
+    </totalBalancesSummary>
+    <label>Saldo Capital</label>
+    <totalPendingFeesCount>103</totalPendingFeesCount>
+  </loansSummary>
+  <checkDiscountsSummary>
+    <loans/>
+    <balanceSummary/>
+    <amortizationsSummary/>
+    <interestBalanceSummary/>
+    <totalBalancesSummary/>
+    <totalPendingFeesCount>0</totalPendingFeesCount>
+  </checkDiscountsSummary>
+  <availableAmount>
+    <balanceSummary>
+      <currency>
+        <code>GS</code>
+        <description>Guaranies</description>
+      </currency>
+      <balance>382264589.00</balance>
+    </balanceSummary>
+    <balanceSummary>
+      <currency>
+        <code>USD</code>
+        <description>Dolares</description>
+      </currency>
+      <balance>299999853.42</balance>
+    </balanceSummary>
+  </availableAmount>
+  <financedAmount>
+    <balanceSummary>
+      <currency>
+        <code>GS</code>
+        <description>Guaranies</description>
+      </currency>
+      <balance>535880053.000</balance>
+    </balanceSummary>
+    <balanceSummary>
+      <currency>
+        <code>USD</code>
+        <description>Dolares</description>
+      </currency>
+      <balance>4158.000</balance>
+    </balanceSummary>
+  </financedAmount>
+  <availableAccountAmount>
+    <balanceSummary>
+      <currency>
+        <code>GS</code>
+        <description>Guaranies</description>
+      </currency>
+      <balance>332264589.00</balance>
+    </balanceSummary>
+    <balanceSummary>
+      <currency>
+        <code>USD</code>
+        <description>Dolares</description>
+      </currency>
+      <balance>299999853.42</balance>
+    </balanceSummary>
+  </availableAccountAmount>
+  <hasCards>false</hasCards>
+  <accountsWithRenewalOption>0</accountsWithRenewalOption>
+  <insurancesWithRenewalOption>0</insurancesWithRenewalOption>
+  <transactionalTokenInfo>
+    <codPersona>352678</codPersona>
+    <codPerVinculada>502104</codPerVinculada>
+    <transactionalKeyStatus>4</transactionalKeyStatus>
+  </transactionalTokenInfo>
+</globalPosition>
+20/06/23 11:31:44 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/check_company_loan.xml
+20/06/23 11:31:44 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:31:44 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=codPersona,value=352678
+20/06/23 11:31:44 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:31:45 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <yaguareteBEResponse>
+  <status>false</status>
+</yaguareteBEResponse>
+20/06/23 11:31:45 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:197 - Building post method to URI http://localhost:8081/YaguareteBE/api/info/disclaimer
+20/06/23 11:31:45 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:31:45 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=code,value=PLAZO_FIJO_CAN_CAB
+20/06/23 11:31:45 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:31:45 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:218 - Response: {"code":"PLAZO_FIJO_CAN_CAB","name":"Plazo Fijo","value":"1"}
+20/06/23 11:31:45 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:197 - Building post method to URI http://localhost:8081/YaguareteBE/api/info/disclaimer
+20/06/23 11:31:45 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:31:45 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=code,value=PLAZO_FIJO_CAN_PIE
+20/06/23 11:31:45 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:31:45 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:218 - Response: {"code":"PLAZO_FIJO_CAN_PIE","name":"Plazo Fijo Pie","value":"2"}
+20/06/23 11:31:45 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:197 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/check_preapproved_available
+20/06/23 11:31:45 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:31:45 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:31:45 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:218 - Response: []
+20/06/23 11:31:45 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/info/promotions_info.xml
+20/06/23 11:31:45 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:31:45 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:31:45 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=type,value=GWE
+20/06/23 11:31:45 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <list/>
+20/06/23 11:31:45 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:31:45 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:31:46 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:259 - Response frin new HTTPResponse: <py.com.bbva.yaguarete.beans.card.CreditCardOfferResume>
+  <amount>0</amount>
+  <hasUniqueContract>false</hasUniqueContract>
+  <hasPhysicalCard>true</hasPhysicalCard>
+</py.com.bbva.yaguarete.beans.card.CreditCardOfferResume>
+20/06/23 11:31:51 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/info/currency_quotations.xml
+20/06/23 11:31:51 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:31:51 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/favOperations/list.xml
+20/06/23 11:31:51 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:31:51 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:31:51 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <list/>
+20/06/23 11:31:51 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <list>
+  <currencyQuotation>
+    <currency>
+      <code>USD</code>
+      <description>DOLARES ESTADOUNIDENSES</description>
+    </currency>
+    <electronicBuyPrice>7150.00</electronicBuyPrice>
+    <electronicSellPrice>7300.00</electronicSellPrice>
+    <cashBuyPrice>7140.00</cashBuyPrice>
+    <cashSellPrice>7300.00</cashSellPrice>
+    <checkSellPrice>7320.00</checkSellPrice>
+    <conversionPrice>7150.00</conversionPrice>
+  </currencyQuotation>
+</list>
+20/06/23 11:31:51 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/surveys/check.xml
+20/06/23 11:31:51 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:31:51 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:31:51 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/get_authorizations_history.xml
+20/06/23 11:31:51 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:31:51 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=rango,value=0
+20/06/23 11:31:51 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=requestTotal,value=false
+20/06/23 11:31:51 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=permission,value=S
+20/06/23 11:31:51 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:31:51 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=status,value=P
+20/06/23 11:31:51 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <customerSurveyInfo>
+  <hasSurvey>false</hasSurvey>
+  <timeSurvey>false</timeSurvey>
+  <showOnEvent>afterLogin</showOnEvent>
+</customerSurveyInfo>
+20/06/23 11:31:52 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <py.com.bbva.yaguarete.beans.AuthorizationsList>
+  <authorizations/>
+  <total>0</total>
+</py.com.bbva.yaguarete.beans.AuthorizationsList>
+20/06/23 11:32:11 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/check_company_loan.xml
+20/06/23 11:32:11 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:32:11 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=codPersona,value=352678
+20/06/23 11:32:11 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:32:12 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <yaguareteBEResponse>
+  <status>false</status>
+</yaguareteBEResponse>
+20/06/23 11:32:12 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:197 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/check_preapproved_available
+20/06/23 11:32:12 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:32:12 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:32:12 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:218 - Response: []
+20/06/23 11:32:12 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/check_company_loan.xml
+20/06/23 11:32:12 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:32:12 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=codPersona,value=352678
+20/06/23 11:32:12 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:32:12 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <yaguareteBEResponse>
+  <status>false</status>
+</yaguareteBEResponse>
+20/06/23 11:32:12 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:197 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/check_preapproved_available
+20/06/23 11:32:12 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:32:12 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:32:13 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:218 - Response: []
+20/06/23 11:32:13 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:197 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/check_preapproved_available
+20/06/23 11:32:13 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:32:13 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:32:13 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:218 - Response: []
+20/06/23 11:32:13 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:197 - Building post method to URI http://localhost:8081/YaguareteBE/api/info/disclaimer
+20/06/23 11:32:13 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:32:13 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=code,value=PLAZO_FIJO_CAN_CAB
+20/06/23 11:32:13 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:32:13 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:218 - Response: {"code":"PLAZO_FIJO_CAN_CAB","name":"Plazo Fijo","value":"1"}
+20/06/23 11:32:13 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:197 - Building post method to URI http://localhost:8081/YaguareteBE/api/info/disclaimer
+20/06/23 11:32:13 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:32:13 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=code,value=PLAZO_FIJO_CAN_PIE
+20/06/23 11:32:13 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:32:13 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:218 - Response: {"code":"PLAZO_FIJO_CAN_PIE","name":"Plazo Fijo Pie","value":"2"}
+20/06/23 11:32:14 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/get_authorizations_history.xml
+20/06/23 11:32:14 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:32:14 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=rango,value=0
+20/06/23 11:32:14 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=requestTotal,value=false
+20/06/23 11:32:14 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=permission,value=S
+20/06/23 11:32:14 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:32:14 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=status,value=P
+20/06/23 11:32:14 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <py.com.bbva.yaguarete.beans.AuthorizationsList>
+  <authorizations/>
+  <total>0</total>
+</py.com.bbva.yaguarete.beans.AuthorizationsList>
+20/06/23 11:32:15 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/check_company_loan.xml
+20/06/23 11:32:15 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:32:15 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=codPersona,value=352678
+20/06/23 11:32:15 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:32:16 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <yaguareteBEResponse>
+  <status>false</status>
+</yaguareteBEResponse>
+20/06/23 11:32:16 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:197 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/check_preapproved_available
+20/06/23 11:32:16 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:32:16 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:32:16 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:218 - Response: []
+20/06/23 11:32:16 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/check_company_loan.xml
+20/06/23 11:32:16 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:32:16 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=codPersona,value=352678
+20/06/23 11:32:16 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:32:16 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <yaguareteBEResponse>
+  <status>false</status>
+</yaguareteBEResponse>
+20/06/23 11:32:16 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:197 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/check_preapproved_available
+20/06/23 11:32:16 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:32:16 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:32:16 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:218 - Response: []
+20/06/23 11:32:18 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/get_authorizations_history.xml
+20/06/23 11:32:18 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:32:18 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=rango,value=0
+20/06/23 11:32:18 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=requestTotal,value=false
+20/06/23 11:32:18 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=permission,value=S
+20/06/23 11:32:18 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:32:18 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=status,value=P
+20/06/23 11:32:18 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <py.com.bbva.yaguarete.beans.AuthorizationsList>
+  <authorizations/>
+  <total>0</total>
+</py.com.bbva.yaguarete.beans.AuthorizationsList>
+20/06/23 11:32:22 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/account_debit.xml
+20/06/23 11:32:22 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:32:22 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=operationTransactionType,value=SUPPLIER_PAYMENT
+20/06/23 11:32:22 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:32:23 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <list>
+  <account>
+    <accountNumber>61933909</accountNumber>
+    <accountType>
+      <code>AH</code>
+      <description>AHORROS A LA VISTA</description>
+      <customDescription>Ahorro a la Vista</customDescription>
+    </accountType>
+    <designation>XXXX XXXX XXXX XXXX</designation>
+    <currency>
+      <code>GS</code>
+      <description>Guaranies</description>
+    </currency>
+    <rate>0.25</rate>
+    <snpAccountNumber>0000000061933909</snpAccountNumber>
+    <accountCode>9767</accountCode>
+    <printStatement>S</printStatement>
+    <openingDate>20220915</openingDate>
+    <currentBalance>56997194.00</currentBalance>
+    <availableBalance>56997194.00</availableBalance>
+    <retainedBalance>0.00</retainedBalance>
+    <owners/>
+    <ownershipType>P</ownershipType>
+    <conditions/>
+    <hasRenewalOption>false</hasRenewalOption>
+  </account>
+  <account>
+    <accountNumber>96912076</accountNumber>
+    <accountType>
+      <code>AH</code>
+      <description>AHORROS A LA VISTA</description>
+      <customDescription>Ahorro a la Vista</customDescription>
+    </accountType>
+    <designation>XXXX XXXX XXXX XXXX</designation>
+    <currency>
+      <code>GS</code>
+      <description>Guaranies</description>
+    </currency>
+    <rate>0.25</rate>
+    <snpAccountNumber>0000000096912076</snpAccountNumber>
+    <accountCode>9767</accountCode>
+    <printStatement>S</printStatement>
+    <openingDate>20230102</openingDate>
+    <currentBalance>125490876.00</currentBalance>
+    <availableBalance>125490876.00</availableBalance>
+    <retainedBalance>0.00</retainedBalance>
+    <owners/>
+    <ownershipType>P</ownershipType>
+    <conditions/>
+    <hasRenewalOption>false</hasRenewalOption>
+  </account>
+  <account>
+    <accountNumber>96912127</accountNumber>
+    <accountType>
+      <code>AH</code>
+      <description>AHORROS A LA VISTA</description>
+      <customDescription>Ahorro a la Vista</customDescription>
+    </accountType>
+    <designation>XXXX XXXX XXXX XXXX</designation>
+    <currency>
+      <code>GS</code>
+      <description>Guaranies</description>
+    </currency>
+    <rate>0.25</rate>
+    <snpAccountNumber>0000000096912127</snpAccountNumber>
+    <accountCode>9767</accountCode>
+    <printStatement>S</printStatement>
+    <openingDate>20221202</openingDate>
+    <currentBalance>149776519.00</currentBalance>
+    <availableBalance>149776519.00</availableBalance>
+    <retainedBalance>0.00</retainedBalance>
+    <owners/>
+    <ownershipType>P</ownershipType>
+    <conditions/>
+    <hasRenewalOption>false</hasRenewalOption>
+  </account>
+  <account>
+    <accountNumber>96111631</accountNumber>
+    <accountType>
+      <code>AH</code>
+      <description>AHORROS A LA VISTA</description>
+      <customDescription>Ahorro a la Vista</customDescription>
+    </accountType>
+    <designation>XXXX XXXX XXXX XXXX</designation>
+    <currency>
+      <code>USD</code>
+      <description>Dolares</description>
+    </currency>
+    <rate>0.1</rate>
+    <snpAccountNumber>0000000096111631</snpAccountNumber>
+    <accountCode>9767</accountCode>
+    <printStatement>S</printStatement>
+    <openingDate>20221025</openingDate>
+    <currentBalance>149999797.00</currentBalance>
+    <availableBalance>149999797.00</availableBalance>
+    <retainedBalance>0.00</retainedBalance>
+    <owners/>
+    <ownershipType>P</ownershipType>
+    <conditions/>
+    <hasRenewalOption>false</hasRenewalOption>
+  </account>
+</list>
+20/06/23 11:32:25 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/suppliersPayment/calendar_inital_date.xml
+20/06/23 11:32:25 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:32:25 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:32:26 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <providerPaymentTime>
+  <initialCalendarDate>2023/06/16</initialCalendarDate>
+  <initialHourOtherBank>08:00</initialHourOtherBank>
+  <endHourOtherBank>17:30</endHourOtherBank>
+  <dateOtherBank>2023/06/16</dateOtherBank>
+  <statusOtherBank>A</statusOtherBank>
+  <initialHourOtherBankAch>08:00</initialHourOtherBankAch>
+  <otherBankAvailable>S</otherBankAvailable>
+  <endTimeProvider>18:00</endTimeProvider>
+</providerPaymentTime>
+20/06/23 11:32:26 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/snp_financial_institutions.xml
+20/06/23 11:32:26 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:32:26 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=showgnb,value=true
+20/06/23 11:32:26 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:32:28 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <list>
+  <financialInstitution>
+    <swiftCode></swiftCode>
+    <entityName>Seleccione una entidad</entityName>
+    <code>-1</code>
+    <description>Seleccione una entidad</description>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BNITPYPA</swiftCode>
+    <entityName>BANCO ATLAS S.A.</entityName>
+    <code>42</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>AMAMPYPA</swiftCode>
+    <entityName>BANCO BASA S.A.</entityName>
+    <code>30</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCNAPYPA</swiftCode>
+    <entityName>BANCO CONTINENTAL S.A.</entityName>
+    <code>20</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>NACNPYPA</swiftCode>
+    <entityName>BANCO DE LA NACION ARGENTINA</entityName>
+    <code>3</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BRASPYPX</swiftCode>
+    <entityName>BANCO DO BRASIL S.A.</entityName>
+    <code>5</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>FAMIPYPA</swiftCode>
+    <entityName>BANCO FAMILIAR S.A.E.C.A.</entityName>
+    <code>41</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BGNBPYPX</swiftCode>
+    <entityName>BANCO GNB PARAGUAY</entityName>
+    <code>4</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>UBBRPYPX</swiftCode>
+    <entityName>BANCO ITAU PARAGUAY S.A.</entityName>
+    <code>17</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BNFAPYPA</swiftCode>
+    <entityName>BANCO NACIONAL DE FOMENTO</entityName>
+    <code>2</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>RGSAPYPE</swiftCode>
+    <entityName>BANCO REGIONAL S.A.E.C.A</entityName>
+    <code>28</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BISAPYPE</swiftCode>
+    <entityName>BANCO RIO</entityName>
+    <code>40</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA</swiftCode>
+    <entityName>BANCOP</entityName>
+    <code>43</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>CITIUS33ASR</swiftCode>
+    <entityName>CITIBANK NA, SUCURSAL PARAGUAY</entityName>
+    <code>6</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BBVAPYPA</swiftCode>
+    <entityName>GNB Fusion</entityName>
+    <code>7</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>IIFAPYPA</swiftCode>
+    <entityName>INTERFISA BANCO S.A.E.C.A.</entityName>
+    <code>44</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BSUDPYPX</swiftCode>
+    <entityName>SUDAMERIS BANK S.A.E.C.A.</entityName>
+    <code>8</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>VISCPYPA</swiftCode>
+    <entityName>VISION BANCO S.A.E.C.A.</entityName>
+    <code>39</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA1625</swiftCode>
+    <entityName> COOP.MULT. J.A. SALDIVAR LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0822</swiftCode>
+    <entityName> COOP.MULT.DE PROD. MBORAYHU LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0123</swiftCode>
+    <entityName>COOMECIPAR LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA1223</swiftCode>
+    <entityName>COOP CHORTITZER</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0737</swiftCode>
+    <entityName>COOP COFUDEP</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>AMAMPYPA1071</swiftCode>
+    <entityName>COOP COOPEC</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0230</swiftCode>
+    <entityName>COOP COOPEDUC LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0168</swiftCode>
+    <entityName>COOP. DE AH. Y CRED. 26 DE ABRIL LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCNAPYPA0070</swiftCode>
+    <entityName>COOP. DEL PERSONAL DE LA SANIDAD MILITAR</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0225</swiftCode>
+    <entityName>COOP FERNHEIM LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0037</swiftCode>
+    <entityName>COOP. LUQUE LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0342</swiftCode>
+    <entityName>COOP MBURICAO</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA1167</swiftCode>
+    <entityName>COOP. MULT. ALEMAN CONCORDIA LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0394</swiftCode>
+    <entityName>COOP MULT DE AHOR CRED PROD CONS Y SERV</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA1336</swiftCode>
+    <entityName>COOP. MULT. DE AHORRO GUA’I LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0353</swiftCode>
+    <entityName>COOP. MULT. DE AHOR.Y CRED. TOBATI LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>AMAMPYPA1597</swiftCode>
+    <entityName>COOP UNIVERSITARIA LTDA DE AHORRO Y CRED</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>AMAMPYPA1000</swiftCode>
+    <entityName>COOPERATIVA COOFY LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCNAPYPA1526</swiftCode>
+    <entityName>COOPERATIVA COOPEDIEZ</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>AMAMPYPA0073</swiftCode>
+    <entityName>COOPERATIVA LAMBARE</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0720</swiftCode>
+    <entityName>COOPERATIVA LOMA PLATA LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCNAPYPA0317</swiftCode>
+    <entityName>COOPERATIVA MERCADO 4</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0996</swiftCode>
+    <entityName>COOPERATIVA MULTIACTIVA NAZARETH LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0242</swiftCode>
+    <entityName>COOPERATIVA MULTIACTIVA NEULAND LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCNAPYPA0204</swiftCode>
+    <entityName>COOPERATIVA SAGRADOS CORAZONES LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>FINLPYPA0197</swiftCode>
+    <entityName>COOPERATIVA SAN CRISTOBAL LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCNAPYPA1070</swiftCode>
+    <entityName>COOPERATIVA YOAYU LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0590</swiftCode>
+    <entityName>COOPEXSANJO LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0616</swiftCode>
+    <entityName>COOP.MULT. EL BUENO CAMINO LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>AMAMPYPA1705</swiftCode>
+    <entityName>COPACONS LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>FICSPYPA</swiftCode>
+    <entityName>FIC S.A. DE FINANZAS</entityName>
+    <code>666</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>FNXAPYPA</swiftCode>
+    <entityName>FINANCIERA EXPORTADORA PARAGUAYA - FINEXPAR SA</entityName>
+    <code>986</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>FIPJPYPA</swiftCode>
+    <entityName>FINANCIERA PARAGUAYO JAPONESA</entityName>
+    <code>702</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>FINLPYPA</swiftCode>
+    <entityName>FINLATINA SA DE FINANZAS</entityName>
+    <code>348</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>SOLAPYPA</swiftCode>
+    <entityName>SOLAR BANCO S.A.E.</entityName>
+    <code>736</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>TUFIPYPA</swiftCode>
+    <entityName>TU FINANCIERA S.A.</entityName>
+    <code>823</code>
+  </financialInstitution>
+</list>
+20/06/23 11:32:28 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/document_types.xml
+20/06/23 11:32:28 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:32:28 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:32:28 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <list>
+  <documentType>
+    <code>1</code>
+    <description>CI</description>
+  </documentType>
+  <documentType>
+    <code>2</code>
+    <description>PAS</description>
+  </documentType>
+  <documentType>
+    <code>3</code>
+    <description>CRP</description>
+  </documentType>
+  <documentType>
+    <code>5</code>
+    <description>CIE</description>
+  </documentType>
+  <documentType>
+    <code>6</code>
+    <description>RUC</description>
+  </documentType>
+</list>
+20/06/23 11:32:29 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/exchange_contracts.xml
+20/06/23 11:32:29 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:32:29 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:32:31 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <null/>
+20/06/23 11:32:48 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/get_authorizations_history.xml
+20/06/23 11:32:48 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:32:48 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=rango,value=0
+20/06/23 11:32:48 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=requestTotal,value=false
+20/06/23 11:32:48 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=permission,value=S
+20/06/23 11:32:48 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:32:48 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=status,value=P
+20/06/23 11:32:49 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <py.com.bbva.yaguarete.beans.AuthorizationsList>
+  <authorizations/>
+  <total>0</total>
+</py.com.bbva.yaguarete.beans.AuthorizationsList>
+20/06/23 11:32:55 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/check_company_loan.xml
+20/06/23 11:32:55 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:32:55 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=codPersona,value=352678
+20/06/23 11:32:55 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:32:56 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <yaguareteBEResponse>
+  <status>false</status>
+</yaguareteBEResponse>
+20/06/23 11:32:56 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:197 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/check_preapproved_available
+20/06/23 11:32:56 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:32:56 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:32:56 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:218 - Response: []
+20/06/23 11:32:56 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/check_company_loan.xml
+20/06/23 11:32:56 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:32:56 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=codPersona,value=352678
+20/06/23 11:32:56 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:32:56 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <yaguareteBEResponse>
+  <status>false</status>
+</yaguareteBEResponse>
+20/06/23 11:32:56 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:197 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/check_preapproved_available
+20/06/23 11:32:56 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:32:56 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:32:57 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:218 - Response: []
+20/06/23 11:32:57 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/get_authorizations_history.xml
+20/06/23 11:32:57 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:32:57 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=rango,value=0
+20/06/23 11:32:57 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=requestTotal,value=false
+20/06/23 11:32:57 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=permission,value=S
+20/06/23 11:32:57 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:32:57 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=status,value=P
+20/06/23 11:32:57 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <py.com.bbva.yaguarete.beans.AuthorizationsList>
+  <authorizations/>
+  <total>0</total>
+</py.com.bbva.yaguarete.beans.AuthorizationsList>
+20/06/23 11:32:59 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/account_debit.xml
+20/06/23 11:32:59 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:32:59 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=operationTransactionType,value=SUPPLIER_PAYMENT
+20/06/23 11:32:59 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:32:59 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <list>
+  <account>
+    <accountNumber>61933909</accountNumber>
+    <accountType>
+      <code>AH</code>
+      <description>AHORROS A LA VISTA</description>
+      <customDescription>Ahorro a la Vista</customDescription>
+    </accountType>
+    <designation>XXXX XXXX XXXX XXXX</designation>
+    <currency>
+      <code>GS</code>
+      <description>Guaranies</description>
+    </currency>
+    <rate>0.25</rate>
+    <snpAccountNumber>0000000061933909</snpAccountNumber>
+    <accountCode>9767</accountCode>
+    <printStatement>S</printStatement>
+    <openingDate>20220915</openingDate>
+    <currentBalance>56997194.00</currentBalance>
+    <availableBalance>56997194.00</availableBalance>
+    <retainedBalance>0.00</retainedBalance>
+    <owners/>
+    <ownershipType>P</ownershipType>
+    <conditions/>
+    <hasRenewalOption>false</hasRenewalOption>
+  </account>
+  <account>
+    <accountNumber>96912076</accountNumber>
+    <accountType>
+      <code>AH</code>
+      <description>AHORROS A LA VISTA</description>
+      <customDescription>Ahorro a la Vista</customDescription>
+    </accountType>
+    <designation>XXXX XXXX XXXX XXXX</designation>
+    <currency>
+      <code>GS</code>
+      <description>Guaranies</description>
+    </currency>
+    <rate>0.25</rate>
+    <snpAccountNumber>0000000096912076</snpAccountNumber>
+    <accountCode>9767</accountCode>
+    <printStatement>S</printStatement>
+    <openingDate>20230102</openingDate>
+    <currentBalance>125490876.00</currentBalance>
+    <availableBalance>125490876.00</availableBalance>
+    <retainedBalance>0.00</retainedBalance>
+    <owners/>
+    <ownershipType>P</ownershipType>
+    <conditions/>
+    <hasRenewalOption>false</hasRenewalOption>
+  </account>
+  <account>
+    <accountNumber>96912127</accountNumber>
+    <accountType>
+      <code>AH</code>
+      <description>AHORROS A LA VISTA</description>
+      <customDescription>Ahorro a la Vista</customDescription>
+    </accountType>
+    <designation>XXXX XXXX XXXX XXXX</designation>
+    <currency>
+      <code>GS</code>
+      <description>Guaranies</description>
+    </currency>
+    <rate>0.25</rate>
+    <snpAccountNumber>0000000096912127</snpAccountNumber>
+    <accountCode>9767</accountCode>
+    <printStatement>S</printStatement>
+    <openingDate>20221202</openingDate>
+    <currentBalance>149776519.00</currentBalance>
+    <availableBalance>149776519.00</availableBalance>
+    <retainedBalance>0.00</retainedBalance>
+    <owners/>
+    <ownershipType>P</ownershipType>
+    <conditions/>
+    <hasRenewalOption>false</hasRenewalOption>
+  </account>
+  <account>
+    <accountNumber>96111631</accountNumber>
+    <accountType>
+      <code>AH</code>
+      <description>AHORROS A LA VISTA</description>
+      <customDescription>Ahorro a la Vista</customDescription>
+    </accountType>
+    <designation>XXXX XXXX XXXX XXXX</designation>
+    <currency>
+      <code>USD</code>
+      <description>Dolares</description>
+    </currency>
+    <rate>0.1</rate>
+    <snpAccountNumber>0000000096111631</snpAccountNumber>
+    <accountCode>9767</accountCode>
+    <printStatement>S</printStatement>
+    <openingDate>20221025</openingDate>
+    <currentBalance>149999797.00</currentBalance>
+    <availableBalance>149999797.00</availableBalance>
+    <retainedBalance>0.00</retainedBalance>
+    <owners/>
+    <ownershipType>P</ownershipType>
+    <conditions/>
+    <hasRenewalOption>false</hasRenewalOption>
+  </account>
+</list>
+20/06/23 11:32:59 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/suppliersPayment/calendar_inital_date.xml
+20/06/23 11:32:59 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:32:59 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:33:00 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <providerPaymentTime>
+  <initialCalendarDate>2023/06/16</initialCalendarDate>
+  <initialHourOtherBank>08:00</initialHourOtherBank>
+  <endHourOtherBank>17:30</endHourOtherBank>
+  <dateOtherBank>2023/06/16</dateOtherBank>
+  <statusOtherBank>A</statusOtherBank>
+  <initialHourOtherBankAch>08:00</initialHourOtherBankAch>
+  <otherBankAvailable>S</otherBankAvailable>
+  <endTimeProvider>18:00</endTimeProvider>
+</providerPaymentTime>
+20/06/23 11:33:00 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/snp_financial_institutions.xml
+20/06/23 11:33:00 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:33:00 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=showgnb,value=true
+20/06/23 11:33:00 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:33:00 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <list>
+  <financialInstitution>
+    <swiftCode></swiftCode>
+    <entityName>Seleccione una entidad</entityName>
+    <code>-1</code>
+    <description>Seleccione una entidad</description>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BNITPYPA</swiftCode>
+    <entityName>BANCO ATLAS S.A.</entityName>
+    <code>42</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>AMAMPYPA</swiftCode>
+    <entityName>BANCO BASA S.A.</entityName>
+    <code>30</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCNAPYPA</swiftCode>
+    <entityName>BANCO CONTINENTAL S.A.</entityName>
+    <code>20</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>NACNPYPA</swiftCode>
+    <entityName>BANCO DE LA NACION ARGENTINA</entityName>
+    <code>3</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BRASPYPX</swiftCode>
+    <entityName>BANCO DO BRASIL S.A.</entityName>
+    <code>5</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>FAMIPYPA</swiftCode>
+    <entityName>BANCO FAMILIAR S.A.E.C.A.</entityName>
+    <code>41</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BGNBPYPX</swiftCode>
+    <entityName>BANCO GNB PARAGUAY</entityName>
+    <code>4</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>UBBRPYPX</swiftCode>
+    <entityName>BANCO ITAU PARAGUAY S.A.</entityName>
+    <code>17</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BNFAPYPA</swiftCode>
+    <entityName>BANCO NACIONAL DE FOMENTO</entityName>
+    <code>2</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>RGSAPYPE</swiftCode>
+    <entityName>BANCO REGIONAL S.A.E.C.A</entityName>
+    <code>28</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BISAPYPE</swiftCode>
+    <entityName>BANCO RIO</entityName>
+    <code>40</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA</swiftCode>
+    <entityName>BANCOP</entityName>
+    <code>43</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>CITIUS33ASR</swiftCode>
+    <entityName>CITIBANK NA, SUCURSAL PARAGUAY</entityName>
+    <code>6</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BBVAPYPA</swiftCode>
+    <entityName>GNB Fusion</entityName>
+    <code>7</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>IIFAPYPA</swiftCode>
+    <entityName>INTERFISA BANCO S.A.E.C.A.</entityName>
+    <code>44</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BSUDPYPX</swiftCode>
+    <entityName>SUDAMERIS BANK S.A.E.C.A.</entityName>
+    <code>8</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>VISCPYPA</swiftCode>
+    <entityName>VISION BANCO S.A.E.C.A.</entityName>
+    <code>39</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA1625</swiftCode>
+    <entityName> COOP.MULT. J.A. SALDIVAR LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0822</swiftCode>
+    <entityName> COOP.MULT.DE PROD. MBORAYHU LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0123</swiftCode>
+    <entityName>COOMECIPAR LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA1223</swiftCode>
+    <entityName>COOP CHORTITZER</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0737</swiftCode>
+    <entityName>COOP COFUDEP</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>AMAMPYPA1071</swiftCode>
+    <entityName>COOP COOPEC</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0230</swiftCode>
+    <entityName>COOP COOPEDUC LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0168</swiftCode>
+    <entityName>COOP. DE AH. Y CRED. 26 DE ABRIL LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCNAPYPA0070</swiftCode>
+    <entityName>COOP. DEL PERSONAL DE LA SANIDAD MILITAR</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0225</swiftCode>
+    <entityName>COOP FERNHEIM LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0037</swiftCode>
+    <entityName>COOP. LUQUE LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0342</swiftCode>
+    <entityName>COOP MBURICAO</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA1167</swiftCode>
+    <entityName>COOP. MULT. ALEMAN CONCORDIA LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0394</swiftCode>
+    <entityName>COOP MULT DE AHOR CRED PROD CONS Y SERV</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA1336</swiftCode>
+    <entityName>COOP. MULT. DE AHORRO GUA’I LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0353</swiftCode>
+    <entityName>COOP. MULT. DE AHOR.Y CRED. TOBATI LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>AMAMPYPA1597</swiftCode>
+    <entityName>COOP UNIVERSITARIA LTDA DE AHORRO Y CRED</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>AMAMPYPA1000</swiftCode>
+    <entityName>COOPERATIVA COOFY LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCNAPYPA1526</swiftCode>
+    <entityName>COOPERATIVA COOPEDIEZ</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>AMAMPYPA0073</swiftCode>
+    <entityName>COOPERATIVA LAMBARE</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0720</swiftCode>
+    <entityName>COOPERATIVA LOMA PLATA LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCNAPYPA0317</swiftCode>
+    <entityName>COOPERATIVA MERCADO 4</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0996</swiftCode>
+    <entityName>COOPERATIVA MULTIACTIVA NAZARETH LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0242</swiftCode>
+    <entityName>COOPERATIVA MULTIACTIVA NEULAND LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCNAPYPA0204</swiftCode>
+    <entityName>COOPERATIVA SAGRADOS CORAZONES LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>FINLPYPA0197</swiftCode>
+    <entityName>COOPERATIVA SAN CRISTOBAL LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCNAPYPA1070</swiftCode>
+    <entityName>COOPERATIVA YOAYU LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0590</swiftCode>
+    <entityName>COOPEXSANJO LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>BCOPPYPA0616</swiftCode>
+    <entityName>COOP.MULT. EL BUENO CAMINO LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>AMAMPYPA1705</swiftCode>
+    <entityName>COPACONS LTDA</entityName>
+    <code>0</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>FICSPYPA</swiftCode>
+    <entityName>FIC S.A. DE FINANZAS</entityName>
+    <code>666</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>FNXAPYPA</swiftCode>
+    <entityName>FINANCIERA EXPORTADORA PARAGUAYA - FINEXPAR SA</entityName>
+    <code>986</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>FIPJPYPA</swiftCode>
+    <entityName>FINANCIERA PARAGUAYO JAPONESA</entityName>
+    <code>702</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>FINLPYPA</swiftCode>
+    <entityName>FINLATINA SA DE FINANZAS</entityName>
+    <code>348</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>SOLAPYPA</swiftCode>
+    <entityName>SOLAR BANCO S.A.E.</entityName>
+    <code>736</code>
+  </financialInstitution>
+  <financialInstitution>
+    <swiftCode>TUFIPYPA</swiftCode>
+    <entityName>TU FINANCIERA S.A.</entityName>
+    <code>823</code>
+  </financialInstitution>
+</list>
+20/06/23 11:33:00 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/document_types.xml
+20/06/23 11:33:00 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:33:00 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:33:00 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <list>
+  <documentType>
+    <code>1</code>
+    <description>CI</description>
+  </documentType>
+  <documentType>
+    <code>2</code>
+    <description>PAS</description>
+  </documentType>
+  <documentType>
+    <code>3</code>
+    <description>CRP</description>
+  </documentType>
+  <documentType>
+    <code>5</code>
+    <description>CIE</description>
+  </documentType>
+  <documentType>
+    <code>6</code>
+    <description>RUC</description>
+  </documentType>
+</list>
+20/06/23 11:33:00 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:123 - Building post method to URI http://localhost:8081/YaguareteBE/api/serv/exchange_contracts.xml
+20/06/23 11:33:00 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:38 - getRequestParameters
+20/06/23 11:33:00 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [http] com.bbvanet.yaguarete.util.http:96 - Parameter=accessToken,value=ef29b8d8cdc8c1155e78839e242e09817b1c3825
+20/06/23 11:33:00 |2f328f3c503b3aef696e2fde7d1fbf0e| INFO  [HttpClientServiceImpl] com.bbvanet.yaguarete.util.http.HttpClientServiceImpl:145 - Response: <null/>

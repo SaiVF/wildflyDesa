@@ -156,97 +156,28 @@
                         <password>sa</password>
                     </security>
                 </datasource>
-                <datasource jta="true" jndi-name="java:jboss/jdbc/Oracle2" pool-name="jdbc/Oracle2" enabled="true" use-ccm="true">
-                    <connection-url>jdbc:oracle:thin:@172.25.72.20:1521/DEV01</connection-url>
-                    <driver-class>oracle.jdbc.OracleDriver</driver-class>
-                    <driver>ojdbc6-6.jar</driver>
-                    <security>
-                        <user-name>it</user-name>
-                        <password>jcg25689phke</password>
-                    </security>
-                    <validation>
-                        <validate-on-match>false</validate-on-match>
-                        <background-validation>false</background-validation>
-                    </validation>
-                    <timeout>
-                        <set-tx-query-timeout>false</set-tx-query-timeout>
-                        <blocking-timeout-millis>0</blocking-timeout-millis>
-                        <idle-timeout-minutes>0</idle-timeout-minutes>
-                        <query-timeout>0</query-timeout>
-                        <use-try-lock>0</use-try-lock>
-                        <allocation-retry>0</allocation-retry>
-                        <allocation-retry-wait-millis>0</allocation-retry-wait-millis>
-                    </timeout>
-                    <statement>
-                        <share-prepared-statements>false</share-prepared-statements>
-                    </statement>
-                </datasource>
                 <datasource jta="true" jndi-name="java:jboss/jdbc/Oracle" pool-name="jdbc/Oracle" enabled="true" use-ccm="true">
                     <connection-url>jdbc:oracle:thin:@192.168.40.101:1521/uenodesb</connection-url>
-                    <driver-class>oracle.jdbc.OracleDriver</driver-class>
-                    <driver>ojdbc6-6.jar</driver>
+                    <driver>ojdbc10.jar</driver>
+                    <pool>
+                        <min-pool-size>10</min-pool-size>
+                        <initial-pool-size>10</initial-pool-size>
+                        <max-pool-size>100</max-pool-size>
+                    </pool>
                     <security>
-                        <user-name>glopez</user-name>
-                        <password>glopez</password>
-                    </security>
-                    <validation>
-                        <validate-on-match>false</validate-on-match>
-                        <background-validation>false</background-validation>
-                    </validation>
-                    <timeout>
-                        <set-tx-query-timeout>false</set-tx-query-timeout>
-                        <blocking-timeout-millis>0</blocking-timeout-millis>
-                        <idle-timeout-minutes>0</idle-timeout-minutes>
-                        <query-timeout>0</query-timeout>
-                        <use-try-lock>0</use-try-lock>
-                        <allocation-retry>0</allocation-retry>
-                        <allocation-retry-wait-millis>0</allocation-retry-wait-millis>
-                    </timeout>
-                    <statement>
-                        <share-prepared-statements>false</share-prepared-statements>
-                    </statement>
-                </datasource>
-                <datasource jta="true" jndi-name="java:jboss/jdbc/Oracle1" pool-name="jdbc/Oracle1" enabled="true" use-ccm="true">
-                    <connection-url>jdbc:oracle:thin:@172.20.20.72:1521/fielqa1</connection-url>
-                    <driver-class>oracle.jdbc.OracleDriver</driver-class>
-                    <driver>ojdbc6-6.jar</driver>
-                    <security>
-                        <user-name>hbankj</user-name>
+                        <user-name>HBANKJ</user-name>
                         <password>hbankj</password>
                     </security>
                     <validation>
-                        <validate-on-match>false</validate-on-match>
+                        <check-valid-connection-sql>select 1 from dual</check-valid-connection-sql>
+                        <validate-on-match>true</validate-on-match>
                         <background-validation>false</background-validation>
+                        <background-validation-millis>5000</background-validation-millis>
                     </validation>
                     <timeout>
                         <set-tx-query-timeout>false</set-tx-query-timeout>
                         <blocking-timeout-millis>0</blocking-timeout-millis>
                         <idle-timeout-minutes>0</idle-timeout-minutes>
-                        <query-timeout>0</query-timeout>
-                        <use-try-lock>0</use-try-lock>
-                        <allocation-retry>0</allocation-retry>
-                        <allocation-retry-wait-millis>0</allocation-retry-wait-millis>
-                    </timeout>
-                    <statement>
-                        <share-prepared-statements>false</share-prepared-statements>
-                    </statement>
-                </datasource>
-                <datasource jta="true" jndi-name="java:jboss/jdbc/SQLServer1" pool-name="jdbc/SQLServer1" enabled="true" use-ccm="true">
-                    <connection-url>jdbc:sqlserver://192.168.36.67:1433;databaseName=bankprod;</connection-url>
-                    <driver-class>com.microsoft.sqlserver.jdbc.SQLServerDriver</driver-class>
-                    <driver>sqljdbc4.jar</driver>
-                    <security>
-                        <user-name>bankprod</user-name>
-                        <password>da6a91dac1</password>
-                    </security>
-                    <validation>
-                        <validate-on-match>false</validate-on-match>
-                        <background-validation>false</background-validation>
-                    </validation>
-                    <timeout>
-                        <set-tx-query-timeout>false</set-tx-query-timeout>
-                        <blocking-timeout-millis>0</blocking-timeout-millis>
-                        <idle-timeout-minutes>5</idle-timeout-minutes>
                         <query-timeout>0</query-timeout>
                         <use-try-lock>0</use-try-lock>
                         <allocation-retry>0</allocation-retry>
@@ -257,8 +188,7 @@
                     </statement>
                 </datasource>
                 <datasource jta="true" jndi-name="java:jboss/jdbc/SQLServer" pool-name="jdbc/SQLServer" enabled="true" use-ccm="true">
-                    <connection-url>jdbc:sqlserver://172.20.23.29:1433;databaseName=bankdesa;</connection-url>
-                    <driver-class>com.microsoft.sqlserver.jdbc.SQLServerDriver</driver-class>
+                    <connection-url>jdbc:sqlserver://192.168.40.180:1433;databaseName=bankdesa;</connection-url>
                     <driver>sqljdbc4.jar</driver>
                     <security>
                         <user-name>mlopez</user-name>
@@ -271,7 +201,7 @@
                     <timeout>
                         <set-tx-query-timeout>false</set-tx-query-timeout>
                         <blocking-timeout-millis>0</blocking-timeout-millis>
-                        <idle-timeout-minutes>5</idle-timeout-minutes>
+                        <idle-timeout-minutes>0</idle-timeout-minutes>
                         <query-timeout>0</query-timeout>
                         <use-try-lock>0</use-try-lock>
                         <allocation-retry>0</allocation-retry>
@@ -284,6 +214,9 @@
                 <drivers>
                     <driver name="h2" module="com.h2database.h2">
                         <xa-datasource-class>org.h2.jdbcx.JdbcDataSource</xa-datasource-class>
+                    </driver>
+                    <driver name="oracle" module="com.oracle">
+                        <driver-class>oracle.jdbc.OracleDriver</driver-class>
                     </driver>
                 </drivers>
             </datasources>
@@ -659,23 +592,8 @@
         </outbound-socket-binding>
     </socket-binding-group>
     <deployments>
-        <deployment name="ojdbc6-6.jar" runtime-name="ojdbc6-6.jar">
-            <content sha1="8d98e89385dafc7e1b8a2cfc1e016deb21246236"/>
-        </deployment>
-        <deployment name="sqljdbc4.jar" runtime-name="sqljdbc4.jar">
-            <content sha1="7c34c3a05707ae897d1b8fe4319736aef38670c6"/>
-        </deployment>
-        <deployment name="yaguarete-5.0.3" runtime-name="yaguarete-5.0.3.war">
-            <fs-exploded path="C:\Users\User\Documents\Proyectos\Empresas-Nuevo\empresas-ueno-front\war\target\yaguarete-5.0.3"/>
-        </deployment>
-        <deployment name="yaguaretebe-6.1.0" runtime-name="yaguaretebe-6.1.0.war">
-            <fs-exploded path="C:\Users\User\Documents\Proyectos\Empresas-Nuevo\empresas-ueno-back\target\yaguaretebe-6.1.0"/>
-        </deployment>
-        <deployment name="yaguarete-5.0.6" runtime-name="yaguarete-5.0.6.war">
+        <deployment name="yaguarete-5.0.6" runtime-name="yaguarete-5.0.6.war" enabled="false">
             <fs-exploded path="C:\Users\User\Documents\Proyectos\Empresas-Nuevo\empresas-ueno-front\war\target\yaguarete-5.0.6"/>
-        </deployment>
-        <deployment name="yaguaretebe-6.1.2" runtime-name="yaguaretebe-6.1.2.war" enabled="false">
-            <fs-exploded path="C:\Users\User\Documents\Proyectos\Empresas-Nuevo\empresas-ueno-back\target\yaguaretebe-6.1.2"/>
         </deployment>
     </deployments>
 </server>
